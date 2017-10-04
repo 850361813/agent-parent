@@ -1,0 +1,8 @@
+ /.idea/*
+ agent-batch/target/*
+ agent-common/target/*
+ agent-service/target/*
+ agent-web/target/*
+ *.iml
+ logs/*
+ .gitignore

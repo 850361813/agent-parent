@@ -5,4 +5,3 @@
  agent-web/target/*
  *.iml
  logs/*
- .gitignore

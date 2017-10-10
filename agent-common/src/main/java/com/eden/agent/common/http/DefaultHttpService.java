@@ -26,11 +26,9 @@ import java.util.Map;
 @Service
 public class DefaultHttpService implements HttpService {
 
-    private static CloseableHttpClient httpClient = HttpClients.createDefault();
-
     @Override
     public String get(String url, Map<String, String> paramMap, Map<String, String> header) {
-
+        CloseableHttpClient httpClient = HttpClients.createDefault();
         String responseBody = "";
         CloseableHttpResponse response = null;
 
@@ -61,6 +59,7 @@ public class DefaultHttpService implements HttpService {
         } finally {
             try {
                 response.close();
+                httpClient.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -91,7 +90,7 @@ public class DefaultHttpService implements HttpService {
 
     @Override
     public String post(String url, Map<String, String> paramMap, Map<String, String> header) {
-
+        CloseableHttpClient httpClient = HttpClients.createDefault();
         String responseBody = "";
 
         CloseableHttpResponse response = null;
@@ -125,6 +124,7 @@ public class DefaultHttpService implements HttpService {
         } finally {
             try {
                 response.close();
+                httpClient.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }

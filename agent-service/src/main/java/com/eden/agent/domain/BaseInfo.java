@@ -20,6 +20,7 @@ public class BaseInfo {
     private String videoTitle;
     private String videoInfo;
     private String videoItemId;
+    private int postStatus;
 
     public long getId() {
         return id;
@@ -155,5 +156,13 @@ public class BaseInfo {
 
     public void setVideoItemId(String videoItemId) {
         this.videoItemId = videoItemId;
+    }
+
+    public int getPostStatus() {
+        return postStatus;
+    }
+
+    public void setPostStatus(int postStatus) {
+        this.postStatus = postStatus;
     }
 }

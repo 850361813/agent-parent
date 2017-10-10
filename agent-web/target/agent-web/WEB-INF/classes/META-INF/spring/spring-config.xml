@@ -13,16 +13,7 @@
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
-    <context:property-placeholder location="classpath:web-config.properties,
-     classpath:META-INF/properties/jdbc.properties" ignore-unresolvable="true"/>
-
-    <bean id="configProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
-        <property name="locations">
-            <list>
-                <value>classpath:META-INF/properties/app.properties</value>
-            </list>
-        </property>
-    </bean>
+    <context:property-placeholder location="classpath:META-INF/config/*.properties" file-encoding="UTF-8" ignore-unresolvable="true"/>
 
     <import resource="spring-jdbc.xml"></import>
 

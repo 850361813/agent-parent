@@ -9,6 +9,7 @@ import java.util.List;
 @Repository
 public interface BaseInfoDao {
     List<BaseInfo> selectByKeyWord(@Param("keyWord") String keyWord);
+    List<BaseInfo> selectNotPublishedByKeyWord(@Param("keyWord") String keyWord);
     BaseInfo selectById(@Param("id") long id);
     void update(@Param("baseInfo") BaseInfo baseInfo);
 }

@@ -11,5 +11,13 @@
 
     <artifactId>agent-batch</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.eden.agent</groupId>
+            <artifactId>agent-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

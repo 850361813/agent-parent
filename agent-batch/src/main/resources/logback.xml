@@ -10,7 +10,7 @@
 
     <appender name="infoAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <File>
-            logs/server.log
+            logs/agent_batch.log
         </File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>
@@ -31,7 +31,7 @@
             <level>WARN</level>
         </filter>
         <File>
-            logs/server_error.log
+            logs/agent_batch_error.log
         </File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <FileNamePattern>

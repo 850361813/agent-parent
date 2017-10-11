@@ -5,7 +5,7 @@
  agent-web/target/*
  *.iml
  logs/*
- agent-batch/.DS_Store
- agent-service/.DS_Store
- agent-web/.DS_Store
- agent-common/.DS_Store
+ .DS_Store
+ .idea/*
+ */*.iml
+ */DS_Store

@@ -1,5 +1,5 @@
  /.idea/*
- agent-batch/target/*
+ gitagent-batch/target/*
  agent-common/target/*
  agent-service/target/*
  agent-web/target/*

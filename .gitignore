@@ -1,11 +1,1 @@
  .idea/
- gitagent-batch/target/*
- agent-common/target/*
- agent-service/target/*
- agent-web/target/*
- *.iml
- logs/*
- .DS_Store
- .idea/*
- */*.iml
- */DS_Store

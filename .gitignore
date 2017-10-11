@@ -1,4 +1,4 @@
- /.idea/*
+ .idea/
  gitagent-batch/target/*
  agent-common/target/*
  agent-service/target/*

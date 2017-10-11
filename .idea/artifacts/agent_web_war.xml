@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="agent-web:war">
-    <output-path>$PROJECT_DIR$/agent-web/target</output-path>
-    <root id="archive" name="agent-web.war">
-      <element id="artifact" artifact-name="agent-web:war exploded" />
-    </root>
-  </artifact>
-</component>

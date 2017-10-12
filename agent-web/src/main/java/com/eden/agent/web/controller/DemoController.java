@@ -6,6 +6,7 @@ import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -39,5 +40,12 @@ public class DemoController {
         model.put("time", new Date());
         model.put("message","eden");
         return "hello";
+    }
+
+    @ResponseBody
+    @RequestMapping("/post")
+    public String demoPost(@RequestBody User user) {
+        System.out.println(user.getAddress());
+        return "{success:1}";
     }
 }

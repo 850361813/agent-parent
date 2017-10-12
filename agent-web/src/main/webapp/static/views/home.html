@@ -22,13 +22,11 @@
         var collect = function() {
             $.ajax({
                 type: "post",
-                url: '/demo/post',
+                url: '/video/collect',
                 async: false,
                 data: JSON.stringify({
-                    id: 123,
-                    name: 'zhangsan',
-                    age: 20,
-                    address: '北京'
+                    keyWord: 'china',
+                    pageNum: 10
                 }),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
@@ -41,13 +39,11 @@
         var publish = function() {
             $.ajax({
                 type: "post",
-                url: '/demo/post',
+                url: '/video/publish',
                 async: false,
                 data: JSON.stringify({
-                    id: 123,
-                    name: 'zhangsan',
-                    age: 20,
-                    address: '北京'
+                    keyWord: 'china',
+                    pageNum: 10
                 }),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
@@ -103,7 +99,7 @@
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                         <button type="collect" onclick="collect()" class="btn btn-default">采集</button>
-                        <button type="collect" class="btn btn-default">发布</button>
+                        <button type="collect" onclick="publish()" class="btn btn-default">发布</button>
                     </div>
                 </div>
             </form>

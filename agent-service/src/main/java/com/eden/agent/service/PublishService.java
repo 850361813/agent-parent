@@ -26,7 +26,7 @@ public class PublishService {
     @Value("${web.topbuzz.cookie}")
     private String cookie;
     @Value("${web.publish.keyWord}")
-    private String keyWord;
+    private String configKeyWord;
     @Value("${web.publish.number.perDay}")
     private Integer numberPerDay;
 
@@ -34,8 +34,18 @@ public class PublishService {
     private BaseInfoDao baseInfoDao;
 
     public void publish() {
+        publish(null);
+    }
 
-        List<BaseInfo> list = baseInfoDao.selectByKeyWord(keyWord);
+    public void publish(String keyWord) {
+
+        String queryKeyWord = keyWord;
+
+        if (StringUtils.isBlank(queryKeyWord)) {
+            queryKeyWord = configKeyWord;
+        }
+
+        List<BaseInfo> list = baseInfoDao.selectByKeyWord(queryKeyWord);
 
         if (CollectionUtils.isEmpty(list)) {
             logger.info("未找到抓取记录");
@@ -52,7 +62,7 @@ public class PublishService {
                 post(baseInfo);
             }
             if (baseInfo.getPublishStatus() == 0) {
-                publish(baseInfo);
+                doPublish(baseInfo);
             }
         }
     }
@@ -160,11 +170,11 @@ public class PublishService {
 
     public void batchPublish(List<BaseInfo> list) {
         for (BaseInfo baseInfo : list) {
-            publish(baseInfo);
+            doPublish(baseInfo);
         }
     }
 
-    public String publish(BaseInfo baseInfo) {
+    public String doPublish(BaseInfo baseInfo) {
 
         if (baseInfo == null || StringUtils.isBlank(baseInfo.getVideoItemId())) {
             logger.warn("post参数不完整");

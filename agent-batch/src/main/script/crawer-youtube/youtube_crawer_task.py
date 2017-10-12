@@ -9,12 +9,13 @@ import copy
 import datetime
 
 import sys
-from selenium import webdriver
+
 
 from dao import youtube_info_dao
 from http import http_fetcher
 from youtube import config
 from youtube.youtube_info import web_info
+from common import log_config
 
 
 def get_next_page_website(soup):
@@ -78,13 +79,19 @@ def handle_single_url(url):
     print ('time spends: ' + str(now - begin) + 'ms for processing url:' + url)
     return soup
 
+
 if __name__ == '__main__':
+    log_config.logger().info("crawer begin")
     reload(sys)
     db_config = config.load_db_config()
     system_config = config.load_system_config()
+    key_words = ''
+    if len(sys.argv) == 2:
+        key_words = sys.argv[1]
+    else:
+        key_words = system_config.get('key_words')
     daily_fetch_page=int(system_config.get('daily_fetch_page'))
     home_url=system_config.get('home_url')
-    key_words = system_config.get('key_words')
     lastest_web_info = youtube_info_dao.select_lastest_base_info(key_words, db_config)
     start_page = 1;
     if lastest_web_info.page_num is not None:
@@ -120,4 +127,6 @@ if __name__ == '__main__':
         if list_info is not None:
             for detail_info in list_info:
                 youtube_info_dao.insert_base_info(detail_info, db_config)
+
+    log_config.logger().info("crawer finish")
 

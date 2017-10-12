@@ -2,12 +2,16 @@
 import ConfigParser
 import os
 
+import sys
+
+from common import log_config
+
 config_file = 'youtube.conf'
 
 
 def get_config_dir():
-    home_dir = os.path.abspath(os.getcwd() + os.sep + '.')
-    print home_dir
+    home_dir = sys.path[0]
+    log_config.logger().info(home_dir)
     return home_dir + os.sep + 'conf' + os.sep
 
 

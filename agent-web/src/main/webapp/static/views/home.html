@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>视频自动化采集发布系统</title>
     <link href="/static/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet"/>
     <link href="/static/css/main.css" rel="stylesheet"/>
@@ -10,22 +10,15 @@
     <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
 
     <script>
-        function collectSucess()
-        {
-            alert("Hello World!");
-        }
-        function publishSucess()
-        {
-            alert("Hello World!");
-        }
-
         var collect = function() {
+            var keyWord=$("#keyWord").val();
+            var pageNum=$("#pageNum").val();
             $.ajax({
                 type: "post",
                 url: '/video/collect',
                 async: false,
                 data: JSON.stringify({
-                    keyWord: 'china',
+                    keyWord: keyWord,
                     pageNum: 10
                 }),
                 contentType: "application/json; charset=utf-8",
@@ -37,13 +30,15 @@
         }
 
         var publish = function() {
+            var keyWord=$("#keyWord").val();
+            var pageNum=$("#pageNum").val();
             $.ajax({
                 type: "post",
                 url: '/video/publish',
                 async: false,
                 data: JSON.stringify({
-                    keyWord: 'china',
-                    pageNum: 10
+                    keyWord: keyWord,
+                    pageNum: pageNum
                 }),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
@@ -67,13 +62,6 @@
             </button>
             <a class="navbar-brand" href="#">管理系统</a>
         </div>
-        <!--<div id="navbar-menu" class="collapse navbar-collapse">-->
-            <!--<ul class="nav navbar-nav">-->
-                <!--<li class="active"><a href="#">Home</a></li>-->
-                <!--<li><a href="#">Page One</a></li>-->
-                <!--<li><a href="#">Page Two</a></li>-->
-            <!--</ul>-->
-        <!--</div>-->
     </nav>
     <div id="content" class="row-fluid">
         <div class="col-md-3">
@@ -86,20 +74,46 @@
             <form class="form-horizontal" role="form">
                 <div class="form-group">
                     <label for="keyWord" class="col-sm-2 control-label">关键字</label>
-                    <div class="col-sm-10">
+                    <div class="col-sm-6">
                         <input type="text" class="form-control" id="keyWord" placeholder="请输入关键字">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="pageNum" class="col-sm-2 control-label">采集页数</label>
-                    <div class="col-sm-10">
+                    <label for="pageNum" class="col-sm-2 control-label">单次页数</label>
+                    <div class="col-sm-6">
                         <input type="text" class="form-control" id="pageNum" placeholder="请输入采集页数">
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <button type="collect" onclick="collect()" class="btn btn-default">采集</button>
-                        <button type="collect" onclick="publish()" class="btn btn-default">发布</button>
+                    <label for="pageNum" class="col-sm-2 control-label">已抓取数量：</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="crawNum" placeholder="请输入采集页数">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="pageNum" class="col-sm-2 control-label">已发布数量：</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="publishNum" placeholder="请输入采集页数">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="pageNum" class="col-sm-2 control-label">采集任务状态：</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="crawStatus" placeholder="请输入采集页数">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="pageNum" class="col-sm-2 control-label">发布任务状态：</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="PublishStatus" placeholder="请输入采集页数">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-2">
+                        <button type="button" onclick="collect()" class="btn btn-default">开始采集</button>
+                    </div>
+                    <div class="col-sm-offset-2 col-sm-2">
+                        <button type="button" onclick="publish()" class="btn btn-default">开始发布</button>
                     </div>
                 </div>
             </form>

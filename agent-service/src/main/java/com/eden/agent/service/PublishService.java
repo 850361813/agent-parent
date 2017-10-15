@@ -3,7 +3,9 @@ package com.eden.agent.service;
 import com.eden.agent.common.http.DefaultHttpService;
 import com.eden.agent.common.util.JSONObjectUtils;
 import com.eden.agent.dao.BaseInfoDao;
+import com.eden.agent.dao.TaskInfoDao;
 import com.eden.agent.domain.BaseInfo;
+import com.eden.agent.domain.TaskInfo;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.apache.commons.collections.CollectionUtils;
@@ -33,12 +35,16 @@ public class PublishService {
     @Autowired
     private BaseInfoDao baseInfoDao;
 
+    @Autowired
+    private TaskInfoDao taskInfoDao;
+
     public void publish() {
         publish(null);
     }
 
     public void publish(String keyWord) {
 
+        taskInfoDao.updateTaskInfo(1, "运行中", "publish");
         String queryKeyWord = keyWord;
 
         if (StringUtils.isBlank(queryKeyWord)) {
@@ -65,6 +71,7 @@ public class PublishService {
                 doPublish(baseInfo);
             }
         }
+        taskInfoDao.updateTaskInfo(0, "未运行", "publish");
     }
 
     public BaseInfo fetch(BaseInfo baseInfo) {

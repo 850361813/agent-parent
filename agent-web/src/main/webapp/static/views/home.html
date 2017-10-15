@@ -10,6 +10,11 @@
     <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
 
     <script>
+
+        $(document).ready(function(){
+            setInterval("updateData()",60000);
+        });
+
         var collect = function() {
             var keyWord=$("#keyWord").val();
             var pageNum=$("#pageNum").val();
@@ -19,7 +24,7 @@
                 async: false,
                 data: JSON.stringify({
                     keyWord: keyWord,
-                    pageNum: 10
+                    pageNum: pageNum
                 }),
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
@@ -48,6 +53,91 @@
             });
         }
 
+        var crawStatus = function() {
+            $.ajax({
+                type: "post",
+                url: '/video/status/craw',
+                async: false,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function(data) {
+                    var taskStatus = data['data']['taskStatus'];
+                    if (taskStatus == 1) {
+                        $('#crawStatus').text('运行中');
+                        $("#beginCollect").attr("disabled","disabled");
+                    } else {
+                        $('#crawStatus').text('未运行');
+                        $("#beginCollect").attr("disabled",false);
+                    }
+                }
+            });
+        }
+        var publishStatus = function() {
+            $.ajax({
+                type: "post",
+                url: '/video/status/publish',
+                async: false,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function(data) {
+                    var taskStatus = data['data']['taskStatus'];
+                    if (taskStatus == 1) {
+                        $('#publishStatus').text('运行中');
+                        $("#beginPublish").attr("disabled","disabled");
+                    } else {
+                        $('#publishStatus').text('未运行');
+                        $("#beginPublish").attr("disabled",false);
+                    }
+                }
+            });
+        }
+
+        var crawNumber = function(keyWord, pageNum) {
+            $.ajax({
+                type: "post",
+                url: '/video/number/craw',
+                async: false,
+                data: JSON.stringify({
+                    keyWord: keyWord,
+                    pageNum: pageNum
+                }),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function(data) {
+                    $('#crawNum').text(data['data']);
+                }
+            });
+        }
+
+        var publishNumber = function(keyWord, pageNum) {
+            $.ajax({
+                type: "post",
+                url: '/video/number/publish',
+                async: false,
+                data: JSON.stringify({
+                    keyWord: keyWord,
+                    pageNum: pageNum
+                }),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function(data) {
+                    $('#publishNum').text(data['data']);
+                }
+            });
+        }
+
+        var updateData = function() {
+            var keyWord=$("#keyWord").val();
+            var pageNum=$("#pageNum").val();
+            crawStatus();
+            publishStatus();
+            if (keyWord !== null && keyWord.length !== 0) {
+                publishNumber(keyWord, pageNum);
+                crawNumber(keyWord, pageNum);
+            }
+
+        }
+
     </script>
 </head>
 <body>
@@ -73,47 +163,47 @@
             <!--采集-->
             <form class="form-horizontal" role="form">
                 <div class="form-group">
-                    <label for="keyWord" class="col-sm-2 control-label">关键字</label>
+                    <label for="keyWord" class="col-sm-3 control-label">关键字：</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="keyWord" placeholder="请输入关键字">
+                        <input type="text" class="form-control" id="keyWord" onchange="updateData()" placeholder="请输入关键字">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="pageNum" class="col-sm-2 control-label">单次页数</label>
+                    <label for="pageNum" class="col-sm-3 control-label">单次页数：</label>
                     <div class="col-sm-6">
                         <input type="text" class="form-control" id="pageNum" placeholder="请输入采集页数">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="pageNum" class="col-sm-2 control-label">已抓取数量：</label>
+                    <label for="pageNum" class="col-sm-3 control-label">已抓取数量：</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="crawNum" placeholder="请输入采集页数">
+                        <p class="form-control-static" id="crawNum"></p>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="pageNum" class="col-sm-2 control-label">已发布数量：</label>
+                    <label for="pageNum" class="col-sm-3 control-label">已发布数量：</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="publishNum" placeholder="请输入采集页数">
+                        <p class="form-control-static" id="publishNum"></p>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="pageNum" class="col-sm-2 control-label">采集任务状态：</label>
+                    <label for="pageNum" class="col-sm-3 control-label">采集任务状态：</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="crawStatus" placeholder="请输入采集页数">
+                        <p class="form-control-static" id="crawStatus"></p>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="pageNum" class="col-sm-2 control-label">发布任务状态：</label>
+                    <label for="pageNum" class="col-sm-3 control-label">发布任务状态：</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="PublishStatus" placeholder="请输入采集页数">
+                        <p class="form-control-static" id="publishStatus"></p>
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-2">
-                        <button type="button" onclick="collect()" class="btn btn-default">开始采集</button>
+                    <div class="col-sm-offset-2 col-sm-3">
+                        <button type="button" onclick="collect()" class="btn btn-default" id="beginCollect">开始采集</button>
                     </div>
-                    <div class="col-sm-offset-2 col-sm-2">
-                        <button type="button" onclick="publish()" class="btn btn-default">开始发布</button>
+                    <div class="col-sm-offset-2 col-sm-3">
+                        <button type="button" onclick="publish()" class="btn btn-default" id="beginPublish">开始发布</button>
                     </div>
                 </div>
             </form>

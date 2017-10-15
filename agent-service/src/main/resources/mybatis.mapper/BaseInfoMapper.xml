@@ -67,4 +67,16 @@
         WHERE ID = #{baseInfo.id,jdbcType=BIGINT}
     </update>
 
+    <select id="selectCrawNumber" resultType="long">
+        select
+        count(1)
+        FROM BASE_INFO WHERE KEY_WORD=#{keyWord,jdbcType=VARCHAR} AND CRAW_STATUS=1
+    </select>
+
+    <select id="selectPublishNumber" resultType="long">
+        select
+        count(1)
+        FROM BASE_INFO WHERE KEY_WORD=#{keyWord,jdbcType=VARCHAR} AND PUBLISH_STATUS=1
+    </select>
+
 </mapper>

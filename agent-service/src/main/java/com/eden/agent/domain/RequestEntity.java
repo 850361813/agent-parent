@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class RequestEntity implements Serializable {
     private String keyWord;
-    private int pageNum;
+    private String pageNum;
 
     public String getKeyWord() {
         return keyWord;
@@ -14,11 +14,11 @@ public class RequestEntity implements Serializable {
         this.keyWord = keyWord;
     }
 
-    public int getPageNum() {
+    public String getPageNum() {
         return pageNum;
     }
 
-    public void setPageNum(int pageNum) {
+    public void setPageNum(String pageNum) {
         this.pageNum = pageNum;
     }
 }

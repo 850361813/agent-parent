@@ -74,6 +74,7 @@ def handle_single_url(url):
     :return: BeautifulSoup
     """
     begin = time.time() * 1000
+    print ('begin processing url:' + url)
     soup = http_fetcher.get_soup(url)
     now = time.time() * 1000
     print ('time spends: ' + str(now - begin) + 'ms for processing url:' + url)
@@ -85,12 +86,14 @@ if __name__ == '__main__':
     reload(sys)
     db_config = config.load_db_config()
     system_config = config.load_system_config()
-    key_words = ''
-    if len(sys.argv) == 2:
+    key_words = system_config.get('key_words')
+    daily_fetch_page = int(system_config.get('daily_fetch_page'))
+    if len(sys.argv) == 3 or len(sys.argv) == 2:
         key_words = sys.argv[1]
-    else:
-        key_words = system_config.get('key_words')
-    daily_fetch_page=int(system_config.get('daily_fetch_page'))
+        daily_fetch_page = int(sys.argv[2])
+    elif len(sys.argv) == 2:
+        key_words = sys.argv[1]
+
     home_url=system_config.get('home_url')
     lastest_web_info = youtube_info_dao.select_lastest_base_info(key_words, db_config)
     start_page = 1;

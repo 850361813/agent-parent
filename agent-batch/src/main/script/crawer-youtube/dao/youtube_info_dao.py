@@ -77,7 +77,7 @@ def select_lastest_base_info(key_word, config):
 
 
 def update_base_info(craw_status, key_word, config):
-    sql = "UPDATE BASE_INFO SET STATUS=%s, WHERE KEY_WORD='%s'"\
+    sql = "UPDATE BASE_INFO SET CRAW_STATUS=%s, WHERE KEY_WORD='%s'"\
           % (craw_status, key_word)
     cnx = mysql.connector.connect(**config)
     cur = cnx.cursor()

@@ -36,3 +36,5 @@ create table trans_video.task_info
 )
 ;
 
+INSERT INTO trans_video.task_info (TASK_NAME, TASK_STATUS, TASK_DISP) VALUES ('craw', 0, '未运行');
+INSERT INTO trans_video.task_info (TASK_NAME, TASK_STATUS, TASK_DISP) VALUES ('publish', 0, '未运行');

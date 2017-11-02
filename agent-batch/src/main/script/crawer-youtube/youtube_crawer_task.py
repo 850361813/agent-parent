@@ -1,18 +1,16 @@
 # -*- coding: utf-8 -*-
-import os
 import re
 import time
-import urllib2
 import hashlib
 import copy
-
+import urllib2
 import datetime
 
 import sys
 
 
 from dao import youtube_info_dao
-from http import http_fetcher
+from localhttp import http_fetcher
 from youtube import config
 from youtube.youtube_info import web_info
 from common import log_config
@@ -29,7 +27,7 @@ def get_next_page_website(soup):
         pattern = re.compile( r'([\s\S]*)<a([\s\S]*)href="([\s\S]*)"><([\s\S]*)>Next([\s\S]*)a>')
         match = pattern.match(page_info.encode("utf-8"))
         if match is not None:
-            print home_url + match.group(3)
+            print (home_url + match.group(3))
             return home_url + match.group(3)
         else:
             return ''
@@ -98,7 +96,7 @@ if __name__ == '__main__':
     lastest_web_info = youtube_info_dao.select_lastest_base_info(key_words, db_config)
     start_page = 1;
     if lastest_web_info.page_num is not None:
-        start_page = lastest_web_info.page_num;
+        start_page = lastest_web_info.page_num
 
     now = datetime.datetime.now()
 
@@ -112,10 +110,10 @@ if __name__ == '__main__':
         soup = handle_single_url(lastest_web_info.url)
 
     for i in range(start_page-1, daily_fetch_page + start_page):
-        print 'begin craw page : ' + str(i)
+        print ('begin craw page : ' + str(i))
         request_url=get_next_page_website(soup)
-        if request_url=='':
-            print '关键字：' + key_words + '抓取完成'
+        if request_url=='' or request_url is None:
+            print ('关键字：' + key_words + '抓取完成')
             youtube_info_dao.update_base_info(1, key_words, db_config)
             sys.exit(0)
         soup = handle_single_url(request_url)

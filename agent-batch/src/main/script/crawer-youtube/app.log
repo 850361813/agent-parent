@@ -53,3 +53,17 @@ Thu, 02 Nov 2017 19:28:29 config.py[line:14] INFO /Users/baidu/IdeaProjects/agen
 Thu, 02 Nov 2017 19:33:28 youtube_crawer_task.py[line:83] INFO crawer begin
 Thu, 02 Nov 2017 19:33:28 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
 Thu, 02 Nov 2017 19:33:28 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 09:59:21 youtube_crawer_task.py[line:83] INFO crawer begin
+Fri, 03 Nov 2017 09:59:21 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 09:59:21 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 10:00:15 youtube_crawer_task.py[line:83] INFO crawer begin
+Fri, 03 Nov 2017 10:00:15 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 10:00:15 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 10:01:00 youtube_crawer_task.py[line:83] INFO crawer begin
+Fri, 03 Nov 2017 10:01:00 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 10:01:00 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:21:41 youtube_crawer_task.py[line:83] INFO crawer begin
+Fri, 03 Nov 2017 11:21:41 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:21:41 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:21:41 youtube_crawer_task.py[line:94] INFO param set
+Fri, 03 Nov 2017 11:21:56 youtube_crawer_task.py[line:113] INFO begin craw page : 0

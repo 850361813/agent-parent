@@ -50,18 +50,21 @@
         <set>
             <if test="baseInfo.videoTitle != null">
                 VIDEO_TITLE = #{baseInfo.videoTitle,jdbcType=VARCHAR}
-            </if>,
+            </if>
             <if test="baseInfo.videoInfo != null">
-                VIDEO_INFO = #{baseInfo.videoInfo,jdbcType=VARCHAR}
-            </if>,
+                , VIDEO_INFO = #{baseInfo.videoInfo,jdbcType=VARCHAR}
+            </if>
             <if test="baseInfo.videoItemId != null">
-                VIDEO_ITEM_ID = #{baseInfo.videoItemId,jdbcType=VARCHAR}
+                , VIDEO_ITEM_ID = #{baseInfo.videoItemId,jdbcType=VARCHAR}
             </if>
             <if test="baseInfo.postStatus != null">
-                POST_STATUS = #{baseInfo.postStatus,jdbcType=VARCHAR}
+                 , POST_STATUS = #{baseInfo.postStatus,jdbcType=INTEGER}
             </if>
             <if test="baseInfo.publishStatus != null">
-                PUBLISH_STATUS = #{baseInfo.publishStatus,jdbcType=VARCHAR}
+                 , PUBLISH_STATUS = #{baseInfo.publishStatus,jdbcType=INTEGER}
+            </if>
+            <if test="baseInfo.fetchStatus != null">
+                , FETCH_STATUS = #{baseInfo.fetchStatus,jdbcType=INTEGER}
             </if>
         </set>
         WHERE ID = #{baseInfo.id,jdbcType=BIGINT}

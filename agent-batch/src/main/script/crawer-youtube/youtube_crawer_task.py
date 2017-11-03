@@ -91,10 +91,10 @@ if __name__ == '__main__':
         daily_fetch_page = int(sys.argv[2])
     elif len(sys.argv) == 2:
         key_words = sys.argv[1]
-
+    log_config.logger().info("param set, keyword:" + key_words + "daily_fetch_page:" + str(daily_fetch_page))
     home_url=system_config.get('home_url')
     lastest_web_info = youtube_info_dao.select_lastest_base_info(key_words, db_config)
-    start_page = 1;
+    start_page = 1
     if lastest_web_info.page_num is not None:
         start_page = lastest_web_info.page_num
 
@@ -110,10 +110,10 @@ if __name__ == '__main__':
         soup = handle_single_url(lastest_web_info.url)
 
     for i in range(start_page-1, daily_fetch_page + start_page):
-        print ('begin craw page : ' + str(i))
+        log_config.logger().info('begin craw page : ' + str(i))
         request_url=get_next_page_website(soup)
         if request_url=='' or request_url is None:
-            print ('关键字：' + key_words + '抓取完成')
+            log_config.logger().info('关键字：' + key_words + '抓取完成')
             youtube_info_dao.update_base_info(1, key_words, db_config)
             sys.exit(0)
         soup = handle_single_url(request_url)

@@ -13,3 +13,50 @@ Wed, 01 Nov 2017 18:43:17 config.py[line:14] INFO /Users/baidu/IdeaProjects/agen
 Wed, 01 Nov 2017 18:43:48 youtube_crawer_task.py[line:85] INFO crawer begin
 Wed, 01 Nov 2017 18:43:48 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
 Wed, 01 Nov 2017 18:43:48 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 10:02:44 youtube_crawer_task.py[line:83] INFO crawer begin
+Fri, 03 Nov 2017 10:02:44 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 10:02:44 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 10:04:57 youtube_crawer_task.py[line:83] INFO crawer begin
+Fri, 03 Nov 2017 10:04:57 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 10:04:57 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:11:48 youtube_crawer_task.py[line:83] INFO crawer begin
+Fri, 03 Nov 2017 11:11:48 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:11:48 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:14:41 youtube_crawer_task.py[line:83] INFO crawer begin
+Fri, 03 Nov 2017 11:14:41 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:14:41 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:16:36 youtube_crawer_task.py[line:83] INFO crawer begin
+Fri, 03 Nov 2017 11:16:36 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:16:36 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:16:36 youtube_crawer_task.py[line:94] INFO param set
+Fri, 03 Nov 2017 11:17:28 youtube_crawer_task.py[line:83] INFO crawer begin
+Fri, 03 Nov 2017 11:17:28 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:17:28 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:17:28 youtube_crawer_task.py[line:94] INFO param set
+Fri, 03 Nov 2017 11:18:01 youtube_crawer_task.py[line:113] INFO begin craw page : 0
+Fri, 03 Nov 2017 11:20:02 youtube_crawer_task.py[line:83] INFO crawer begin
+Fri, 03 Nov 2017 11:20:02 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:20:02 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:20:02 youtube_crawer_task.py[line:94] INFO param set
+Fri, 03 Nov 2017 11:20:28 youtube_crawer_task.py[line:113] INFO begin craw page : 0
+Fri, 03 Nov 2017 11:24:03 youtube_crawer_task.py[line:83] INFO crawer begin
+Fri, 03 Nov 2017 11:24:03 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:24:03 config.py[line:14] INFO /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube
+Fri, 03 Nov 2017 11:24:03 youtube_crawer_task.py[line:94] INFO param set
+Fri, 03 Nov 2017 11:24:03 http_fetcher.py[line:23] INFO request sleeping
+Fri, 03 Nov 2017 11:24:21 http_fetcher.py[line:26] INFO sleeping over for second:18
+Fri, 03 Nov 2017 11:24:23 youtube_crawer_task.py[line:113] INFO begin craw page : 0
+Fri, 03 Nov 2017 11:24:23 http_fetcher.py[line:23] INFO request sleeping
+Fri, 03 Nov 2017 11:24:41 http_fetcher.py[line:26] INFO sleeping over for second:18
+Fri, 03 Nov 2017 11:24:43 youtube_crawer_task.py[line:113] INFO begin craw page : 1
+Fri, 03 Nov 2017 11:24:43 http_fetcher.py[line:23] INFO request sleeping
+Fri, 03 Nov 2017 11:24:53 http_fetcher.py[line:26] INFO sleeping over for second:10
+Fri, 03 Nov 2017 11:24:54 youtube_crawer_task.py[line:113] INFO begin craw page : 2
+Fri, 03 Nov 2017 11:24:54 http_fetcher.py[line:23] INFO request sleeping
+Fri, 03 Nov 2017 11:25:10 http_fetcher.py[line:26] INFO sleeping over for second:16
+Fri, 03 Nov 2017 11:25:12 youtube_crawer_task.py[line:113] INFO begin craw page : 3
+Fri, 03 Nov 2017 11:25:12 http_fetcher.py[line:23] INFO request sleeping
+Fri, 03 Nov 2017 11:25:29 http_fetcher.py[line:26] INFO sleeping over for second:17
+Fri, 03 Nov 2017 11:25:31 youtube_crawer_task.py[line:113] INFO begin craw page : 4
+Fri, 03 Nov 2017 11:25:31 http_fetcher.py[line:23] INFO request sleeping
+Fri, 03 Nov 2017 11:25:59 http_fetcher.py[line:26] INFO sleeping over for second:28

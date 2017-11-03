@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import mysql.connector
-from youtube import config
 
 from youtube.youtube_info import web_info
 
@@ -13,15 +12,16 @@ def insert_base_info(web_info, config):
     default_int = '0'
     default_str = ''
     sql = '''INSERT INTO BASE_INFO 
-           (KEY_WORD, PAGE_NUM, URL, VIDEO_LINKS, PUBLISH_STATUS,
+           (KEY_WORD, PAGE_NUM, URL, VIDEO_LINKS, PUBLISH_STATUS,CRAW_STATUS,
            COLLECT_TIME,PUBLISH_TIME, CREATE_TIME, UPDATE_TIME,INFO_HASH) 
            VALUES (
-           %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
+           %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
     param = (web_info.key_word,
              web_info.page_num,
              web_info.url,
              web_info.video_links,
              web_info.publish_status,
+             1,
              web_info.collect_time,
              web_info.publish_time,
              web_info.create_time,

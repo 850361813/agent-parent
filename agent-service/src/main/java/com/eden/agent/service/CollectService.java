@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * Create by zhaoxianghui on 2017/10/12.
  */
 @Service
-public class CollectService {
+public class CollectService implements Runnable {
 
     private static final Logger logger = LoggerFactory.getLogger(CollectService.class);
 
@@ -28,23 +28,19 @@ public class CollectService {
     @Autowired
     private TaskInfoDao taskInfoDao;
 
-    public void collect(String keyWord, Integer numberDay) {
+    @Override
+    public void run() {
+        collect();
+    }
+
+    public void collect() {
 
         taskInfoDao.updateTaskInfo(1, "运行中", "craw");
 
-        String queryKeyWord = keyWord;
 
-        if (StringUtils.isBlank(queryKeyWord)) {
-            queryKeyWord = configKeyWord;
-        }
+        logger.info("begin collect key word : " + configKeyWord + "page num:" + numberPerDay);
 
-        if (numberDay != null) {
-            numberPerDay = numberDay;
-        }
-
-        logger.info("begin collect key word : " + queryKeyWord + "page num:" + numberPerDay);
-
-        String executeScript = "python  " + pythonHome + "youtube_crawer_task.py" + " " + queryKeyWord + " " + numberPerDay;
+        String executeScript = "python  " + pythonHome + "youtube_crawer_task.py" + " " + configKeyWord + " " + numberPerDay;
 
         logger.info("execute python script : " + executeScript);
 
@@ -56,8 +52,23 @@ public class CollectService {
         }
         taskInfoDao.updateTaskInfo(0, "未运行", "craw");
 
-        logger.info("finished collect key word : " + queryKeyWord);
+        logger.info("finished collect key word : " + configKeyWord);
 
     }
 
+    public String getConfigKeyWord() {
+        return configKeyWord;
+    }
+
+    public void setConfigKeyWord(String configKeyWord) {
+        this.configKeyWord = configKeyWord;
+    }
+
+    public Integer getNumberPerDay() {
+        return numberPerDay;
+    }
+
+    public void setNumberPerDay(Integer numberPerDay) {
+        this.numberPerDay = numberPerDay;
+    }
 }

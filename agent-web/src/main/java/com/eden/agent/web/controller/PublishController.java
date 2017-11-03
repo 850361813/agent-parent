@@ -1,5 +1,8 @@
 package com.eden.agent.web.controller;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 import com.eden.agent.common.web.BaseResponse;
 import com.eden.agent.dao.BaseInfoDao;
 import com.eden.agent.dao.TaskInfoDao;
@@ -37,11 +40,17 @@ public class PublishController {
     @Autowired
     private BaseInfoDao baseInfoDao;
 
+    private static ExecutorService executorService = Executors.newCachedThreadPool();
+
     @ResponseBody
     @RequestMapping(value = "/publish", method = RequestMethod.POST)
     public BaseResponse publish(@RequestBody RequestEntity requestEntity) {
         logger.info("begin publish: key word---" + requestEntity.getKeyWord());
-        publishService.publish(requestEntity.getKeyWord());
+        if (StringUtils.isNoneBlank(requestEntity.getKeyWord())) {
+            publishService.setConfigKeyWord(requestEntity.getKeyWord());
+        }
+        executorService.submit(publishService);
+
         return BaseResponse.success();
     }
 
@@ -51,9 +60,15 @@ public class PublishController {
         logger.info("begin collect: key word---" + requestEntity.getKeyWord());
         String pageNum = requestEntity.getPageNum();
         if (StringUtils.isBlank(pageNum)) {
-            return BaseResponse.fail(-1);
+            pageNum = "10";
         }
-        collectService.collect(requestEntity.getKeyWord(), Integer.parseInt(pageNum));
+        if (StringUtils.isNoneBlank(requestEntity.getKeyWord())) {
+            collectService.setConfigKeyWord(requestEntity.getKeyWord());
+        }
+        if (StringUtils.isNoneBlank(pageNum)) {
+            collectService.setNumberPerDay(Integer.parseInt(pageNum));
+        }
+        executorService.submit(collectService);
         return BaseResponse.success();
     }
 

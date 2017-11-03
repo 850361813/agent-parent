@@ -30,9 +30,6 @@
         <fileSet>
             <directory>src/main/script/crawer-youtube</directory>
             <outputDirectory>crawer-youtube</outputDirectory>
-            <includes>
-                <include>*</include>
-            </includes>
         </fileSet>
     </fileSets>
 </assembly>

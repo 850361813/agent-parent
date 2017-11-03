@@ -3,11 +3,11 @@ import random
 import urllib
 
 import requests
-import urllib2
 
 import time
 
 from bs4 import BeautifulSoup as bf
+from common import log_config
 
 session_requests = requests.session()
 
@@ -20,18 +20,16 @@ def sleep_random_second():
     随机暂停一段时间（针对网站反爬虫机制）
     :return:
     """
-    print 'sleeping'
+    log_config.logger().info("request sleeping")
     sleep_time = random.randint(10, 30)
     time.sleep(sleep_time)
-    print 'sleep for second:' + str(sleep_time)
+    log_config.logger().info('sleeping over for second:' + str(sleep_time))
 
 
 def get_html(url):
-    result = session_requests.get(url, headers=headers)
     sleep_random_second()
-    # request = urllib2.Request(url, headers=headers)
-    # response = urllib2.urlopen(request)
-    print result.text
+    log_config.logger().info("request url: " + url)
+    result = session_requests.get(url)
     return result.text
 
 

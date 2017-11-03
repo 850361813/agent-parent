@@ -5,7 +5,6 @@ import com.eden.agent.common.util.JSONObjectUtils;
 import com.eden.agent.dao.BaseInfoDao;
 import com.eden.agent.dao.TaskInfoDao;
 import com.eden.agent.domain.BaseInfo;
-import com.eden.agent.domain.TaskInfo;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.apache.commons.collections.CollectionUtils;
@@ -21,7 +20,7 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-public class PublishService {
+public class PublishService implements Runnable {
 
     private static final Logger logger = LoggerFactory.getLogger(PublishService.class);
 
@@ -38,20 +37,16 @@ public class PublishService {
     @Autowired
     private TaskInfoDao taskInfoDao;
 
-    public void publish() {
-        publish(null);
+    @Override
+    public void run() {
+        publish();
     }
 
-    public void publish(String keyWord) {
+    public void publish() {
 
         taskInfoDao.updateTaskInfo(1, "运行中", "publish");
-        String queryKeyWord = keyWord;
 
-        if (StringUtils.isBlank(queryKeyWord)) {
-            queryKeyWord = configKeyWord;
-        }
-
-        List<BaseInfo> list = baseInfoDao.selectByKeyWord(queryKeyWord);
+        List<BaseInfo> list = baseInfoDao.selectByKeyWord(configKeyWord);
 
         if (CollectionUtils.isEmpty(list)) {
             logger.info("未找到抓取记录");
@@ -215,4 +210,11 @@ public class PublishService {
         return httpService.post(url, paramsMap, headerMap);
     }
 
+    public String getConfigKeyWord() {
+        return configKeyWord;
+    }
+
+    public void setConfigKeyWord(String configKeyWord) {
+        this.configKeyWord = configKeyWord;
+    }
 }

@@ -1,9 +1,10 @@
 import logging
+from youtube import config
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
                     datefmt='%a, %d %b %Y %H:%M:%S',
-                    filename='app.log',
+                    filename=config.load_system_config().get('log_path') + 'app.log',
                     filemode='a')
 
 console = logging.StreamHandler()

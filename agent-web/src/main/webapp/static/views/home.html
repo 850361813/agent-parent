@@ -6,18 +6,21 @@
     <link href="/static/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet"/>
     <link href="/static/css/main.css" rel="stylesheet"/>
+    <link href="/static/css/bootstrap-select.css" rel="stylesheet"/>
     <script type="text/javascript" src="/static/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/js/bootstrap-select.js"></script>
 
     <script>
 
         $(document).ready(function(){
-            setInterval("updateData()",60000);
+            findTags();
+            setInterval("updateData()",10000);
         });
 
         var collect = function() {
-            var keyWord=$("#keyWord").val();
-            var pageNum=$("#pageNum").val();
+            var keyWord=$('#inputTags option:selected').val();
+            var pageNum=0;
             $.ajax({
                 type: "post",
                 url: '/video/collect',
@@ -35,8 +38,9 @@
         }
 
         var publish = function() {
-            var keyWord=$("#keyWord").val();
-            var pageNum=$("#pageNum").val();
+            $("#inputTags").attr("disabled", true);
+            var keyWord=$('#inputTags option:selected').val();
+            var pageNum=0;
             $.ajax({
                 type: "post",
                 url: '/video/publish',
@@ -51,6 +55,24 @@
                     $('#result').text(data.result);
                 }
             });
+            $("#inputTags").attr("disabled", false);
+        }
+
+        var findTags = function() {
+            $.ajax({
+                type: "get",
+                url: '/video/tags',
+                async: false,
+                dataType: "json",
+                success: function(data) {
+                    var listData = data['data'];
+                    $("#inputTags option").remove();
+                    for (var i = 0; i < listData.length; i++) {
+                        $('#inputTags').append("<option value=" + listData[i] + ">" + listData[i] + "</option>");
+                    }
+                }
+            });
+
         }
 
         var crawStatus = function() {
@@ -127,8 +149,8 @@
         }
 
         var updateData = function() {
-            var keyWord=$("#keyWord").val();
-            var pageNum=$("#pageNum").val();
+            var keyWord=$('#inputTags option:selected').val();
+            var pageNum=0;
             crawStatus();
             publishStatus();
             if (keyWord !== null && keyWord.length !== 0) {
@@ -150,57 +172,52 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">管理系统</a>
+            <a class="navbar-brand" href="#">视频自动化采集发布系统</a>
         </div>
     </nav>
     <div id="content" class="row-fluid">
         <div class="col-md-3">
             <ul class="nav nav-tabs nav-stacked">
-                <li><a href='#'>采集发布</a></li>
+                <li><a href='#'>发布</a></li>
             </ul>
         </div>
         <div class="col-md-9">
             <!--采集-->
             <form class="form-horizontal" role="form">
                 <div class="form-group">
-                    <label for="keyWord" class="col-sm-3 control-label">关键字：</label>
+                    <label for="inputTags" class="col-sm-3 control-label">视频标签：</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="keyWord" onchange="updateData()" placeholder="请输入关键字">
+                        <select id="inputTags" onchange="updateData()">
+                        </select>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="pageNum" class="col-sm-3 control-label">单次页数：</label>
-                    <div class="col-sm-6">
-                        <input type="text" class="form-control" id="pageNum" placeholder="请输入采集页数">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="pageNum" class="col-sm-3 control-label">已抓取数量：</label>
+                    <label for="crawNum" class="col-sm-3 control-label">已抓取数量：</label>
                     <div class="col-sm-6">
                         <p class="form-control-static" id="crawNum"></p>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="pageNum" class="col-sm-3 control-label">已发布数量：</label>
+                    <label for="publishNum" class="col-sm-3 control-label">已发布数量：</label>
                     <div class="col-sm-6">
                         <p class="form-control-static" id="publishNum"></p>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="pageNum" class="col-sm-3 control-label">采集任务状态：</label>
+                    <label for="crawStatus" class="col-sm-3 control-label">采集任务状态：</label>
                     <div class="col-sm-6">
                         <p class="form-control-static" id="crawStatus"></p>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="pageNum" class="col-sm-3 control-label">发布任务状态：</label>
+                    <label for="publishStatus" class="col-sm-3 control-label">发布任务状态：</label>
                     <div class="col-sm-6">
                         <p class="form-control-static" id="publishStatus"></p>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-3">
-                        <button type="button" onclick="collect()" class="btn btn-default" id="beginCollect">开始采集</button>
+                        <button type="button" onclick="collect()" class="btn btn-default" id="beginCollect" disabled>开始采集</button>
                     </div>
                     <div class="col-sm-offset-2 col-sm-3">
                         <button type="button" onclick="publish()" class="btn btn-default" id="beginPublish">开始发布</button>

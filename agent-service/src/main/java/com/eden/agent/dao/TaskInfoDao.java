@@ -12,5 +12,5 @@ import java.util.List;
 public interface TaskInfoDao {
     List<TaskInfo> selectTaskInfo();
     TaskInfo selectByTaskName(@Param("taskName") String taskName);
-    void updateTaskInfo(@Param("taskStatus") int taskStatus, @Param("taskDisp") String taskDisp, @Param("taskName") String taskName);
+    void updateTaskInfo(@Param("taskStatus") int taskStatus, @Param("taskName") String taskName);
 }

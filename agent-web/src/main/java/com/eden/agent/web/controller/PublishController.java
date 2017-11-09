@@ -1,8 +1,10 @@
 package com.eden.agent.web.controller;
 
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import com.eden.agent.common.constants.TaskStatus;
 import com.eden.agent.common.web.BaseResponse;
 import com.eden.agent.dao.BaseInfoDao;
 import com.eden.agent.dao.TaskInfoDao;
@@ -32,9 +34,6 @@ public class PublishController {
     private PublishService publishService;
 
     @Autowired
-    private CollectService collectService;
-
-    @Autowired
     private TaskInfoDao taskInfoDao;
 
     @Autowired
@@ -57,18 +56,7 @@ public class PublishController {
     @ResponseBody
     @RequestMapping(value = "/collect", method = RequestMethod.POST)
     public BaseResponse collect(@RequestBody RequestEntity requestEntity) {
-        logger.info("begin collect: key word---" + requestEntity.getKeyWord());
-        String pageNum = requestEntity.getPageNum();
-        if (StringUtils.isBlank(pageNum)) {
-            pageNum = "10";
-        }
-        if (StringUtils.isNoneBlank(requestEntity.getKeyWord())) {
-            collectService.setConfigKeyWord(requestEntity.getKeyWord());
-        }
-        if (StringUtils.isNoneBlank(pageNum)) {
-            collectService.setNumberPerDay(Integer.parseInt(pageNum));
-        }
-        executorService.submit(collectService);
+        logger.info("nothing to do");
         return BaseResponse.success();
     }
 
@@ -77,7 +65,7 @@ public class PublishController {
     public BaseResponse<TaskInfo> crawStatus() {
         logger.info("request craw status---");
         BaseResponse<TaskInfo> baseResponse = new BaseResponse<TaskInfo>(taskInfoDao.selectByTaskName("craw"));
-        logger.info("response craw status---" + baseResponse.getData().getTaskDisp());
+        logger.info("response craw status---" + TaskStatus.getDesc(baseResponse.getData().getTaskStatus()));
         return baseResponse;
     }
 
@@ -86,7 +74,7 @@ public class PublishController {
     public BaseResponse<TaskInfo> publishStatus() {
         logger.info("request publish status---");
         BaseResponse<TaskInfo> baseResponse = new BaseResponse<TaskInfo>(taskInfoDao.selectByTaskName("publish"));
-        logger.info("response craw status---" + baseResponse.getData().getTaskDisp());
+        logger.info("response craw status---" + TaskStatus.getDesc(baseResponse.getData().getTaskStatus()));
         return baseResponse;
     }
 
@@ -97,6 +85,14 @@ public class PublishController {
         long number = baseInfoDao.selectCrawNumber(requestEntity.getKeyWord());
         BaseResponse<Long> baseResponse = new BaseResponse<Long>(number);
         System.out.println("number for craw : " + number);
+        return baseResponse;
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/tags", method = RequestMethod.GET)
+    public BaseResponse findAllTags() {
+        List<String> tags = baseInfoDao.selectAllTags();
+        BaseResponse<List<String>> baseResponse = new BaseResponse<>(tags);
         return baseResponse;
     }
 

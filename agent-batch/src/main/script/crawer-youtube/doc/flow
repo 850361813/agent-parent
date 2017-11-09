@@ -1,0 +1,11 @@
+(1)请求频道网址，获取默认的视频列表，并且获取ctoken和itct信息
+itct：
+data-sessionlink="itct=CAUQsV4iEwjs5OmmjqrXAhVFz5wKHVi5CgIomxw"
+ctoken：
+                                                        data-uix-load-more-href="/browse_ajax?action_continuation=1&amp;direct_render=1&amp;continuation=4qmFsgJAEhhVQ3FPb2JvUG0zdWhZX1lYaHZobUwtV0EaJEVnWjJhV1JsYjNNZ0FEZ0JZQUZxQUhvQk1yZ0JBQSUzRCUzRA%253D%253D"
+（2）：ajax异步加载，获取更多视频json
+https://www.youtube.com/browse_ajax?ctoken={}&itct={}
+
+（3）：解析json，获取视频列表，和最后一个视频的itct和ctoken
+
+（4）：重复第（2）步

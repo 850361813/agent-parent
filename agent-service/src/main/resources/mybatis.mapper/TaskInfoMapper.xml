@@ -5,11 +5,10 @@
         <id column="ID" property="id" jdbcType="BIGINT"/>
         <result column="TASK_NAME" property="taskName" jdbcType="VARCHAR"/>
         <result column="TASK_STATUS" property="taskStatus" jdbcType="INTEGER"/>
-        <result column="TASK_DISP" property="taskDisp" jdbcType="VARCHAR"/>
     </resultMap>
 
     <sql id="Base_Column_List">
-        ID, TASK_NAME, TASK_STATUS, TASK_DISP
+        ID, TASK_NAME, TASK_STATUS
     </sql>
 
     <select id="selectTaskInfo" resultMap="BaseResultMap">
@@ -26,7 +25,7 @@
 
     <update id="updateTaskInfo">
         UPDATE TASK_INFO
-        SET TASK_STATUS=#{taskStatus,jdbcType=BIGINT}, TASK_DISP=#{taskDisp,jdbcType=VARCHAR}
+        SET TASK_STATUS=#{taskStatus,jdbcType=BIGINT}
         WHERE TASK_NAME = #{taskName,jdbcType=VARCHAR}
     </update>
 

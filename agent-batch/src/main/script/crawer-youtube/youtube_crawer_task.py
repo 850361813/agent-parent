@@ -10,9 +10,9 @@ import sys
 
 
 from dao import youtube_info_dao
-from localhttp import http_fetcher
+from localhttp import fetcher
 from youtube import config
-from youtube.youtube_info import web_info
+from youtube.youtube_info import WebInfo
 from common import log_config
 
 
@@ -73,7 +73,7 @@ def handle_single_url(url):
     """
     begin = time.time() * 1000
     print ('begin processing url:' + url)
-    soup = http_fetcher.get_soup(url)
+    soup = fetcher.get_soup(url)
     now = time.time() * 1000
     print ('time spends: ' + str(now - begin) + 'ms for processing url:' + url)
     return soup
@@ -93,10 +93,7 @@ if __name__ == '__main__':
         key_words = sys.argv[1]
     log_config.logger().info("param set, keyword:" + key_words + "daily_fetch_page:" + str(daily_fetch_page))
     home_url=system_config.get('home_url')
-    lastest_web_info = youtube_info_dao.select_lastest_base_info(key_words, db_config)
     start_page = 1
-    if lastest_web_info.page_num is not None:
-        start_page = lastest_web_info.page_num
 
     now = datetime.datetime.now()
 
@@ -106,18 +103,15 @@ if __name__ == '__main__':
         quoto_key_words = urllib2.quote(key_words, ':?=/')
         query_url = home_url + '/results?search_query=' + quoto_key_words
         soup = handle_single_url(query_url)
-    else:
-        soup = handle_single_url(lastest_web_info.url)
 
     for i in range(start_page-1, daily_fetch_page + start_page):
         log_config.logger().info('begin craw page : ' + str(i))
         request_url=get_next_page_website(soup)
         if request_url=='' or request_url is None:
             log_config.logger().info('关键字：' + key_words + '抓取完成')
-            youtube_info_dao.update_base_info(1, key_words, db_config)
             sys.exit(0)
         soup = handle_single_url(request_url)
-        info = web_info()
+        info = WebInfo()
         info.key_word = key_words
         info.url=request_url
         info.page_num=i+1

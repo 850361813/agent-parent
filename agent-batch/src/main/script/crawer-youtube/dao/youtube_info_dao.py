@@ -1,32 +1,32 @@
 # -*- coding: utf-8 -*-
 import mysql.connector
 
-from youtube.youtube_info import web_info
+from common import log_config
 
 
 def insert_base_info(web_info, config):
-    info_hash = web_info.info_hash
-    data_size = select_base_info(info_hash, config)
-    if data_size > 0:
-        delete_base_info(info_hash, config)
-    default_int = '0'
-    default_str = ''
+    video_id = web_info.video_id
+    if is_video_exist(video_id, config):
+        log_config.logger().info('video: ' + video_id + 'already exist.')
+        return
+
     sql = '''INSERT INTO BASE_INFO 
-           (KEY_WORD, PAGE_NUM, URL, VIDEO_LINKS, PUBLISH_STATUS,CRAW_STATUS,
-           COLLECT_TIME,PUBLISH_TIME, CREATE_TIME, UPDATE_TIME,INFO_HASH) 
+           (KEY_WORD, PAGE_NUM, PAGE_URL, INPUT_URL, INPUT_TAG, VIDEO_LINKS,VALID,VIDEO_ID,CRAW_STATUS,
+           COLLECT_TIME, CREATE_TIME, UPDATE_TIME) 
            VALUES (
-           %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
+           %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
     param = (web_info.key_word,
              web_info.page_num,
-             web_info.url,
+             web_info.page_url,
+             web_info.input_url,
+             web_info.input_tag,
              web_info.video_links,
-             web_info.publish_status,
-             1,
+             web_info.valid,
+             web_info.video_id,
+             web_info.craw_status,
              web_info.collect_time,
-             web_info.publish_time,
              web_info.create_time,
              web_info.update_time,
-             web_info.info_hash
              )
     cnx = mysql.connector.connect(**config)
     cur = cnx.cursor()
@@ -34,51 +34,27 @@ def insert_base_info(web_info, config):
     # Insert
     cur.execute(sql, param)
     cnx.commit()
-    print ('insert data success, title:' + web_info.key_word +'--'+ str(web_info.page_num))
+    print ('insert data success, video id:' + web_info.video_id + 'input url: ' + str(web_info.input_url))
 
 
-def delete_base_info(info_hash, config):
-    sql = "DELETE FROM BASE_INFO where INFO_HASH='%s'" % (info_hash)
-    cnx = mysql.connector.connect(**config)
-    cur = cnx.cursor()
-    cur.execute(sql)
-    cnx.commit()
-    print ('delete data success, info_hash:' + info_hash)
-
-
-def select_base_info(info_hash, config):
-    sql = "SELECT KEY_WORD, PAGE_NUM, URL, VIDEO_LINKS, " \
-          "PUBLISH_STATUS,COLLECT_TIME,PUBLISH_TIME, CREATE_TIME, UPDATE_TIME,INFO_HASH FROM BASE_INFO where INFO_HASH= '%s'" % (info_hash)
+def is_video_exist(video_id, config):
+    sql = "SELECT VIDEO_ID FROM BASE_INFO where VIDEO_ID= '%s'" % (video_id)
     cnx = mysql.connector.connect(**config)
     cur = cnx.cursor()
     cur.execute(sql)
     data_size = len(cur.fetchall())
     cnx.commit()
-    return data_size
+    if data_size > 0:
+        return True
+
+    return False
 
 
-def select_lastest_base_info(key_word, config):
-    lastest_base_info = web_info()
-    sql = "SELECT KEY_WORD, PAGE_NUM, URL, VIDEO_LINKS,CRAW_STATUS,INFO_HASH FROM BASE_INFO where KEY_WORD= '%s' order by PAGE_NUM desc limit 1" % (key_word)
-    cnx = mysql.connector.connect(**config)
-    cur = cnx.cursor()
-    cur.execute(sql)
-    result = cur.fetchone()
-    cnx.commit()
-    if result is None:
-        pass
-    else:
-        data = list(result)
-        lastest_base_info.key_word = data[0].encode("UTF-8")
-        lastest_base_info.page_num = data[1]
-        lastest_base_info.url = data[2].encode("UTF-8")
-        lastest_base_info.craw_status = data[4]
-    return lastest_base_info
+def update_task_info(status, config):
+    task_name = 'craw'
+    sql = "UPDATE TASK_INFO SET TASK_STATUS=%s WHERE TASK_NAME='%s'"\
+          % (status, task_name)
 
-
-def update_base_info(craw_status, key_word, config):
-    sql = "UPDATE BASE_INFO SET CRAW_STATUS=%s, WHERE KEY_WORD='%s'"\
-          % (craw_status, key_word)
     cnx = mysql.connector.connect(**config)
     cur = cnx.cursor()
     cur.execute(sql)

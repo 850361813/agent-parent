@@ -5,15 +5,17 @@
         <id column="ID" property="id" jdbcType="BIGINT"/>
         <result column="KEY_WORD" property="keyWord" jdbcType="VARCHAR"/>
         <result column="PAGE_NUM" property="pageNum" jdbcType="INTEGER"/>
-        <result column="URL" property="url" jdbcType="VARCHAR"/>
+        <result column="PAGE_URL" property="pageNum" jdbcType="INTEGER"/>
+        <result column="INPUT_URL" property="inputUrl" jdbcType="VARCHAR"/>
+        <result column="INPUT_TAG" property="inputTag" jdbcType="VARCHAR"/>
         <result column="VIDEO_LINKS" property="videoLinks" jdbcType="VARCHAR"/>
         <result column="VALID" property="valid" jdbcType="INTEGER"/>
-        <result column="PUBLISH_STATUS" property="publishStatus" jdbcType="INTEGER"/>
         <result column="COLLECT_TIME" property="collectTime" jdbcType="TIMESTAMP"/>
         <result column="PUBLISH_TIME" property="publishTime" jdbcType="TIMESTAMP"/>
         <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP"/>
         <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP"/>
-        <result column="INFO_HASH" property="infoHash" jdbcType="VARCHAR"/>
+        <result column="PUBLISH_STATUS" property="publishStatus" jdbcType="INTEGER"/>
+        <result column="VIDEO_ID" property="videoId" jdbcType="VARCHAR"/>
         <result column="FETCH_STATUS" property="fetchStatus" jdbcType="INTEGER"/>
         <result column="CRAW_STATUS" property="crawStatus" jdbcType="INTEGER"/>
         <result column="VIDEO_TITLE" property="videoTitle" jdbcType="VARCHAR"/>
@@ -23,20 +25,21 @@
     </resultMap>
 
     <sql id="Base_Column_List">
-        ID, KEY_WORD, PAGE_NUM, URL, VIDEO_LINKS, VALID, PUBLISH_STATUS, COLLECT_TIME, PUBLISH_TIME,
-        CREATE_TIME, UPDATE_TIME, INFO_HASH, FETCH_STATUS,CRAW_STATUS,VIDEO_TITLE,VIDEO_INFO,VIDEO_ITEM_ID,POST_STATUS
+        ID, KEY_WORD, PAGE_NUM, INPUT_URL,INPUT_TAG, VIDEO_LINKS, VALID, COLLECT_TIME, PUBLISH_TIME,
+        CREATE_TIME, UPDATE_TIME,PUBLISH_STATUS, VIDEO_ID,
+        FETCH_STATUS,CRAW_STATUS,VIDEO_TITLE,VIDEO_INFO,VIDEO_ITEM_ID,POST_STATUS
     </sql>
 
-    <select id="selectByKeyWord" resultMap="BaseResultMap">
+    <select id="selectByTag" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List"/>
-        FROM BASE_INFO WHERE KEY_WORD=#{keyWord,jdbcType=VARCHAR}
+        FROM BASE_INFO WHERE INPUT_TAG=#{inputTag,jdbcType=VARCHAR}
     </select>
 
-    <select id="selectNotPublishedByKeyWord" resultMap="BaseResultMap">
+    <select id="selectNotPublishedByInputTag" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List"/>
-        FROM BASE_INFO WHERE KEY_WORD=#{keyWord,jdbcType=VARCHAR} AND PUBLISH_STATUS!=1
+        FROM BASE_INFO WHERE INPUT_TAG=#{inputTag,jdbcType=VARCHAR} AND PUBLISH_STATUS!=1
     </select>
 
     <select id="selectById" resultMap="BaseResultMap">
@@ -73,13 +76,19 @@
     <select id="selectCrawNumber" resultType="long">
         select
         count(1)
-        FROM BASE_INFO WHERE KEY_WORD=#{keyWord,jdbcType=VARCHAR} AND CRAW_STATUS=1
+        FROM BASE_INFO WHERE INPUT_TAG=#{inputTag,jdbcType=VARCHAR} AND CRAW_STATUS=1
     </select>
 
     <select id="selectPublishNumber" resultType="long">
         select
         count(1)
-        FROM BASE_INFO WHERE KEY_WORD=#{keyWord,jdbcType=VARCHAR} AND PUBLISH_STATUS=1
+        FROM BASE_INFO WHERE INPUT_TAG=#{inputTag,jdbcType=VARCHAR} AND PUBLISH_STATUS=1
+    </select>
+
+    <select id="selectAllTags" resultType="String">
+        select
+        DISTINCT INPUT_TAG
+        FROM BASE_INFO
     </select>
 
 </mapper>

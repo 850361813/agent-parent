@@ -18,6 +18,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 @Service
 public class PublishService implements Runnable {
@@ -44,29 +45,34 @@ public class PublishService implements Runnable {
 
     public void publish() {
 
-        taskInfoDao.updateTaskInfo(1, "运行中", "publish");
+        taskInfoDao.updateTaskInfo(1, "publish");
 
-        List<BaseInfo> list = baseInfoDao.selectByKeyWord(configKeyWord);
+        List<BaseInfo> list = baseInfoDao.selectByTag(configKeyWord);
 
         if (CollectionUtils.isEmpty(list)) {
             logger.info("未找到抓取记录");
             return;
         }
 
-        List<BaseInfo> limitList = list.subList(0, numberPerDay + 1);
+        if (list.size() > numberPerDay) {
+            list = list.subList(0, numberPerDay + 1);
+        }
 
-        for (BaseInfo baseInfo : limitList) {
+        for (BaseInfo baseInfo : list) {
             if (baseInfo.getFetchStatus() == 0) {
                 fetch(baseInfo);
+                sleepForRandomSecond();
             }
             if (baseInfo.getPostStatus() == 0) {
                 post(baseInfo);
+                sleepForRandomSecond();
             }
             if (baseInfo.getPublishStatus() == 0) {
                 doPublish(baseInfo);
+                sleepForRandomSecond();
             }
         }
-        taskInfoDao.updateTaskInfo(0, "未运行", "publish");
+        taskInfoDao.updateTaskInfo(0, "publish");
     }
 
     public BaseInfo fetch(BaseInfo baseInfo) {
@@ -106,7 +112,7 @@ public class PublishService implements Runnable {
             return baseInfoList;
         }
 
-        baseInfoList = baseInfoDao.selectByKeyWord(keyWord);
+        baseInfoList = baseInfoDao.selectByTag(keyWord);
 
         if (CollectionUtils.isEmpty(baseInfoList)) {
             logger.warn("未找到符合的抓取记录");
@@ -216,5 +222,16 @@ public class PublishService implements Runnable {
 
     public void setConfigKeyWord(String configKeyWord) {
         this.configKeyWord = configKeyWord;
+    }
+
+    public void sleepForRandomSecond() {
+        Random rand = new Random();
+        try {
+            int time = rand.nextInt(70) + 20;
+            logger.info("sleep for : " + String.valueOf(time));
+            Thread.sleep(time);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

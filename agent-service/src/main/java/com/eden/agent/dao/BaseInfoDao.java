@@ -10,10 +10,11 @@ import java.util.List;
 @Repository
 @Transactional
 public interface BaseInfoDao {
-    List<BaseInfo> selectByKeyWord(@Param("keyWord") String keyWord);
-    List<BaseInfo> selectNotPublishedByKeyWord(@Param("keyWord") String keyWord);
+    List<BaseInfo> selectByTag(@Param("inputTag") String inputTag);
+    List<BaseInfo> selectNotPublishedByInputTag(@Param("inputTag") String inputTag);
     BaseInfo selectById(@Param("id") long id);
     void update(@Param("baseInfo") BaseInfo baseInfo);
-    long selectCrawNumber(@Param("keyWord") String keyWord);
-    long selectPublishNumber(@Param("keyWord") String keyWord);
+    long selectCrawNumber(@Param("inputTag") String inputTag);
+    long selectPublishNumber(@Param("inputTag") String inputTag);
+    List<String> selectAllTags();
 }

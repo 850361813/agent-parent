@@ -35,7 +35,7 @@ public class CollectService implements Runnable {
 
     public void collect() {
 
-        taskInfoDao.updateTaskInfo(1, "运行中", "craw");
+        taskInfoDao.updateTaskInfo(1, "craw");
 
 
         logger.info("begin collect key word : " + configKeyWord + "page num:" + numberPerDay);
@@ -50,7 +50,7 @@ public class CollectService implements Runnable {
         } catch (Exception e) {
             logger.error("crawer execute exception", e);
         }
-        taskInfoDao.updateTaskInfo(0, "未运行", "craw");
+        taskInfoDao.updateTaskInfo(0, "craw");
 
         logger.info("finished collect key word : " + configKeyWord);
 

@@ -6,17 +6,19 @@ public class BaseInfo {
     private long id;
     private String keyWord;
     private int pageNum;
-    private String url;
+    private String pageUrl;
+    private String inputUrl;
+    private String inputTag;
     private String videoLinks;
     private int valid;
-    private int publishStatus;
     private Timestamp collectTime;
     private Timestamp publishTime;
     private Timestamp createTime;
     private Timestamp updateTime;
-    private String infoHash;
-    private int fetchStatus;
+    private String videoId;
     private int crawStatus;
+    private int fetchStatus;
+    private int publishStatus;
     private String videoTitle;
     private String videoInfo;
     private String videoItemId;
@@ -46,12 +48,28 @@ public class BaseInfo {
         this.pageNum = pageNum;
     }
 
-    public String getUrl() {
-        return url;
+    public String getPageUrl() {
+        return pageUrl;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public void setPageUrl(String pageUrl) {
+        this.pageUrl = pageUrl;
+    }
+
+    public String getInputUrl() {
+        return inputUrl;
+    }
+
+    public void setInputUrl(String inputUrl) {
+        this.inputUrl = inputUrl;
+    }
+
+    public String getInputTag() {
+        return inputTag;
+    }
+
+    public void setInputTag(String inputTag) {
+        this.inputTag = inputTag;
     }
 
     public String getVideoLinks() {
@@ -68,14 +86,6 @@ public class BaseInfo {
 
     public void setValid(int valid) {
         this.valid = valid;
-    }
-
-    public int getPublishStatus() {
-        return publishStatus;
-    }
-
-    public void setPublishStatus(int publishStatus) {
-        this.publishStatus = publishStatus;
     }
 
     public Timestamp getCollectTime() {
@@ -110,12 +120,20 @@ public class BaseInfo {
         this.updateTime = updateTime;
     }
 
-    public String getInfoHash() {
-        return infoHash;
+    public String getVideoId() {
+        return videoId;
     }
 
-    public void setInfoHash(String infoHash) {
-        this.infoHash = infoHash;
+    public void setVideoId(String videoId) {
+        this.videoId = videoId;
+    }
+
+    public int getCrawStatus() {
+        return crawStatus;
+    }
+
+    public void setCrawStatus(int crawStatus) {
+        this.crawStatus = crawStatus;
     }
 
     public int getFetchStatus() {
@@ -126,12 +144,12 @@ public class BaseInfo {
         this.fetchStatus = fetchStatus;
     }
 
-    public int getCrawStatus() {
-        return crawStatus;
+    public int getPublishStatus() {
+        return publishStatus;
     }
 
-    public void setCrawStatus(int crawStatus) {
-        this.crawStatus = crawStatus;
+    public void setPublishStatus(int publishStatus) {
+        this.publishStatus = publishStatus;
     }
 
     public String getVideoTitle() {

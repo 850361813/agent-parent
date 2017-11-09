@@ -14,7 +14,7 @@ public class BaseInfoService {
     private BaseInfoDao baseInfoDao;
 
     public List<BaseInfo> selectByKeyWord(String keyWord) {
-        return baseInfoDao.selectByKeyWord(keyWord);
+        return baseInfoDao.selectByTag(keyWord);
     }
 
     public BaseInfo selectById(long id) {

@@ -4,7 +4,6 @@ public class TaskInfo {
     private long id;
     private String taskName;
     private int taskStatus;
-    private String taskDisp;
 
     public long getId() {
         return id;
@@ -28,13 +27,5 @@ public class TaskInfo {
 
     public void setTaskStatus(int taskStatus) {
         this.taskStatus = taskStatus;
-    }
-
-    public String getTaskDisp() {
-        return taskDisp;
-    }
-
-    public void setTaskDisp(String taskDisp) {
-        this.taskDisp = taskDisp;
     }
 }

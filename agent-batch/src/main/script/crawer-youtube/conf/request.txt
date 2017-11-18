@@ -1,1 +1,3 @@
-Discovery,https://www.youtube.com/user/DiscoveryNetworks/videos
+Laurbubble,https://www.youtube.com/user/Laurbubble
+EEntertainment,https://www.youtube.com/user/EEntertainment
+theneedledrop,https://www.youtube.com/user/theneedledrop

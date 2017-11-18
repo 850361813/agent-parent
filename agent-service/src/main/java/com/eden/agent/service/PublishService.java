@@ -31,6 +31,10 @@ public class PublishService implements Runnable {
     private String configKeyWord;
     @Value("${web.publish.number.perDay}")
     private Integer numberPerDay;
+    @Value("${web.publish.sleep.min.time}")
+    private Integer minSleepTime;
+    @Value("${web.publish.sleep.max.time}")
+    private Integer maxSleepTime;
 
     @Autowired
     private BaseInfoDao baseInfoDao;
@@ -47,7 +51,7 @@ public class PublishService implements Runnable {
 
         taskInfoDao.updateTaskInfo(1, "publish");
 
-        List<BaseInfo> list = baseInfoDao.selectByTag(configKeyWord);
+        List<BaseInfo> list = baseInfoDao.selectNotPublishedByInputTag(configKeyWord);
 
         if (CollectionUtils.isEmpty(list)) {
             logger.info("未找到抓取记录");
@@ -227,9 +231,9 @@ public class PublishService implements Runnable {
     public void sleepForRandomSecond() {
         Random rand = new Random();
         try {
-            int time = rand.nextInt(70) + 20;
+            int time = rand.nextInt(maxSleepTime - minSleepTime) + minSleepTime;
             logger.info("sleep for : " + String.valueOf(time));
-            Thread.sleep(time);
+            Thread.sleep(time * 1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

@@ -242,7 +242,7 @@ class FabricCache(object):
                     group_name, servers))
 
     def sharding_search(self, database, table):
-        """Search cache for a shard based on database and table"""
+        """SearchApi cache for a shard based on database and table"""
         entry_hash = CacheShardTable.hash_index(database, table)
 
         entry = None
@@ -259,7 +259,7 @@ class FabricCache(object):
         return entry
 
     def group_search(self, group_name):
-        """Search cache for a group based on its name"""
+        """SearchApi cache for a group based on its name"""
         entry_hash = CacheGroup.hash_index(group_name)
 
         entry = None

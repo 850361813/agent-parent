@@ -27,16 +27,16 @@ import java.util.Map;
 public class DefaultHttpService implements HttpService {
 
     @Override
-    public String get(String url, Map<String, String> paramMap, Map<String, String> header) {
+    public String get(String url, Map<String, Object> urlParams, Map<String, String> headers) {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         String responseBody = "";
         CloseableHttpResponse response = null;
 
         try {
-            if (paramMap != null) {
+            if (urlParams != null) {
                 List<NameValuePair> params = Lists.newArrayList();
-                for (String key : paramMap.keySet()) {
-                    params.add(new BasicNameValuePair(key, paramMap.get(key)));
+                for (String key : urlParams.keySet()) {
+                    params.add(new BasicNameValuePair(key, (String) urlParams.get(key)));
                 }
                 String str = EntityUtils.toString(new UrlEncodedFormEntity(params, Consts.UTF_8));
                 url = url + "?" + str;
@@ -44,9 +44,9 @@ public class DefaultHttpService implements HttpService {
 
             HttpGet httpGet = new HttpGet(url);
 
-            if (header != null) {
-                for (String key : header.keySet()) {
-                    httpGet.addHeader(key, header.get(key));
+            if (headers != null) {
+                for (String key : headers.keySet()) {
+                    httpGet.addHeader(key, headers.get(key));
                 }
             }
 
@@ -69,8 +69,8 @@ public class DefaultHttpService implements HttpService {
     }
 
     @Override
-    public String get(String url, Map<String, String> paramMap) {
-        return get(url, paramMap, null);
+    public String get(String url, Map<String, Object> urlParams) {
+        return get(url, urlParams, null);
     }
 
     @Override
@@ -79,17 +79,12 @@ public class DefaultHttpService implements HttpService {
     }
 
     @Override
-    public String getHtml(String url) {
-        return null;
+    public String post(String url, Map<String, Object> formParams) {
+        return post(url, formParams, null);
     }
 
     @Override
-    public String post(String url, Map<String, String> paramMap) {
-        return post(url, paramMap, null);
-    }
-
-    @Override
-    public String post(String url, Map<String, String> paramMap, Map<String, String> header) {
+    public String post(String url, Map<String, Object> formParams, Map<String, String> headers) {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         String responseBody = "";
 
@@ -97,19 +92,19 @@ public class DefaultHttpService implements HttpService {
 
         HttpPost httpPost = new HttpPost(url);
 
-        if (header != null) {
-            for (String key : header.keySet()) {
-                httpPost.addHeader(key, header.get(key));
+        if (headers != null) {
+            for (String key : headers.keySet()) {
+                httpPost.addHeader(key, headers.get(key));
             }
         }
 
         try {
-            if (paramMap != null) {
+            if (formParams != null) {
                 MultipartEntityBuilder multipartEntityBuilder = MultipartEntityBuilder.create()
                         .setMode(HttpMultipartMode.BROWSER_COMPATIBLE);
                 ContentType contentType = ContentType.create(HTTP.PLAIN_TEXT_TYPE, HTTP.UTF_8);
-                for (String key : paramMap.keySet()) {
-                    multipartEntityBuilder.addPart(key, new StringBody(paramMap.get(key), contentType));
+                for (String key : formParams.keySet()) {
+                    multipartEntityBuilder.addPart(key, new StringBody((String) formParams.get(key), contentType));
                 }
                 httpPost.setEntity(multipartEntityBuilder.build());
             }
@@ -130,5 +125,10 @@ public class DefaultHttpService implements HttpService {
             }
         }
         return responseBody;
+    }
+
+    @Override
+    public String post(String url, String json, Map<String, String> headers) {
+        return null;
     }
 }

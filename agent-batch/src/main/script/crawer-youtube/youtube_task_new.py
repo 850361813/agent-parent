@@ -13,6 +13,7 @@ from youtube.youtube_info import WebInfo
 def craw_task(input_tag, input_url):
     video_list = []
     soup = fetcher.get_soup(input_url)
+    print (soup.prettify())
     video_detail_list = soup.find_all("h3", attrs={'class': 'yt-lockup-title '})
     if video_detail_list is not None:
         for video_detail in video_detail_list:

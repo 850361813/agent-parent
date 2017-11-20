@@ -1,7 +1,7 @@
 package com.eden.agent.service;
 
+import com.alibaba.fastjson.JSON;
 import com.eden.agent.common.http.DefaultHttpService;
-import com.eden.agent.common.util.JSONObjectUtils;
 import com.eden.agent.dao.BaseInfoDao;
 import com.eden.agent.dao.TaskInfoDao;
 import com.eden.agent.domain.BaseInfo;
@@ -9,7 +9,6 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -89,13 +88,12 @@ public class PublishService implements Runnable {
 
         logger.info("fetch: " + baseInfo.getVideoLinks());
         DefaultHttpService httpService = new DefaultHttpService();
-        Map<String, String> paramsMap = Maps.newHashMap();
+        Map<String, Object> paramsMap = Maps.newHashMap();
         paramsMap.put("video_url", baseInfo.getVideoLinks());
         String json = httpService.get(url, paramsMap, headerMap);
         logger.info("fetch response:" + json);
-        JSONObject data = JSONObjectUtils.getJsonObject(JSONObjectUtils.getJsonObject(json), "data");
-        data = JSONObjectUtils.append(data, "video_file_type", "video");
-        String videoTitle = JSONObjectUtils.getString(data, "video_title");
+        com.alibaba.fastjson.JSONObject data = JSON.parseObject(json).getJSONObject("data").fluentPut("video_file_type", "video");
+        String videoTitle = data.getString("video_title");
         System.out.println("video title: " + videoTitle);
         baseInfo.setVideoInfo(data.toString());
         baseInfo.setVideoTitle(videoTitle);
@@ -145,7 +143,7 @@ public class PublishService implements Runnable {
         logger.info("post begin : video title:" + baseInfo.getVideoTitle());
         DefaultHttpService httpService = new DefaultHttpService();
         String url = "https://topbuzz.com/pgc/article/publish/post";
-        Map<String, String> paramsMap = Maps.newHashMap();
+        Map<String, Object> paramsMap = Maps.newHashMap();
         paramsMap.put("item_id", "");
         paramsMap.put("publish", "0");
         paramsMap.put("article_type", "1");
@@ -170,8 +168,7 @@ public class PublishService implements Runnable {
 
         String json = httpService.post(url, paramsMap, headerMap);
         System.out.println("post response: " + json);
-        JSONObject data = JSONObjectUtils.getJsonObject(JSONObjectUtils.getJsonObject(json), "data");
-        String itemId = JSONObjectUtils.getString(data, "item_id");
+        String itemId = JSON.parseObject(json).getJSONObject("data").getString("item_id");
         baseInfo.setVideoItemId(itemId);
         baseInfo.setPostStatus(1);
         baseInfoDao.update(baseInfo);
@@ -196,7 +193,7 @@ public class PublishService implements Runnable {
         logger.info("publish begin : video title:" + baseInfo.getVideoTitle());
         DefaultHttpService httpService = new DefaultHttpService();
         String url = "https://topbuzz.com/pgc/article/publish/post";
-        Map<String, String> paramsMap = Maps.newHashMap();
+        Map<String, Object> paramsMap = Maps.newHashMap();
         paramsMap.put("item_id", baseInfo.getVideoItemId());
         paramsMap.put("publish", "1");
         paramsMap.put("article_type", "1");

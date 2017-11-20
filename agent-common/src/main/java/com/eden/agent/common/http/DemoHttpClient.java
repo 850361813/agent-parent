@@ -36,7 +36,7 @@ public class DemoHttpClient {
         paramMap.put("main.json", "");
 
         DefaultHttpService defaultHttpService = new DefaultHttpService();
-        String result = defaultHttpService.post(baseUrl + getRealTime, null, headerMap);
+        String result = defaultHttpService.post(baseUrl + getRealTime, Maps.newHashMap(), headerMap);
         System.out.println(result);
     }
 }

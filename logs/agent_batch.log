@@ -1,34 +1,104 @@
-2017-11-03 10:02:40,846 [main] INFO  com.eden.agent.batch.launcher.Launcher 20 - Launcher app start
-2017-11-03 10:02:43,837 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
-2017-11-03 10:02:43,875 [main] INFO  com.eden.agent.service.CollectService 45 - begin collect key word : chinapage num:10
-2017-11-03 10:02:43,875 [main] INFO  com.eden.agent.service.CollectService 49 - execute python script : python  /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube/youtube_crawer_task.py china 10
-2017-11-03 10:03:05,976 [main] INFO  com.eden.agent.service.CollectService 59 - finished collect key word : china
-2017-11-03 10:04:52,216 [main] INFO  com.eden.agent.batch.launcher.Launcher 20 - Launcher app start
-2017-11-03 10:04:56,634 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
-2017-11-03 10:04:56,673 [main] INFO  com.eden.agent.service.CollectService 45 - begin collect key word : chinapage num:10
-2017-11-03 10:04:56,674 [main] INFO  com.eden.agent.service.CollectService 49 - execute python script : python  /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube/youtube_crawer_task.py china 10
-2017-11-03 10:05:14,358 [main] INFO  com.eden.agent.service.CollectService 59 - finished collect key word : china
-2017-11-03 11:11:23,065 [main] INFO  com.eden.agent.batch.launcher.Launcher 20 - Launcher app start
-2017-11-03 11:11:39,771 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
-2017-11-03 11:11:43,253 [main] INFO  com.eden.agent.service.CollectService 45 - begin collect key word : chinapage num:10
-2017-11-03 11:11:46,451 [main] INFO  com.eden.agent.service.CollectService 49 - execute python script : python  /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube/youtube_crawer_task.py china 10
-2017-11-03 11:14:08,046 [main] INFO  com.eden.agent.service.CollectService 59 - finished collect key word : china
-2017-11-03 11:14:37,610 [main] INFO  com.eden.agent.batch.launcher.Launcher 20 - Launcher app start
-2017-11-03 11:14:40,676 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
-2017-11-03 11:14:40,769 [main] INFO  com.eden.agent.service.CollectService 45 - begin collect key word : chinapage num:10
-2017-11-03 11:14:40,769 [main] INFO  com.eden.agent.service.CollectService 49 - execute python script : python  /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube/youtube_crawer_task.py china 10
-2017-11-03 11:15:12,804 [main] INFO  com.eden.agent.service.CollectService 59 - finished collect key word : china
-2017-11-03 11:16:33,243 [main] INFO  com.eden.agent.batch.launcher.Launcher 20 - Launcher app start
-2017-11-03 11:16:36,132 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
-2017-11-03 11:16:36,193 [main] INFO  com.eden.agent.service.CollectService 45 - begin collect key word : chinapage num:10
-2017-11-03 11:16:36,193 [main] INFO  com.eden.agent.service.CollectService 49 - execute python script : python  /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube/youtube_crawer_task.py china 10
-2017-11-03 11:17:00,871 [main] INFO  com.eden.agent.service.CollectService 59 - finished collect key word : china
-2017-11-03 11:19:59,105 [main] INFO  com.eden.agent.batch.launcher.Launcher 20 - Launcher app start
-2017-11-03 11:20:02,136 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
-2017-11-03 11:20:02,250 [main] INFO  com.eden.agent.service.CollectService 45 - begin collect key word : chinapage num:10
-2017-11-03 11:20:02,250 [main] INFO  com.eden.agent.service.CollectService 49 - execute python script : python  /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube/youtube_crawer_task.py china 10
-2017-11-03 11:20:49,310 [main] INFO  com.eden.agent.service.CollectService 59 - finished collect key word : china
-2017-11-03 11:23:59,907 [main] INFO  com.eden.agent.batch.launcher.Launcher 20 - Launcher app start
-2017-11-03 11:24:02,874 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
-2017-11-03 11:24:02,943 [main] INFO  com.eden.agent.service.CollectService 45 - begin collect key word : chinapage num:10
-2017-11-03 11:24:02,944 [main] INFO  com.eden.agent.service.CollectService 49 - execute python script : python  /Users/baidu/IdeaProjects/agent-parent/agent-batch/src/main/script/crawer-youtube/youtube_crawer_task.py china 10
+2017-11-20 23:39:10,606 [main] INFO  com.eden.agent.batch.launcher.Launcher 20 - Launcher app start
+2017-11-20 23:41:20,002 [main] INFO  com.eden.agent.batch.launcher.Launcher 20 - Launcher app start
+2017-11-20 23:43:50,399 [main] INFO  com.eden.agent.batch.launcher.Launcher 20 - Launcher app start
+2017-11-20 23:44:13,831 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: _qDz7kvgkV8
+2017-11-20 23:44:13,832 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 4suCTWVZKe8
+2017-11-20 23:44:13,832 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 4H9UToVwpe0
+2017-11-20 23:44:13,832 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 4Fqc-oZaasc
+2017-11-20 23:44:13,832 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 1470ygXZpeg
+2017-11-20 23:44:13,832 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: iKBTM-qu5Ik
+2017-11-20 23:44:13,833 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: a5HORxyrsZE
+2017-11-20 23:44:13,833 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: jOOW-l1BN6E
+2017-11-20 23:44:13,833 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: _dlFZ7lQJGc
+2017-11-20 23:44:13,833 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: ZweO6t4l_Kk
+2017-11-20 23:44:13,833 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: XOacA3RYrXk
+2017-11-20 23:44:13,833 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: U0Ba8o-tzBE
+2017-11-20 23:44:13,834 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: k9A3O-Kc_PQ
+2017-11-20 23:44:13,834 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 0jZMNH_C0GE
+2017-11-20 23:44:13,834 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: srbUOei0bVI
+2017-11-20 23:44:13,834 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: sovbznxBQoQ
+2017-11-20 23:44:13,834 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: cKguj85-lcc
+2017-11-20 23:44:13,834 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: vnIqGYzHcV8
+2017-11-20 23:44:13,834 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: ePH8uinE7bg
+2017-11-20 23:44:13,834 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: Xqk3oUcxbKM
+2017-11-20 23:44:13,834 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: ETQ3XBWgluA
+2017-11-20 23:44:13,835 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: eipEzacWHgA
+2017-11-20 23:44:13,835 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: gSOXnYnsgY8
+2017-11-20 23:44:13,835 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: LWG3H6U279E
+2017-11-20 23:44:13,835 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: X5XiyoFS2Jo
+2017-11-20 23:44:13,835 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: fjmXycfhwds
+2017-11-20 23:44:13,835 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: D9ascrSiyu0
+2017-11-20 23:44:13,836 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 9j5F3akm2j8
+2017-11-20 23:44:13,836 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: LNT4xsiO25I
+2017-11-20 23:44:13,836 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: x65vIzqU1aw
+2017-11-20 23:44:13,836 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: -ViyjCYsy1w
+2017-11-20 23:44:13,836 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 3ZUPSobwugQ
+2017-11-20 23:44:13,836 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 1Nk70nAba5E
+2017-11-20 23:44:13,837 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: c3JciwRHNrg
+2017-11-20 23:44:13,837 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: eU-tfg4okLw
+2017-11-20 23:44:13,837 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: v_lkQ7MXbwo
+2017-11-20 23:44:13,837 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: Ld0YbuiXZE4
+2017-11-20 23:44:13,837 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: iqKAix5x-DM
+2017-11-20 23:44:13,838 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: _s9bjw37R1Y
+2017-11-20 23:44:13,838 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 8afZ2oTQ6iE
+2017-11-20 23:44:13,838 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: -gGcJShW5Jg
+2017-11-20 23:44:13,838 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: PD1kDYq5l64
+2017-11-20 23:44:13,838 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: PxLd7j69304
+2017-11-20 23:44:13,839 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: ZxQAobPllos
+2017-11-20 23:44:13,839 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: wklTprIaI3A
+2017-11-20 23:44:13,839 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: HsQVtnIrzvE
+2017-11-20 23:44:13,839 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: c7BhQHo05wI
+2017-11-20 23:44:13,839 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: ZJrjL7JFVi8
+2017-11-20 23:44:13,839 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: A1BBDMjZHBY
+2017-11-20 23:44:13,839 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: K9oFsGd3HuU
+2017-11-20 23:44:30,901 [main] INFO  com.eden.agent.batch.launcher.Launcher 20 - Launcher app start
+2017-11-20 23:44:41,737 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: _qDz7kvgkV8
+2017-11-20 23:44:41,737 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 4suCTWVZKe8
+2017-11-20 23:44:41,738 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 4H9UToVwpe0
+2017-11-20 23:44:41,738 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 4Fqc-oZaasc
+2017-11-20 23:44:41,738 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 1470ygXZpeg
+2017-11-20 23:44:41,738 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: iKBTM-qu5Ik
+2017-11-20 23:44:41,738 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: a5HORxyrsZE
+2017-11-20 23:44:41,738 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: jOOW-l1BN6E
+2017-11-20 23:44:41,738 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: _dlFZ7lQJGc
+2017-11-20 23:44:41,738 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: ZweO6t4l_Kk
+2017-11-20 23:44:41,738 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: XOacA3RYrXk
+2017-11-20 23:44:41,739 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: U0Ba8o-tzBE
+2017-11-20 23:44:41,739 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: k9A3O-Kc_PQ
+2017-11-20 23:44:41,739 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 0jZMNH_C0GE
+2017-11-20 23:44:41,739 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: Q11GPMvTxQE
+2017-11-20 23:44:41,739 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: srbUOei0bVI
+2017-11-20 23:44:41,739 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: sovbznxBQoQ
+2017-11-20 23:44:41,739 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: cKguj85-lcc
+2017-11-20 23:44:41,739 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: vnIqGYzHcV8
+2017-11-20 23:44:41,739 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: ePH8uinE7bg
+2017-11-20 23:44:41,740 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: Xqk3oUcxbKM
+2017-11-20 23:44:41,740 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: ETQ3XBWgluA
+2017-11-20 23:44:41,740 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: gSOXnYnsgY8
+2017-11-20 23:44:41,740 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: eipEzacWHgA
+2017-11-20 23:44:41,740 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: LWG3H6U279E
+2017-11-20 23:44:41,740 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: X5XiyoFS2Jo
+2017-11-20 23:44:41,740 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: fjmXycfhwds
+2017-11-20 23:44:41,740 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: D9ascrSiyu0
+2017-11-20 23:44:41,740 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 9j5F3akm2j8
+2017-11-20 23:44:41,740 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: LNT4xsiO25I
+2017-11-20 23:44:41,740 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: x65vIzqU1aw
+2017-11-20 23:44:41,741 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: -ViyjCYsy1w
+2017-11-20 23:44:41,741 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 3ZUPSobwugQ
+2017-11-20 23:44:41,741 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 1Nk70nAba5E
+2017-11-20 23:44:41,741 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: c3JciwRHNrg
+2017-11-20 23:44:41,741 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: eU-tfg4okLw
+2017-11-20 23:44:41,741 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: v_lkQ7MXbwo
+2017-11-20 23:44:41,741 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: Ld0YbuiXZE4
+2017-11-20 23:44:41,741 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: iqKAix5x-DM
+2017-11-20 23:44:41,741 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: _s9bjw37R1Y
+2017-11-20 23:44:41,741 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: 8afZ2oTQ6iE
+2017-11-20 23:44:41,741 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: -gGcJShW5Jg
+2017-11-20 23:44:41,742 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: PD1kDYq5l64
+2017-11-20 23:44:41,742 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: PxLd7j69304
+2017-11-20 23:44:41,742 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: ZxQAobPllos
+2017-11-20 23:44:41,742 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: wklTprIaI3A
+2017-11-20 23:44:41,742 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: HsQVtnIrzvE
+2017-11-20 23:44:41,742 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: c7BhQHo05wI
+2017-11-20 23:44:41,742 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: ZJrjL7JFVi8
+2017-11-20 23:44:41,742 [main] INFO  com.eden.agent.service.DefaultYoutubeService 91 - video id: A1BBDMjZHBY

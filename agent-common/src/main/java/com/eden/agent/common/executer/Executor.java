@@ -1,4 +1,4 @@
-package com.eden.agent.batch.executer;
+package com.eden.agent.common.executer;
 
 /**
  * Create by zhaoxianghui on 2017/10/11.

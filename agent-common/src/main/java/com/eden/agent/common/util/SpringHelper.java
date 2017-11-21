@@ -1,4 +1,4 @@
-package com.eden.agent.batch.utils;
+package com.eden.agent.common.util;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;

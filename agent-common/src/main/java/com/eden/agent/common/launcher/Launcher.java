@@ -1,12 +1,12 @@
-package com.eden.agent.batch.launcher;
+package com.eden.agent.common.launcher;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 
-import com.eden.agent.batch.executer.Executor;
-import com.eden.agent.batch.utils.SpringHelper;
+import com.eden.agent.common.executer.Executor;
+import com.eden.agent.common.util.SpringHelper;
 
 @Component("launcher")
 public class Launcher {

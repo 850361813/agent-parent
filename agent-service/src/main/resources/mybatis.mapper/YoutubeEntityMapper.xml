@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.eden.agent.dao.YoutubeEntityDao">
+    <resultMap id="BaseResultMap" type="com.eden.agent.domain.YoutubeEntity">
+        <id column="ID" property="id" jdbcType="BIGINT"/>
+        <result column="NEXT_PAGETOKEN" property="nextPageToken" jdbcType="VARCHAR"/>
+        <result column="PREV_PAGETOKEN" property="prevPageToken" jdbcType="VARCHAR"/>
+        <result column="PAGE_TOKEN" property="pageToken" jdbcType="VARCHAR"/>
+        <result column="SEARCH_TYPE" property="searchType" jdbcType="INTEGER"/>
+        <result column="KEY_WORD" property="keyWord" jdbcType="VARCHAR"/>
+        <result column="CHANNEL_NAME" property="channelName" jdbcType="VARCHAR"/>
+        <result column="CHANNEL_ID" property="channelId" jdbcType="VARCHAR"/>
+        <result column="VIDEO_ID" property="videoId" jdbcType="VARCHAR"/>
+        <result column="VIDEO_LINK" property="videoLink" jdbcType="VARCHAR"/>
+        <result column="VIDEO_TITLE" property="videoTitle" jdbcType="VARCHAR"/>
+        <result column="COLLECT_TIME" property="collectTime" jdbcType="TIMESTAMP"/>
+        <result column="PUBLISH_TIME" property="publishTime" jdbcType="TIMESTAMP"/>
+        <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP"/>
+        <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP"/>
+        <result column="POST_STATUS" property="postStatus" jdbcType="INTEGER"/>
+        <result column="PUBLISH_STATUS" property="publishStatus" jdbcType="INTEGER"/>
+        <result column="FETCH_STATUS" property="fetchStatus" jdbcType="INTEGER"/>
+        <result column="CRAW_STATUS" property="crawStatus" jdbcType="INTEGER"/>
+        <result column="VIDEO_INFO" property="videoInfo" jdbcType="VARCHAR"/>
+        <result column="VIDEO_ITEM_ID" property="videoItemId" jdbcType="VARCHAR"/>
+
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        ID, NEXT_PAGETOKEN,PREV_PAGETOKEN,PAGE_TOKEN,SEARCH_TYPE, KEY_WORD,CHANNEL_NAME,CHANNEL_ID,
+        VIDEO_ID, VIDEO_LINK, VIDEO_TITLE,
+        COLLECT_TIME,
+         PUBLISH_TIME,
+        CREATE_TIME, UPDATE_TIME,POST_STATUS,PUBLISH_STATUS,
+        FETCH_STATUS,CRAW_STATUS,VIDEO_INFO,VIDEO_ITEM_ID
+    </sql>
+
+    <sql id="Insert_List">
+        NEXT_PAGETOKEN,PREV_PAGETOKEN,PAGE_TOKEN,SEARCH_TYPE, KEY_WORD,CHANNEL_NAME,CHANNEL_ID,
+        VIDEO_ID, VIDEO_LINK,
+        COLLECT_TIME,
+        CREATE_TIME, UPDATE_TIME,POST_STATUS,PUBLISH_STATUS,
+        FETCH_STATUS,CRAW_STATUS
+    </sql>
+
+    <select id="selectByKeyWord" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        FROM youtube_entity WHERE KEY_WORD=#{keyWord,jdbcType=VARCHAR}
+    </select>
+
+    <select id="selectNotPublish" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        FROM youtube_entity WHERE CHANNEL_NAME=#{channelName,jdbcType=VARCHAR} AND PUBLISH_STATUS!=1
+    </select>
+
+    <select id="selectById" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        FROM youtube_entity WHERE ID=#{id,jdbcType=BIGINT}
+    </select>
+
+    <update id="update">
+        UPDATE youtube_entity
+        <set>
+            <if test="youtubeEntity.videoTitle != null">
+                VIDEO_TITLE = #{youtubeEntity.videoTitle,jdbcType=VARCHAR}
+            </if>
+            <if test="youtubeEntity.videoInfo != null">
+                , VIDEO_INFO = #{youtubeEntity.videoInfo,jdbcType=VARCHAR}
+            </if>
+            <if test="youtubeEntity.videoItemId != null">
+                , VIDEO_ITEM_ID = #{youtubeEntity.videoItemId,jdbcType=VARCHAR}
+            </if>
+            <if test="youtubeEntity.postStatus != null">
+                 , POST_STATUS = #{youtubeEntity.postStatus,jdbcType=INTEGER}
+            </if>
+            <if test="youtubeEntity.publishStatus != null">
+                 , PUBLISH_STATUS = #{youtubeEntity.publishStatus,jdbcType=INTEGER}
+            </if>
+            <if test="youtubeEntity.fetchStatus != null">
+                , FETCH_STATUS = #{youtubeEntity.fetchStatus,jdbcType=INTEGER}
+            </if>
+            <if test="youtubeEntity.fetchStatus != null">
+                , FETCH_STATUS = #{youtubeEntity.fetchStatus,jdbcType=INTEGER}
+            </if>
+        </set>
+        WHERE ID = #{youtubeEntity.id,jdbcType=BIGINT}
+    </update>
+
+    <select id="selectCrawNumber" resultType="long">
+        select
+        count(1)
+        FROM youtube_entity WHERE KEY_WORD=#{keyWord,jdbcType=VARCHAR} AND CRAW_STATUS=1
+    </select>
+
+    <select id="selectPublishNumber" resultType="long">
+        select
+        count(1)
+        FROM youtube_entity WHERE KEY_WORD=#{keyWord,jdbcType=VARCHAR} AND PUBLISH_STATUS=1
+    </select>
+
+    <select id="selectAllKeyWord" resultType="String">
+        select
+        DISTINCT KEY_WORD
+        FROM youtube_entity
+    </select>
+
+    <select id="selectNextPageToken" resultType="String">
+        select
+        NEXT_PAGETOKEN
+        FROM youtube_entity WHERE KEY_WORD=#{keyWord,jdbcType=VARCHAR} ORDER BY ID DESC limit 1
+    </select>
+
+    <select id="selectNextPageTokenByChannelName" resultType="String">
+        select
+        NEXT_PAGETOKEN
+        FROM youtube_entity WHERE CHANNEL_NAME=#{channelName,jdbcType=VARCHAR} ORDER BY ID DESC limit 1
+    </select>
+
+    <insert id="insert" parameterType="com.eden.agent.domain.YoutubeEntity">
+        INSERT INTO youtube_entity(
+        <include refid="Insert_List"/>
+        ) VALUES (
+        #{nextPageToken,jdbcType=VARCHAR},
+        #{prevPageToken,jdbcType=VARCHAR},
+        #{pageToken,jdbcType=VARCHAR},
+        #{searchType,jdbcType=VARCHAR},
+        #{keyWord,jdbcType=VARCHAR},
+        #{channelName,jdbcType=VARCHAR},
+        #{channelId,jdbcType=VARCHAR},
+        #{videoId,jdbcType=VARCHAR},
+        #{videoLink,jdbcType=VARCHAR},
+        NOW(),
+        NOW(),
+        NOW(),
+        #{crawStatus,jdbcType=INTEGER},
+        #{fetchStatus,jdbcType=INTEGER},
+        #{postStatus,jdbcType=INTEGER},
+        #{publishStatus,jdbcType=INTEGER}
+        )
+    </insert>
+
+</mapper>

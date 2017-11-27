@@ -19,6 +19,8 @@ import com.google.api.client.http.HttpRequestInitializer;
 import com.google.api.services.youtube.YouTube;
 import com.google.api.services.youtube.model.Channel;
 import com.google.api.services.youtube.model.ChannelListResponse;
+import com.google.api.services.youtube.model.GuideCategory;
+import com.google.api.services.youtube.model.GuideCategoryListResponse;
 import com.google.api.services.youtube.model.ResourceId;
 import com.google.api.services.youtube.model.SearchListResponse;
 import com.google.api.services.youtube.model.SearchResult;
@@ -80,11 +82,59 @@ public class DefaultYoutubeService implements YoutubeService {
                 if (rId.getKind().equals("youtube#video")) {
                     YoutubeEntity entity = new YoutubeEntity();
                     logger.info("video id: " + rId.getVideoId());
-                    entity.setPageToken(pageToken);
-                    entity.setNextPageToken(searchResponse.getNextPageToken());
-                    entity.setPrevPageToken(searchResponse.getNextPageToken());
+                    entity.setPageToken(pageToken == null ? "" : pageToken);
+                    entity.setNextPageToken(searchResponse.getNextPageToken() == null ? "" : searchResponse.getNextPageToken());
+                    entity.setPrevPageToken(searchResponse.getNextPageToken() == null ? "" : searchResponse.getNextPageToken());
                     entity.setSearchType(searchType);
                     entity.setKeyWord(keyWord);
+                    entity.setVideoId(rId.getVideoId());
+                    entity.setVideoLink(VIDEO_BASE_LINK + rId.getVideoId());
+                    entity.setVideoTitle(searchResult.getSnippet().getTitle());
+                    entities.add(entity);
+                }
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return entities;
+    }
+
+    @Override
+    public List<YoutubeEntity> searchByChannelId(String channelId, String pageToken) {
+        int searchType = SearchTypeEnum.SEARCH_BY_CHANNEL.getCode();
+
+        List<YoutubeEntity> entities = Lists.newArrayList();
+
+        try {
+            YouTube.Search.List search = youtube.search().list("id,snippet");
+            search.setKey(apiKey);
+            search.setType("video");
+            search.setMaxResults(NUMBER_OF_VIDEOS_RETURNED);
+            search.setChannelId(channelId);
+
+            if (StringUtils.isNoneBlank(pageToken)) {
+                search.setPageToken(pageToken);
+            }
+
+            // Call the API and print results.
+            SearchListResponse searchResponse = search.execute();
+            List<SearchResult> searchResultList = searchResponse.getItems();
+
+            if (CollectionUtils.isEmpty(searchResultList)) {
+                return entities;
+            }
+
+            for (SearchResult searchResult : searchResultList) {
+                ResourceId rId = searchResult.getId();
+                if (rId.getKind().equals("youtube#video")) {
+                    YoutubeEntity entity = new YoutubeEntity();
+                    logger.info("video id: " + rId.getVideoId());
+                    entity.setPageToken(pageToken == null ? "" : pageToken);
+                    entity.setNextPageToken(searchResponse.getNextPageToken() == null ? "" : searchResponse.getNextPageToken());
+                    entity.setPrevPageToken(searchResponse.getNextPageToken() == null ? "" : searchResponse.getNextPageToken());
+                    entity.setSearchType(searchType);
+                    entity.setChannelId(channelId);
                     entity.setVideoId(rId.getVideoId());
                     entity.setVideoLink(VIDEO_BASE_LINK + rId.getVideoId());
                     entity.setVideoTitle(searchResult.getSnippet().getTitle());
@@ -110,8 +160,9 @@ public class DefaultYoutubeService implements YoutubeService {
         try {
             YouTube.Search.List search = youtube.search().list("id,snippet");
             search.setKey(apiKey);
-            search.setType("channel");
+            search.setType("video");
             search.setMaxResults(NUMBER_OF_VIDEOS_RETURNED);
+            search.setChannelId(channelEntity.getChannelId());
 
             if (StringUtils.isNoneBlank(pageToken)) {
                 search.setPageToken(pageToken);
@@ -130,9 +181,9 @@ public class DefaultYoutubeService implements YoutubeService {
                 if (rId.getKind().equals("youtube#video")) {
                     YoutubeEntity entity = new YoutubeEntity();
                     logger.info("video id: " + rId.getVideoId());
-                    entity.setPageToken(pageToken);
-                    entity.setNextPageToken(searchResponse.getNextPageToken());
-                    entity.setPrevPageToken(searchResponse.getNextPageToken());
+                    entity.setNextPageToken(searchResponse.getNextPageToken() == null ? "" : searchResponse.getNextPageToken());
+                    entity.setPrevPageToken(searchResponse.getNextPageToken() == null ? "" : searchResponse.getNextPageToken());
+                    entity.setPageToken(pageToken == null ? "" : pageToken);
                     entity.setSearchType(searchType);
                     entity.setChannelId(channelId);
                     entity.setChannelName(channelName);
@@ -173,11 +224,29 @@ public class DefaultYoutubeService implements YoutubeService {
                     ChannelEntity entity = new ChannelEntity();
                     entity.setChannelName(channelName);
                     entity.setChannelId(channel.getId());
+                    entities.add(entity);
                 }
             }
         } catch (IOException e) {
             System.err.println("There was an IO error: " + e.getCause() + " : " + e.getMessage());
         }
         return entities;
+    }
+
+    @Override
+    public void guideCategories() {
+
+        try {
+            YouTube.GuideCategories.List categories = youtube.guideCategories().list("snippet");
+            categories.setKey(apiKey);
+            categories.setRegionCode("US");
+            // Call the API and print results.
+            GuideCategoryListResponse response = categories.execute();
+            List<GuideCategory> guideCategories = response.getItems();
+            System.out.println();
+
+        } catch (IOException e) {
+            System.err.println("There was an IO error: " + e.getCause() + " : " + e.getMessage());
+        }
     }
 }

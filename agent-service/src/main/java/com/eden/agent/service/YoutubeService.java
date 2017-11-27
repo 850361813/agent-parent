@@ -32,4 +32,9 @@ public interface YoutubeService {
      * @return PageableYoutubeEntity
      */
     List<YoutubeEntity> search(ChannelEntity channelEntity,String pageToken);
+
+    List<YoutubeEntity> searchByChannelId(String channelId,String pageToken);
+
+
+    void guideCategories();
 }

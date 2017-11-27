@@ -8,16 +8,16 @@ import java.sql.Timestamp;
 public class YoutubeEntity {
 
     private long id;
-    private String nextPageToken;
-    private String prevPageToken;
-    private String pageToken;
+    private String nextPageToken = "";
+    private String prevPageToken = "";
+    private String pageToken = "";
     private int searchType;
-    private String keyWord;
-    private String channelName;
-    private String channelId;
-    private String videoId;
-    private String videoLink;
-    private String videoTitle;
+    private String keyWord= "";;
+    private String channelName = "";
+    private String channelId = "";
+    private String videoId = "";
+    private String videoLink = "";
+    private String videoTitle = "";
     private Timestamp collectTime;
     private Timestamp publishTime;
     private Timestamp createTime;
@@ -26,8 +26,8 @@ public class YoutubeEntity {
     private int fetchStatus = 0;
     private int postStatus = 0;
     private int publishStatus = 0;
-    private String videoInfo;
-    private String videoItemId;
+    private String videoInfo = "";
+    private String videoItemId = "";
 
     public String getNextPageToken() {
         return nextPageToken;

@@ -1,0 +1,62 @@
+2017-11-25 18:10:32,721 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-25 18:10:36,231 [main] INFO  com.eden.agent.service.NewPublishService 50 - cookie:
+ 
+2017-11-25 18:10:36,232 [main] INFO  com.eden.agent.service.NewPublishService 51 - pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; tt_webid=6490499975331202569; _gat_gtag_UA_87818081_1=1; _ga=GA1.2.1198254748.1509677917; _gid=GA1.2.835012441.1511417995; pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; amplitude_idtopbuzz.com=eyJkZXZpY2VJZCI6ImFjZDNhNjRhLWU1ZDgtNGJmMS04MTU1LWU5ZjM4ZDU5NzYxZVIiLCJ1c2VySWQiOiI2NDg0MDQxNTc2NjgyMDk1NjI1Iiwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNTExNDE3OTkzOTQ4LCJsYXN0RXZlbnRUaW1lIjoxNTExNDE5MDIxMDc2LCJldmVudElkIjoxOTgsImlkZW50aWZ5SWQiOjExOCwic2VxdWVuY2VOdW1iZXIiOjMxNn0=
+2017-11-25 18:10:37,195 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-25 18:10:37,425 [main] INFO  com.eden.agent.service.NewPublishService 89 - fetch: https://www.youtube.com/watch?v=xPLZ4q2NKAM
+2017-11-25 18:10:41,274 [main] INFO  com.eden.agent.service.NewPublishService 94 - fetch response:{
+  "message": "error param", 
+  "code": 10000002, 
+  "data": {}
+}
+2017-11-25 18:10:41,378 [main] INFO  com.eden.agent.service.NewPublishService 102 - fetch success
+2017-11-25 20:50:48,083 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-25 20:50:50,663 [main] INFO  com.eden.agent.service.NewPublishService 50 - cookie:
+ 
+2017-11-25 20:50:50,665 [main] INFO  com.eden.agent.service.NewPublishService 51 - pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; tt_webid=6490499975331202569; _gat_gtag_UA_87818081_1=1; _ga=GA1.2.1198254748.1509677917; _gid=GA1.2.835012441.1511417995; pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; amplitude_idtopbuzz.com=eyJkZXZpY2VJZCI6ImFjZDNhNjRhLWU1ZDgtNGJmMS04MTU1LWU5ZjM4ZDU5NzYxZVIiLCJ1c2VySWQiOiI2NDg0MDQxNTc2NjgyMDk1NjI1Iiwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNTExNDE3OTkzOTQ4LCJsYXN0RXZlbnRUaW1lIjoxNTExNDE5MDIxMDc2LCJldmVudElkIjoxOTgsImlkZW50aWZ5SWQiOjExOCwic2VxdWVuY2VOdW1iZXIiOjMxNn0=
+2017-11-25 20:50:51,321 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-25 20:50:51,588 [main] INFO  com.eden.agent.service.NewPublishService 89 - fetch: https://www.youtube.com/watch?v=xPLZ4q2NKAM
+2017-11-25 20:51:00,402 [main] INFO  com.eden.agent.service.NewPublishService 94 - fetch response:{
+  "message": "error param", 
+  "code": 10000002, 
+  "data": {}
+}
+2017-11-25 20:51:00,563 [main] INFO  com.eden.agent.service.NewPublishService 102 - fetch success
+2017-11-25 21:00:03,350 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-25 21:00:06,232 [main] INFO  com.eden.agent.service.NewPublishService 50 - cookie:
+ 
+2017-11-25 21:00:06,232 [main] INFO  com.eden.agent.service.NewPublishService 51 - pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; tt_webid=6490499975331202569; amplitude_idtopbuzz.com=eyJkZXZpY2VJZCI6ImFjZDNhNjRhLWU1ZDgtNGJmMS04MTU1LWU5ZjM4ZDU5NzYxZVIiLCJ1c2VySWQiOiI2NDg0MDQxNTc2NjgyMDk1NjI1Iiwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNTExNjE0MjY5NzQwLCJsYXN0RXZlbnRUaW1lIjoxNTExNjE0MzgxMTA4LCJldmVudElkIjoxOTksImlkZW50aWZ5SWQiOjEyMSwic2VxdWVuY2VOdW1iZXIiOjMyMH0=; _ga=GA1.2.1198254748.1509677917; _gid=GA1.2.286818804.1511614404; _gat_gtag_UA_87818081_1=1; pgcsid=450d241c0df3ef412c0eb2c1c5b8b979
+2017-11-25 21:00:06,853 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-25 21:00:07,088 [main] INFO  com.eden.agent.service.NewPublishService 89 - fetch: https://www.youtube.com/watch?v=xPLZ4q2NKAM
+2017-11-25 21:00:50,099 [main] INFO  com.eden.agent.service.NewPublishService 94 - fetch response:{
+  "message": "error param", 
+  "code": 10000002, 
+  "data": {}
+}
+2017-11-25 21:00:50,242 [main] INFO  com.eden.agent.service.NewPublishService 102 - fetch success
+2017-11-25 22:29:31,971 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-25 22:29:35,110 [main] INFO  com.eden.agent.service.NewPublishService 50 - cookie:
+ 
+2017-11-25 22:29:35,122 [main] INFO  com.eden.agent.service.NewPublishService 51 - pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; tt_webid=6490499975331202569; amplitude_idtopbuzz.com=eyJkZXZpY2VJZCI6ImFjZDNhNjRhLWU1ZDgtNGJmMS04MTU1LWU5ZjM4ZDU5NzYxZVIiLCJ1c2VySWQiOiI2NDg0MDQxNTc2NjgyMDk1NjI1Iiwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNTExNjE0MjY5NzQwLCJsYXN0RXZlbnRUaW1lIjoxNTExNjE0MzgxMTA4LCJldmVudElkIjoxOTksImlkZW50aWZ5SWQiOjEyMSwic2VxdWVuY2VOdW1iZXIiOjMyMH0=; _ga=GA1.2.1198254748.1509677917; _gid=GA1.2.286818804.1511614404; _gat_gtag_UA_87818081_1=1; pgcsid=450d241c0df3ef412c0eb2c1c5b8b979
+2017-11-25 22:29:35,802 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-25 22:29:36,083 [main] INFO  com.eden.agent.service.NewPublishService 89 - fetch: https://www.youtube.com/watch?v=xPLZ4q2NKAM
+2017-11-25 22:29:38,497 [main] INFO  com.eden.agent.service.NewPublishService 94 - fetch response:{
+  "message": "error param", 
+  "code": 10000002, 
+  "data": {}
+}
+2017-11-25 22:29:38,626 [main] INFO  com.eden.agent.service.NewPublishService 102 - fetch success
+2017-11-25 22:30:01,572 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-25 22:30:05,422 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-25 22:30:57,207 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-25 22:31:00,838 [main] INFO  com.eden.agent.service.NewPublishService 50 - cookie:
+ 
+2017-11-25 22:31:00,839 [main] INFO  com.eden.agent.service.NewPublishService 51 - pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; tt_webid=6490499975331202569; amplitude_idtopbuzz.com=eyJkZXZpY2VJZCI6ImFjZDNhNjRhLWU1ZDgtNGJmMS04MTU1LWU5ZjM4ZDU5NzYxZVIiLCJ1c2VySWQiOiI2NDg0MDQxNTc2NjgyMDk1NjI1Iiwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNTExNjE0MjY5NzQwLCJsYXN0RXZlbnRUaW1lIjoxNTExNjE0MzgxMTA4LCJldmVudElkIjoxOTksImlkZW50aWZ5SWQiOjEyMSwic2VxdWVuY2VOdW1iZXIiOjMyMH0=; _ga=GA1.2.1198254748.1509677917; _gid=GA1.2.286818804.1511614404; _gat_gtag_UA_87818081_1=1; pgcsid=450d241c0df3ef412c0eb2c1c5b8b979
+2017-11-25 22:31:01,606 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-25 22:31:01,947 [main] INFO  com.eden.agent.service.NewPublishService 89 - fetch: https://www.youtube.com/watch?v=RQF6h2MAPkE
+2017-11-25 22:31:05,276 [main] INFO  com.eden.agent.service.NewPublishService 94 - fetch response:{
+  "message": "error param", 
+  "code": 10000002, 
+  "data": {}
+}
+2017-11-25 22:31:05,416 [main] INFO  com.eden.agent.service.NewPublishService 102 - fetch success

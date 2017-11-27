@@ -1,0 +1,1562 @@
+2017-11-23 12:06:24,886 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 12:06:32,764 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0zsJggB6Rms
+2017-11-23 12:06:32,765 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _pWQ-rgtfzA
+2017-11-23 12:06:32,765 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yqQ4zhxhpys
+2017-11-23 12:06:32,765 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wpVtujGHPdo
+2017-11-23 12:06:32,765 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: tPNkBWWVq3M
+2017-11-23 12:06:32,765 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _afGcg6EhKs
+2017-11-23 12:06:32,765 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xPLZ4q2NKAM
+2017-11-23 12:06:32,765 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: OfwqejMGtxk
+2017-11-23 12:06:32,765 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: RQF6h2MAPkE
+2017-11-23 12:06:32,766 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IsPFDzAGb4A
+2017-11-23 12:06:32,766 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: U85dOjUtWoI
+2017-11-23 12:06:32,766 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: r5kB819XoZU
+2017-11-23 12:06:32,766 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: QPyDI091ImY
+2017-11-23 12:06:32,766 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 83ZSnzXTqo0
+2017-11-23 12:06:32,766 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EXRxe7Bj8oo
+2017-11-23 12:06:32,766 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 59aB0yAK2kY
+2017-11-23 12:06:32,766 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: svHhZRzVua4
+2017-11-23 12:06:32,766 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: sQsE3TmVRCo
+2017-11-23 12:06:32,766 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: N_WD28tkyEk
+2017-11-23 12:06:32,766 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FU589swAYM8
+2017-11-23 12:06:32,767 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: tBsRvthVhdw
+2017-11-23 12:06:32,767 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: GhjrCx6fs9s
+2017-11-23 12:06:32,767 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Bb5OMJtxg5s
+2017-11-23 12:06:32,767 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: mbDwhNzXrdo
+2017-11-23 12:06:32,767 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: VkxJaMZnCzc
+2017-11-23 12:06:32,767 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 2wp9rTP-RCs
+2017-11-23 12:06:32,767 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: iJAa3MbK1Eo
+2017-11-23 12:06:32,768 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pJSo9YmHin0
+2017-11-23 12:06:32,768 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: D25utaqWP3U
+2017-11-23 12:06:32,768 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: CQ2zX-KilX8
+2017-11-23 12:06:32,768 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: g2wboV4sPfc
+2017-11-23 12:06:32,768 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: r4yy4_BbU2s
+2017-11-23 12:06:32,768 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: fEGUXrNUhMU
+2017-11-23 12:06:32,768 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 7FvLGa4lAjE
+2017-11-23 12:06:32,769 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pj8N5d4x9bc
+2017-11-23 12:06:32,769 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ouJyesvlANE
+2017-11-23 12:06:32,769 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: VMpgb8WjoBc
+2017-11-23 12:06:32,769 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dkHD4N-2Pd4
+2017-11-23 12:06:32,769 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: a1wdfIhfews
+2017-11-23 12:06:32,769 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: tZHiS7-lGdo
+2017-11-23 12:06:32,769 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xYXFkKflN8M
+2017-11-23 12:06:32,770 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 55NHqRDnCcA
+2017-11-23 12:06:32,770 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: bEC8P8MW_VU
+2017-11-23 12:06:32,770 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: cHq-E8nbgWo
+2017-11-23 12:06:32,770 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5Gi1djkgB5k
+2017-11-23 12:06:32,770 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: y8tTxklwXg8
+2017-11-23 12:06:32,770 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 1gfxXB2ZmTU
+2017-11-23 12:06:32,771 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FGs8EQOZUpc
+2017-11-23 12:06:32,771 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: m-H0uIH5HHQ
+2017-11-23 12:06:32,771 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _Igof76xyyQ
+2017-11-23 12:06:34,250 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 13:58:52,778 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 13:58:56,305 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 13:58:58,993 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0zsJggB6Rms
+2017-11-23 13:58:58,994 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _pWQ-rgtfzA
+2017-11-23 13:58:58,994 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yqQ4zhxhpys
+2017-11-23 13:58:58,995 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wpVtujGHPdo
+2017-11-23 13:58:58,997 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: tPNkBWWVq3M
+2017-11-23 13:58:58,998 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _afGcg6EhKs
+2017-11-23 13:58:58,999 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xPLZ4q2NKAM
+2017-11-23 13:58:58,999 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: OfwqejMGtxk
+2017-11-23 13:58:58,999 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: RQF6h2MAPkE
+2017-11-23 13:58:58,999 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IsPFDzAGb4A
+2017-11-23 13:58:58,999 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: U85dOjUtWoI
+2017-11-23 13:58:58,999 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: r5kB819XoZU
+2017-11-23 13:58:58,999 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: QPyDI091ImY
+2017-11-23 13:58:59,000 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 83ZSnzXTqo0
+2017-11-23 13:58:59,000 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EXRxe7Bj8oo
+2017-11-23 13:58:59,000 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 59aB0yAK2kY
+2017-11-23 13:58:59,000 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: svHhZRzVua4
+2017-11-23 13:58:59,000 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: sQsE3TmVRCo
+2017-11-23 13:58:59,000 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: farDRFmA0Vk
+2017-11-23 13:58:59,000 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: N_WD28tkyEk
+2017-11-23 13:58:59,000 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FU589swAYM8
+2017-11-23 13:58:59,000 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: tBsRvthVhdw
+2017-11-23 13:58:59,001 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: GhjrCx6fs9s
+2017-11-23 13:58:59,001 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Bb5OMJtxg5s
+2017-11-23 13:58:59,001 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: mbDwhNzXrdo
+2017-11-23 13:58:59,001 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: VkxJaMZnCzc
+2017-11-23 13:58:59,001 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 2wp9rTP-RCs
+2017-11-23 13:58:59,001 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: VdBOoljv_pQ
+2017-11-23 13:58:59,001 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pJSo9YmHin0
+2017-11-23 13:58:59,001 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: D25utaqWP3U
+2017-11-23 13:58:59,001 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: CQ2zX-KilX8
+2017-11-23 13:58:59,002 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: g2wboV4sPfc
+2017-11-23 13:58:59,002 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: fEGUXrNUhMU
+2017-11-23 13:58:59,002 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: r4yy4_BbU2s
+2017-11-23 13:58:59,008 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 7FvLGa4lAjE
+2017-11-23 13:58:59,009 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pj8N5d4x9bc
+2017-11-23 13:58:59,009 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ouJyesvlANE
+2017-11-23 13:58:59,009 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: VMpgb8WjoBc
+2017-11-23 13:58:59,010 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dkHD4N-2Pd4
+2017-11-23 13:58:59,010 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: a1wdfIhfews
+2017-11-23 13:58:59,010 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: tZHiS7-lGdo
+2017-11-23 13:58:59,011 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xYXFkKflN8M
+2017-11-23 13:58:59,012 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 55NHqRDnCcA
+2017-11-23 13:58:59,013 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: bEC8P8MW_VU
+2017-11-23 13:58:59,013 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: cHq-E8nbgWo
+2017-11-23 13:58:59,013 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5Gi1djkgB5k
+2017-11-23 13:58:59,013 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: y8tTxklwXg8
+2017-11-23 13:58:59,013 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 1gfxXB2ZmTU
+2017-11-23 13:58:59,014 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: m-H0uIH5HHQ
+2017-11-23 13:58:59,014 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FGs8EQOZUpc
+2017-11-23 13:59:00,333 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _Igof76xyyQ
+2017-11-23 13:59:00,334 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: U-eDvLdgVzk
+2017-11-23 13:59:00,334 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 04l6bR6s8TE
+2017-11-23 13:59:00,334 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: u_AqXB3hxr0
+2017-11-23 13:59:00,334 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5nWseKcj8yo
+2017-11-23 13:59:00,334 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qW-KIjHjjHM
+2017-11-23 13:59:00,334 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: rfnoRQddSSY
+2017-11-23 13:59:00,334 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _Dw939mf_xQ
+2017-11-23 13:59:00,334 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ubxYYzYNP84
+2017-11-23 13:59:00,335 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: I2oH5Q8v7_c
+2017-11-23 13:59:00,335 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: O7u0Femrzw0
+2017-11-23 13:59:00,335 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: caeRg0_ax00
+2017-11-23 13:59:00,336 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: B6H0SOTXD6Q
+2017-11-23 13:59:00,337 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Vfz75rBIdXc
+2017-11-23 13:59:00,338 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: la2OWkKy-5I
+2017-11-23 13:59:00,338 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: F3HZjBK-4oE
+2017-11-23 13:59:00,339 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: AAd0BDc8gtw
+2017-11-23 13:59:00,339 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: HMGp2ZzEsE4
+2017-11-23 13:59:00,339 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gegM91vvLWM
+2017-11-23 13:59:00,339 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _rIKclL9Fcg
+2017-11-23 13:59:00,339 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: WO0ZJ7fMGfI
+2017-11-23 13:59:00,340 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: exFmcLMjKsw
+2017-11-23 13:59:00,340 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Mqz7PTqgsxE
+2017-11-23 13:59:00,340 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: d5E_zB7pmlY
+2017-11-23 13:59:00,340 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: crLJJmrEzCA
+2017-11-23 13:59:00,340 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: AW8LIXk0H70
+2017-11-23 13:59:00,340 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: jZgpcQjXJR4
+2017-11-23 13:59:00,341 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: f3Px3GD647Y
+2017-11-23 13:59:00,341 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: NRXRkOl3M7k
+2017-11-23 13:59:00,341 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qqqK6FJIMlw
+2017-11-23 13:59:00,341 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: NfEjZ95ExLo
+2017-11-23 13:59:00,341 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: SadVH-Wy36o
+2017-11-23 13:59:00,341 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xxkdtQZfrDs
+2017-11-23 13:59:00,341 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 9qrK93JFHTc
+2017-11-23 13:59:00,342 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: psq9E8m9IUM
+2017-11-23 13:59:00,342 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 64Uuq0w9i1Q
+2017-11-23 13:59:00,342 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: fPoB6BqMWTE
+2017-11-23 13:59:00,342 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5uaMKRewoeY
+2017-11-23 13:59:00,342 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: PFGh66iuBcY
+2017-11-23 13:59:00,342 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: XWdShm7xlA4
+2017-11-23 13:59:00,342 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: LqSplxW4Iok
+2017-11-23 13:59:00,342 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: f4IkorBxuAQ
+2017-11-23 13:59:00,342 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: zsmCb3r7HXg
+2017-11-23 13:59:00,342 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: koRlCbVznUk
+2017-11-23 13:59:00,343 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: L7XBQRV98mI
+2017-11-23 13:59:00,343 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: x8dzLtts1zo
+2017-11-23 13:59:00,343 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xVAxvlvcBpo
+2017-11-23 13:59:00,343 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: laCKBx6dmW8
+2017-11-23 13:59:00,343 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: A8x71Dt6zGM
+2017-11-23 13:59:00,343 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: h4iuu8DTxGE
+2017-11-23 13:59:01,657 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: J8lxXLgLx-Y
+2017-11-23 13:59:01,658 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: fcoRT9G4pmk
+2017-11-23 13:59:01,658 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0Sfo4kZKzvw
+2017-11-23 13:59:01,658 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3F9H-wrEjJQ
+2017-11-23 13:59:01,658 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: hA_vYXN1Om0
+2017-11-23 13:59:01,658 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5kgG7ZLlUGI
+2017-11-23 13:59:01,658 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: tlD65rChgl8
+2017-11-23 13:59:01,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: PczCrxMzeV8
+2017-11-23 13:59:01,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: cPCRT-Ty1xI
+2017-11-23 13:59:01,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gmMTPFOMgUE
+2017-11-23 13:59:01,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Gn91mWyxw4c
+2017-11-23 13:59:01,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: SSSRobMXOcc
+2017-11-23 13:59:01,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: GUwV46HCow4
+2017-11-23 13:59:01,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: KEDLj-c5zZg
+2017-11-23 13:59:01,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: AUuW6UJRcoE
+2017-11-23 13:59:01,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 4I4ZI9F-SEI
+2017-11-23 13:59:01,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xjDjIWPwcPU
+2017-11-23 13:59:01,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: hs5XaIFkJ6A
+2017-11-23 13:59:01,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qaMyr36uIv8
+2017-11-23 13:59:01,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gyNyufqA6w0
+2017-11-23 13:59:01,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 32X3y2REoIc
+2017-11-23 13:59:01,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0SK7buobx4c
+2017-11-23 13:59:01,661 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: U3Ua2iqZ_v4
+2017-11-23 13:59:01,661 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: lB42bK9YCKA
+2017-11-23 13:59:01,661 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: kGuPoVdMH98
+2017-11-23 13:59:01,661 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yDCOZi1X6tk
+2017-11-23 13:59:01,661 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: OUE6zqY8GOI
+2017-11-23 13:59:01,661 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gLlBaGWz9j4
+2017-11-23 13:59:01,661 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: HE7EUA2OQFs
+2017-11-23 13:59:01,662 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: AdtJggQORBI
+2017-11-23 13:59:01,662 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 86_TqlVQscQ
+2017-11-23 13:59:01,662 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0F2hqlV8-N8
+2017-11-23 13:59:01,662 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: HAtwp5HmkXo
+2017-11-23 13:59:01,662 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: OPiNUBwGr2U
+2017-11-23 13:59:01,662 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZuROU06ycoE
+2017-11-23 13:59:01,662 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: vh3SVxD0urQ
+2017-11-23 13:59:01,663 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pDPmyZ9FGd4
+2017-11-23 13:59:01,663 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: uXz9qhLnLuI
+2017-11-23 13:59:01,663 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qkstsk3kd2A
+2017-11-23 13:59:01,663 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wlGZ1ozBDJU
+2017-11-23 13:59:01,663 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: srXWBbI6vaI
+2017-11-23 13:59:01,664 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0jBg49dckXU
+2017-11-23 13:59:01,664 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: szs2GAYwMHo
+2017-11-23 13:59:01,664 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: vBjCl24i4Pg
+2017-11-23 13:59:01,665 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ITjwSLb5hT0
+2017-11-23 13:59:01,666 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EJzE9k4rarM
+2017-11-23 13:59:01,666 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: BML3Z9Ywuzg
+2017-11-23 13:59:01,666 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _R63xv1CMYo
+2017-11-23 13:59:01,666 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: vXPUZXXu6Ek
+2017-11-23 13:59:01,666 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: v-BTa_lQ6uQ
+2017-11-23 13:59:03,015 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: y8fvXWENQ5s
+2017-11-23 13:59:03,015 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: j_Nsf_64xWk
+2017-11-23 13:59:03,015 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: hv9vmF6U51o
+2017-11-23 13:59:03,015 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: XLewkcwmMg8
+2017-11-23 13:59:03,015 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZCyL4EttTZY
+2017-11-23 13:59:03,015 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: L7x4UD2pfd4
+2017-11-23 13:59:03,015 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: hBQ5Fp0hUh4
+2017-11-23 13:59:03,016 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: oUhFK_10BiA
+2017-11-23 13:59:03,016 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: cnMiehvVZcI
+2017-11-23 13:59:03,016 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Sdm_84MriwE
+2017-11-23 13:59:03,016 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZSsQNhvx9Co
+2017-11-23 13:59:03,016 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: UgKF9JcmfSU
+2017-11-23 13:59:03,016 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: U6s0IKwg6QQ
+2017-11-23 13:59:03,016 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 95rAfzu4EHM
+2017-11-23 13:59:03,016 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: YDn-WElIozc
+2017-11-23 13:59:03,017 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: h7Nv1Jy1d0Y
+2017-11-23 13:59:03,017 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gOzOrYQtItE
+2017-11-23 13:59:03,017 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: czFBajCL9Tg
+2017-11-23 13:59:03,017 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: WOXCSLfJvZc
+2017-11-23 13:59:03,017 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gAk52LC8VvU
+2017-11-23 13:59:03,017 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pR_H1_ksvzw
+2017-11-23 13:59:03,017 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 82SCpt01P7U
+2017-11-23 13:59:03,018 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: t6gX37d2eP8
+2017-11-23 13:59:03,018 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: UazSgywlZNw
+2017-11-23 13:59:03,018 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IOH7b4bxb5M
+2017-11-23 13:59:03,018 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZGJVsfHIbEw
+2017-11-23 13:59:03,018 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 50Y8J6lqmuI
+2017-11-23 13:59:03,018 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EFeD76b0GTk
+2017-11-23 13:59:03,018 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: JcBjlT4ZpnA
+2017-11-23 13:59:03,018 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: urR-kuZtGjU
+2017-11-23 13:59:03,018 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yhhXLZNL4IQ
+2017-11-23 13:59:03,019 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qHpg70B5I1o
+2017-11-23 13:59:03,019 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: es1GSNj3VL8
+2017-11-23 13:59:03,019 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: vJrbAk95mmc
+2017-11-23 13:59:03,019 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: f9wAFmfhpmU
+2017-11-23 13:59:03,019 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: XLDNF4kbzqM
+2017-11-23 13:59:03,019 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FtRgpQ7pXWs
+2017-11-23 13:59:03,019 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: w7XGHT0fEfk
+2017-11-23 13:59:03,021 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yxHl3cCEjy0
+2017-11-23 13:59:03,021 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3iD4b-ft_BQ
+2017-11-23 13:59:03,021 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: OOjQoFbZNjI
+2017-11-23 13:59:03,021 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: s3E1ytXPHuo
+2017-11-23 13:59:03,021 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: zbKaPN-0NcM
+2017-11-23 13:59:03,021 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ce3Op0Pn0DM
+2017-11-23 13:59:03,022 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: H4b48Jx7Un0
+2017-11-23 13:59:03,022 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 9jUjhrDhFuM
+2017-11-23 13:59:03,022 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: kC6CX326b3I
+2017-11-23 13:59:03,022 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EB3fw5ZTsc8
+2017-11-23 13:59:03,022 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: mo79_9xMh1I
+2017-11-23 13:59:03,022 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ffqq2UtsChY
+2017-11-23 14:00:47,639 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:00:50,912 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 14:00:53,104 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0zsJggB6Rms
+2017-11-23 14:00:53,104 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _pWQ-rgtfzA
+2017-11-23 14:00:53,104 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yqQ4zhxhpys
+2017-11-23 14:00:53,104 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wpVtujGHPdo
+2017-11-23 14:00:53,104 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: tPNkBWWVq3M
+2017-11-23 14:00:53,104 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _afGcg6EhKs
+2017-11-23 14:00:53,105 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xPLZ4q2NKAM
+2017-11-23 14:00:53,105 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: OfwqejMGtxk
+2017-11-23 14:00:53,105 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: RQF6h2MAPkE
+2017-11-23 14:00:53,105 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IsPFDzAGb4A
+2017-11-23 14:00:53,105 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: U85dOjUtWoI
+2017-11-23 14:00:53,105 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: r5kB819XoZU
+2017-11-23 14:00:53,105 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: QPyDI091ImY
+2017-11-23 14:00:53,105 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 83ZSnzXTqo0
+2017-11-23 14:00:53,105 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EXRxe7Bj8oo
+2017-11-23 14:00:53,105 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 59aB0yAK2kY
+2017-11-23 14:00:53,105 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: svHhZRzVua4
+2017-11-23 14:00:53,106 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: sQsE3TmVRCo
+2017-11-23 14:00:53,106 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: farDRFmA0Vk
+2017-11-23 14:00:53,106 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: N_WD28tkyEk
+2017-11-23 14:00:53,106 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FU589swAYM8
+2017-11-23 14:00:53,106 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: tBsRvthVhdw
+2017-11-23 14:00:53,106 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: GhjrCx6fs9s
+2017-11-23 14:00:53,106 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Bb5OMJtxg5s
+2017-11-23 14:00:53,106 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: mbDwhNzXrdo
+2017-11-23 14:00:53,106 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: VkxJaMZnCzc
+2017-11-23 14:00:53,106 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 2wp9rTP-RCs
+2017-11-23 14:00:53,106 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: VdBOoljv_pQ
+2017-11-23 14:00:53,106 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pJSo9YmHin0
+2017-11-23 14:00:53,107 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: D25utaqWP3U
+2017-11-23 14:00:53,107 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: CQ2zX-KilX8
+2017-11-23 14:00:53,107 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: g2wboV4sPfc
+2017-11-23 14:00:53,107 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: fEGUXrNUhMU
+2017-11-23 14:00:53,107 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: r4yy4_BbU2s
+2017-11-23 14:00:53,107 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 7FvLGa4lAjE
+2017-11-23 14:00:53,107 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ouJyesvlANE
+2017-11-23 14:00:53,107 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: VMpgb8WjoBc
+2017-11-23 14:00:53,107 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pj8N5d4x9bc
+2017-11-23 14:00:53,107 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dkHD4N-2Pd4
+2017-11-23 14:00:53,107 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: a1wdfIhfews
+2017-11-23 14:00:53,107 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: tZHiS7-lGdo
+2017-11-23 14:00:53,108 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xYXFkKflN8M
+2017-11-23 14:00:53,108 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 55NHqRDnCcA
+2017-11-23 14:00:53,108 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: bEC8P8MW_VU
+2017-11-23 14:00:53,108 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: cHq-E8nbgWo
+2017-11-23 14:00:53,108 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5Gi1djkgB5k
+2017-11-23 14:00:53,108 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: y8tTxklwXg8
+2017-11-23 14:00:53,108 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 1gfxXB2ZmTU
+2017-11-23 14:00:53,108 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: m-H0uIH5HHQ
+2017-11-23 14:00:53,109 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FGs8EQOZUpc
+2017-11-23 14:00:54,228 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _Igof76xyyQ
+2017-11-23 14:00:54,228 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: U-eDvLdgVzk
+2017-11-23 14:00:54,228 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 04l6bR6s8TE
+2017-11-23 14:00:54,228 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: u_AqXB3hxr0
+2017-11-23 14:00:54,228 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5nWseKcj8yo
+2017-11-23 14:00:54,229 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qW-KIjHjjHM
+2017-11-23 14:00:54,229 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: rfnoRQddSSY
+2017-11-23 14:00:54,229 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _Dw939mf_xQ
+2017-11-23 14:00:54,229 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ubxYYzYNP84
+2017-11-23 14:00:54,229 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: I2oH5Q8v7_c
+2017-11-23 14:00:54,229 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: O7u0Femrzw0
+2017-11-23 14:00:54,229 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: caeRg0_ax00
+2017-11-23 14:00:54,230 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: B6H0SOTXD6Q
+2017-11-23 14:00:54,230 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Vfz75rBIdXc
+2017-11-23 14:00:54,230 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: la2OWkKy-5I
+2017-11-23 14:00:54,230 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: F3HZjBK-4oE
+2017-11-23 14:00:54,230 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: AAd0BDc8gtw
+2017-11-23 14:00:54,230 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: HMGp2ZzEsE4
+2017-11-23 14:00:54,230 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gegM91vvLWM
+2017-11-23 14:00:54,230 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _rIKclL9Fcg
+2017-11-23 14:00:54,230 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: WO0ZJ7fMGfI
+2017-11-23 14:00:54,231 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: exFmcLMjKsw
+2017-11-23 14:00:54,231 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: d5E_zB7pmlY
+2017-11-23 14:00:54,231 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: crLJJmrEzCA
+2017-11-23 14:00:54,231 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: AW8LIXk0H70
+2017-11-23 14:00:54,231 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: f3Px3GD647Y
+2017-11-23 14:00:54,231 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: NRXRkOl3M7k
+2017-11-23 14:00:54,231 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Nx-2kyrgyvE
+2017-11-23 14:00:54,231 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qqqK6FJIMlw
+2017-11-23 14:00:54,231 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: jZgpcQjXJR4
+2017-11-23 14:00:54,232 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: NfEjZ95ExLo
+2017-11-23 14:00:54,232 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: SadVH-Wy36o
+2017-11-23 14:00:54,232 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xxkdtQZfrDs
+2017-11-23 14:00:54,232 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 64Uuq0w9i1Q
+2017-11-23 14:00:54,232 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 9qrK93JFHTc
+2017-11-23 14:00:54,232 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: psq9E8m9IUM
+2017-11-23 14:00:54,232 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: fPoB6BqMWTE
+2017-11-23 14:00:54,232 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5uaMKRewoeY
+2017-11-23 14:00:54,233 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: PFGh66iuBcY
+2017-11-23 14:00:54,233 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: XWdShm7xlA4
+2017-11-23 14:00:54,233 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: LqSplxW4Iok
+2017-11-23 14:00:54,233 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: f4IkorBxuAQ
+2017-11-23 14:00:54,233 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: zsmCb3r7HXg
+2017-11-23 14:00:54,233 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: koRlCbVznUk
+2017-11-23 14:00:54,233 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: L7XBQRV98mI
+2017-11-23 14:00:54,233 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: hA_vYXN1Om0
+2017-11-23 14:00:54,233 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xVAxvlvcBpo
+2017-11-23 14:00:54,234 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: x8dzLtts1zo
+2017-11-23 14:00:54,234 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: laCKBx6dmW8
+2017-11-23 14:00:54,234 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: A8x71Dt6zGM
+2017-11-23 14:00:55,385 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: h4iuu8DTxGE
+2017-11-23 14:00:55,386 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: J8lxXLgLx-Y
+2017-11-23 14:00:55,388 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: fcoRT9G4pmk
+2017-11-23 14:00:55,389 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0Sfo4kZKzvw
+2017-11-23 14:00:55,389 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3F9H-wrEjJQ
+2017-11-23 14:00:55,390 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5kgG7ZLlUGI
+2017-11-23 14:00:55,390 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: tlD65rChgl8
+2017-11-23 14:00:55,391 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: PczCrxMzeV8
+2017-11-23 14:00:55,391 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: cPCRT-Ty1xI
+2017-11-23 14:00:55,391 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EVK0rP_zYEQ
+2017-11-23 14:00:55,391 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: BG404MnbYnU
+2017-11-23 14:00:55,391 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gmMTPFOMgUE
+2017-11-23 14:00:55,391 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Gn91mWyxw4c
+2017-11-23 14:00:55,391 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: SSSRobMXOcc
+2017-11-23 14:00:55,391 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: GUwV46HCow4
+2017-11-23 14:00:55,392 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: KEDLj-c5zZg
+2017-11-23 14:00:55,392 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: AUuW6UJRcoE
+2017-11-23 14:00:55,392 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 4I4ZI9F-SEI
+2017-11-23 14:00:55,392 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xjDjIWPwcPU
+2017-11-23 14:00:55,392 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: hs5XaIFkJ6A
+2017-11-23 14:00:55,392 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qaMyr36uIv8
+2017-11-23 14:00:55,392 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gyNyufqA6w0
+2017-11-23 14:00:55,392 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 32X3y2REoIc
+2017-11-23 14:00:55,393 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0SK7buobx4c
+2017-11-23 14:00:55,393 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: U3Ua2iqZ_v4
+2017-11-23 14:00:55,393 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: lB42bK9YCKA
+2017-11-23 14:00:55,394 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: kGuPoVdMH98
+2017-11-23 14:00:55,394 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yDCOZi1X6tk
+2017-11-23 14:00:55,394 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: OUE6zqY8GOI
+2017-11-23 14:00:55,394 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gLlBaGWz9j4
+2017-11-23 14:00:55,394 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: HE7EUA2OQFs
+2017-11-23 14:00:55,395 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: AdtJggQORBI
+2017-11-23 14:00:55,395 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 86_TqlVQscQ
+2017-11-23 14:00:55,395 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: HAtwp5HmkXo
+2017-11-23 14:00:55,395 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: OPiNUBwGr2U
+2017-11-23 14:00:55,397 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZuROU06ycoE
+2017-11-23 14:00:55,398 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: vh3SVxD0urQ
+2017-11-23 14:00:55,398 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pDPmyZ9FGd4
+2017-11-23 14:00:55,399 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: uXz9qhLnLuI
+2017-11-23 14:00:55,399 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qkstsk3kd2A
+2017-11-23 14:00:55,399 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wlGZ1ozBDJU
+2017-11-23 14:00:55,400 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: srXWBbI6vaI
+2017-11-23 14:00:55,400 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0jBg49dckXU
+2017-11-23 14:00:55,400 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0F2hqlV8-N8
+2017-11-23 14:00:55,400 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: szs2GAYwMHo
+2017-11-23 14:00:55,400 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ITjwSLb5hT0
+2017-11-23 14:00:55,400 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: vBjCl24i4Pg
+2017-11-23 14:00:55,401 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EJzE9k4rarM
+2017-11-23 14:00:55,401 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: BML3Z9Ywuzg
+2017-11-23 14:00:55,401 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _R63xv1CMYo
+2017-11-23 14:00:56,658 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: vXPUZXXu6Ek
+2017-11-23 14:00:56,658 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: v-BTa_lQ6uQ
+2017-11-23 14:00:56,658 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: y8fvXWENQ5s
+2017-11-23 14:00:56,658 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: j_Nsf_64xWk
+2017-11-23 14:00:56,658 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: hv9vmF6U51o
+2017-11-23 14:00:56,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: XLewkcwmMg8
+2017-11-23 14:00:56,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZCyL4EttTZY
+2017-11-23 14:00:56,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: L7x4UD2pfd4
+2017-11-23 14:00:56,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: hBQ5Fp0hUh4
+2017-11-23 14:00:56,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: oUhFK_10BiA
+2017-11-23 14:00:56,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: cnMiehvVZcI
+2017-11-23 14:00:56,659 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Sdm_84MriwE
+2017-11-23 14:00:56,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZSsQNhvx9Co
+2017-11-23 14:00:56,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: UgKF9JcmfSU
+2017-11-23 14:00:56,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: U6s0IKwg6QQ
+2017-11-23 14:00:56,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: h7Nv1Jy1d0Y
+2017-11-23 14:00:56,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: YDn-WElIozc
+2017-11-23 14:00:56,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gOzOrYQtItE
+2017-11-23 14:00:56,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: czFBajCL9Tg
+2017-11-23 14:00:56,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: WOXCSLfJvZc
+2017-11-23 14:00:56,660 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gAk52LC8VvU
+2017-11-23 14:00:56,661 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pR_H1_ksvzw
+2017-11-23 14:00:56,661 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 95rAfzu4EHM
+2017-11-23 14:00:56,661 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 82SCpt01P7U
+2017-11-23 14:00:56,661 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: t6gX37d2eP8
+2017-11-23 14:00:56,661 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IOH7b4bxb5M
+2017-11-23 14:00:56,662 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZGJVsfHIbEw
+2017-11-23 14:00:56,662 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 50Y8J6lqmuI
+2017-11-23 14:00:56,662 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EFeD76b0GTk
+2017-11-23 14:00:56,662 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: JcBjlT4ZpnA
+2017-11-23 14:00:56,665 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: urR-kuZtGjU
+2017-11-23 14:00:56,666 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: UazSgywlZNw
+2017-11-23 14:00:56,667 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yhhXLZNL4IQ
+2017-11-23 14:00:56,667 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qHpg70B5I1o
+2017-11-23 14:00:56,667 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: es1GSNj3VL8
+2017-11-23 14:00:56,668 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: vJrbAk95mmc
+2017-11-23 14:00:56,668 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: f9wAFmfhpmU
+2017-11-23 14:00:56,668 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: XLDNF4kbzqM
+2017-11-23 14:00:56,669 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FtRgpQ7pXWs
+2017-11-23 14:00:56,669 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: w7XGHT0fEfk
+2017-11-23 14:00:56,669 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yxHl3cCEjy0
+2017-11-23 14:00:56,670 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3iD4b-ft_BQ
+2017-11-23 14:00:56,670 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: OOjQoFbZNjI
+2017-11-23 14:00:56,671 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: s3E1ytXPHuo
+2017-11-23 14:00:56,671 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: H4b48Jx7Un0
+2017-11-23 14:00:56,671 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: zbKaPN-0NcM
+2017-11-23 14:00:56,672 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ce3Op0Pn0DM
+2017-11-23 14:00:56,672 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 9jUjhrDhFuM
+2017-11-23 14:00:56,672 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: kC6CX326b3I
+2017-11-23 14:00:56,673 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EB3fw5ZTsc8
+2017-11-23 14:03:26,297 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:03:29,941 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 14:03:32,042 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: mo79_9xMh1I
+2017-11-23 14:03:32,043 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ffqq2UtsChY
+2017-11-23 14:03:32,043 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 4rsOoFN0MN4
+2017-11-23 14:03:32,043 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: V89Tu_w2drA
+2017-11-23 14:03:32,043 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: b-bEtoNzGHY
+2017-11-23 14:03:32,043 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dZZjq1jf5qw
+2017-11-23 14:03:32,043 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qS4dqfSn3AM
+2017-11-23 14:03:32,043 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: LB897lj3AsU
+2017-11-23 14:03:32,044 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8whXwzSTPQw
+2017-11-23 14:03:32,044 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: rRd6HeAmJWY
+2017-11-23 14:03:32,044 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: akS8KbHazuM
+2017-11-23 14:03:32,044 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5CCzG0Ko1jg
+2017-11-23 14:03:32,044 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gkfrWHFwM_0
+2017-11-23 14:03:32,044 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ehMW8_AYITU
+2017-11-23 14:03:32,044 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: CJFkXrsz69k
+2017-11-23 14:03:32,044 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: b2khv7suO5Q
+2017-11-23 14:03:32,045 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 2JAjE0RC7Uw
+2017-11-23 14:03:32,045 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: kgKlZJzswXg
+2017-11-23 14:03:32,045 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IqlLES_i5rk
+2017-11-23 14:03:32,045 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xN63OTEKLNQ
+2017-11-23 14:03:32,045 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: leylzssMWXE
+2017-11-23 14:03:32,045 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: K4zm30yeHHE
+2017-11-23 14:03:32,045 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Z19mSxEFTlY
+2017-11-23 14:03:32,045 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 9zmx0npSrCk
+2017-11-23 14:03:32,045 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: N3VONJxZEl8
+2017-11-23 14:03:32,045 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 9pqGGChiAjM
+2017-11-23 14:03:32,045 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: vmpCthK1aqk
+2017-11-23 14:03:32,046 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: XixrGZ8OqKk
+2017-11-23 14:03:32,046 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -6e47oPcVfk
+2017-11-23 14:03:32,046 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: njoXoltYJJo
+2017-11-23 14:03:32,046 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Dc3HqmVhJwo
+2017-11-23 14:03:32,046 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: kQvHYlrAO7E
+2017-11-23 14:03:32,046 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: iiqyLBue1yI
+2017-11-23 14:03:32,046 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -nGoelyV6V8
+2017-11-23 14:03:32,046 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: foZbPil2qTk
+2017-11-23 14:03:32,046 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dcS7N8oA1x0
+2017-11-23 14:03:32,046 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -R4EQrvRM9w
+2017-11-23 14:03:32,046 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gGBS0k6cWuw
+2017-11-23 14:03:32,047 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 2WZs4M9x3s0
+2017-11-23 14:03:32,047 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: V9IWjYX6yD4
+2017-11-23 14:03:32,047 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: eHpV08wI-bw
+2017-11-23 14:03:32,047 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Qbfs99MNwZ0
+2017-11-23 14:03:32,047 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dKp0yfRkqjk
+2017-11-23 14:03:32,047 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: G9wfMEK9PDo
+2017-11-23 14:03:32,047 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: oRwLPDbkKd0
+2017-11-23 14:03:32,047 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: o5dXAUdC5iA
+2017-11-23 14:03:32,047 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -bSoJELd89c
+2017-11-23 14:03:32,048 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 1sYF1SXcWqQ
+2017-11-23 14:03:32,048 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 1h3J3fDsupc
+2017-11-23 14:03:32,048 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: et1LbYWVJAE
+2017-11-23 14:03:33,162 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: DAb52CcI_is
+2017-11-23 14:03:33,163 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: XO07KH9TwfY
+2017-11-23 14:03:33,164 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: SyhxdT1G1AQ
+2017-11-23 14:03:33,164 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: cr0HNpy1D1A
+2017-11-23 14:03:33,164 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: RE1pk8LQjJQ
+2017-11-23 14:03:33,164 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ouufJjWs1oU
+2017-11-23 14:03:33,164 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dEKsPyNh4sw
+2017-11-23 14:03:33,165 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -rFuqQL0m_0
+2017-11-23 14:03:33,165 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: SHOF61j0igI
+2017-11-23 14:03:33,165 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 7LcgNW4hJlw
+2017-11-23 14:03:33,165 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3OrLkOMvCRU
+2017-11-23 14:03:33,165 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Pc1S61JeO_I
+2017-11-23 14:03:33,166 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: cuoiAt_k-CE
+2017-11-23 14:03:33,166 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: OavmUdhVmXY
+2017-11-23 14:03:33,166 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: C12obzORPV4
+2017-11-23 14:03:33,166 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: PIdJZ2dXKYY
+2017-11-23 14:03:33,167 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: rq_V6WHSmQs
+2017-11-23 14:03:33,167 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: VHCqS8X_-EY
+2017-11-23 14:03:33,167 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Q_9pMyZD4YA
+2017-11-23 14:03:33,167 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: BaJXuhAd8cw
+2017-11-23 14:03:33,167 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Ln39VtJ5lFM
+2017-11-23 14:03:33,167 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: MLgqgmYEkww
+2017-11-23 14:03:33,167 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yEfIRZCHdu4
+2017-11-23 14:03:33,168 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qzE2Zq3UB-M
+2017-11-23 14:03:33,168 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gSef9u_04xY
+2017-11-23 14:03:33,168 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: XEmS1F_Vk80
+2017-11-23 14:03:33,168 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: oC0ger8mwGU
+2017-11-23 14:03:33,168 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: T8UC7NBoZ-Q
+2017-11-23 14:03:33,168 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8y0b94caCyc
+2017-11-23 14:03:33,169 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: tp_Mt2SbuGg
+2017-11-23 14:03:33,169 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dKrVegVI0Us
+2017-11-23 14:03:33,169 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: JYEDS7l04ho
+2017-11-23 14:03:33,169 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: iFN7oEuGDXI
+2017-11-23 14:03:33,171 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: f-IlCqVipBE
+2017-11-23 14:03:33,172 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dxWvtMOGAhw
+2017-11-23 14:03:33,173 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 4xWJf8cERoM
+2017-11-23 14:03:33,173 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: vjGdb1fi2jk
+2017-11-23 14:03:33,174 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: cYrR7Be6Mj8
+2017-11-23 14:03:33,174 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: f0UPQPTCmCA
+2017-11-23 14:03:33,174 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: F8dm4GwZ62g
+2017-11-23 14:03:33,174 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: d8PJS5iIXoI
+2017-11-23 14:03:33,174 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: nfiJrgN3DU0
+2017-11-23 14:03:33,174 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: BYwprVHqX6o
+2017-11-23 14:03:33,175 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: RIgWuqqY56U
+2017-11-23 14:03:33,175 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: L_4txpp6ZuE
+2017-11-23 14:03:33,175 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FtGyBab2enU
+2017-11-23 14:03:33,175 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: B9mhPfbmyHM
+2017-11-23 14:03:33,175 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: lOsIgAQsn-g
+2017-11-23 14:03:33,175 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: OhiD1QJYsik
+2017-11-23 14:03:33,175 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Ei97X3d7Cm0
+2017-11-23 14:03:34,318 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: V7pO2kbP1nU
+2017-11-23 14:03:34,319 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pKQJsnKtWXg
+2017-11-23 14:03:34,319 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: uSulXL2o4JU
+2017-11-23 14:03:34,319 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: nK-acLVzhKc
+2017-11-23 14:03:34,319 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: sj_eRArS-xU
+2017-11-23 14:03:34,319 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8ucCxtgN6sc
+2017-11-23 14:03:34,319 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 1Jt9c61mj0o
+2017-11-23 14:03:34,319 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: XoLXrIi1mpU
+2017-11-23 14:03:34,320 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: T5O8DYQjEtU
+2017-11-23 14:03:34,320 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: eYjctTgCcO4
+2017-11-23 14:03:34,320 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: lVHApkqG68I
+2017-11-23 14:03:34,320 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 2kRKg763ImI
+2017-11-23 14:03:34,320 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: aZ1L_l9-MBo
+2017-11-23 14:03:34,320 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: m3P5VVUgSx4
+2017-11-23 14:03:34,320 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ElfDVUqQjHw
+2017-11-23 14:03:34,321 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: irQGjYd6sG8
+2017-11-23 14:03:34,321 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3dy4SGkSD8M
+2017-11-23 14:03:34,321 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: DzOSK-tVNyg
+2017-11-23 14:03:34,321 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 2VdB8kqt230
+2017-11-23 14:03:34,321 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0ydxsyT1R-Q
+2017-11-23 14:03:34,321 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5qT02ASjaxU
+2017-11-23 14:03:34,321 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Z4l60sDMHy4
+2017-11-23 14:03:34,322 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FhCiBGxo5pM
+2017-11-23 14:03:34,325 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: HOmbH3wfUdw
+2017-11-23 14:03:34,326 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 60NvdNkIYgs
+2017-11-23 14:03:34,326 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 2zKZhT2xPe4
+2017-11-23 14:03:34,327 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EIHeE9ij8Ms
+2017-11-23 14:03:34,327 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: liZqrpKrcCg
+2017-11-23 14:03:34,327 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: iLEU6RE1cF4
+2017-11-23 14:03:34,327 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pYqJXdxMGug
+2017-11-23 14:03:34,327 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: q4TigdMlzsY
+2017-11-23 14:03:34,328 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Um9Q1AWw91w
+2017-11-23 14:03:34,328 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wA8xMWj1tRY
+2017-11-23 14:03:34,328 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: KCoUzO4BT-U
+2017-11-23 14:03:34,328 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 1a1m4wzC2mM
+2017-11-23 14:03:34,329 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ue80QwXMRHg
+2017-11-23 14:03:34,329 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: niJWmdnxEFc
+2017-11-23 14:03:34,329 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: HEto-QQOqU4
+2017-11-23 14:03:34,329 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: S0YckEXR5tg
+2017-11-23 14:03:34,352 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -Y7m5OSU6z0
+2017-11-23 14:03:34,363 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: JUWJmEuk4Ic
+2017-11-23 14:03:34,365 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: hm_3pkI01r0
+2017-11-23 14:03:34,366 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FGbwvn0Ll5Q
+2017-11-23 14:03:34,367 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: rI7PNZ804mc
+2017-11-23 14:03:34,367 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: CAlljQAHLAQ
+2017-11-23 14:03:34,372 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: aUiOIvDwaeY
+2017-11-23 14:03:34,372 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: KOSy1RLxUt4
+2017-11-23 14:03:34,372 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dZVlHZNe40c
+2017-11-23 14:03:34,372 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qYdOrW9r8Qc
+2017-11-23 14:03:34,372 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EIl6HcyF0_U
+2017-11-23 14:03:35,571 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: w3jTa5JL8Ms
+2017-11-23 14:03:35,571 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xeTsqCobDWc
+2017-11-23 14:03:35,572 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 7OO83wpfSBs
+2017-11-23 14:03:35,572 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: BqvrSGStKFc
+2017-11-23 14:03:35,572 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: fZ1l4g0Rw2M
+2017-11-23 14:03:35,572 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Lnxmxg1R8dY
+2017-11-23 14:03:35,572 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wS399pxJ6fY
+2017-11-23 14:03:35,572 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: JEcjXxk8Hyo
+2017-11-23 14:03:35,572 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8Y1jIvgMIkY
+2017-11-23 14:03:35,572 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: bWLLppLkLo8
+2017-11-23 14:03:35,572 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: W4Kd0YnChZM
+2017-11-23 14:03:35,572 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: DMaSgwDgnPo
+2017-11-23 14:03:35,572 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 50k_lVAkJSg
+2017-11-23 14:03:35,572 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0nCBULvQOT8
+2017-11-23 14:03:35,573 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IpT1787EjbE
+2017-11-23 14:03:35,573 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -s9_zluCjxU
+2017-11-23 14:03:35,573 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: y9OckRlFxHc
+2017-11-23 14:03:35,573 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FuCloea96Mg
+2017-11-23 14:03:35,573 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: P9u73GSsNnI
+2017-11-23 14:03:35,573 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: KNSgpOfoPO4
+2017-11-23 14:03:35,573 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: rQ55jX9WeuE
+2017-11-23 14:03:35,573 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: WhLvS5GTK3E
+2017-11-23 14:03:35,574 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: YoVni44YBtE
+2017-11-23 14:03:35,574 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 74ZpFVjzwSs
+2017-11-23 14:03:35,574 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: YqaQ3iyOhbw
+2017-11-23 14:03:35,574 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: md68cIq-I4g
+2017-11-23 14:03:35,574 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 2T6omnnLZtE
+2017-11-23 14:03:35,574 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -57qlDhFYsk
+2017-11-23 14:03:35,574 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: K-plNQznMVw
+2017-11-23 14:03:35,575 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: y4Y4fxdI8GQ
+2017-11-23 14:03:35,575 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wnLx34aU9BY
+2017-11-23 14:03:35,576 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Ud6WHWwt-lw
+2017-11-23 14:03:35,577 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: eIYf-QdqZJI
+2017-11-23 14:03:35,578 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ejsQDwk0oew
+2017-11-23 14:03:35,579 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: eAoCXiPrkjs
+2017-11-23 14:03:35,579 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: plXFu-eZQGc
+2017-11-23 14:03:35,580 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xiDyjAlAXbY
+2017-11-23 14:03:35,580 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 1lkup6N7Q2o
+2017-11-23 14:03:35,580 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: z8vnqWoqjiQ
+2017-11-23 14:03:35,580 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 55Pm1VJOUwY
+2017-11-23 14:03:35,580 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3JyA7sV7j0A
+2017-11-23 14:03:35,581 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: SYGJTBzes_E
+2017-11-23 14:03:35,581 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 9RmmPJctra0
+2017-11-23 14:03:35,581 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: kUfqeMpetrg
+2017-11-23 14:03:35,581 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IDBaj98jIFo
+2017-11-23 14:03:35,581 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 98Ie9PcLtJE
+2017-11-23 14:03:35,581 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: p9GczoqLKYM
+2017-11-23 14:03:35,581 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Fig0PWCwSpM
+2017-11-23 14:03:35,581 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: TwwmhcGbvt0
+2017-11-23 14:03:35,581 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 51NxeWInaxI
+2017-11-23 14:03:36,792 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8u712F4oqpg
+2017-11-23 14:03:36,792 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xm5DsZtPulQ
+2017-11-23 14:03:36,793 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EsMNWudVAi0
+2017-11-23 14:03:36,793 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: jxUwQum4ngo
+2017-11-23 14:03:36,793 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: f4Ge7iVyOyw
+2017-11-23 14:03:36,793 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: bC-3rnv_b3o
+2017-11-23 14:03:36,793 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: lUOUMevbQME
+2017-11-23 14:03:36,793 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: fjDK9nHD5zo
+2017-11-23 14:03:36,793 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: aqJ0pNIvehU
+2017-11-23 14:03:36,794 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gMMJ535BiMo
+2017-11-23 14:03:36,794 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: sBuEXt-CNZk
+2017-11-23 14:03:36,794 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: bSIVDX6oO8U
+2017-11-23 14:03:36,794 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: p6dD0sDsgJ4
+2017-11-23 14:03:36,799 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ofW7lls-auk
+2017-11-23 14:03:36,801 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3JuDOegizZ0
+2017-11-23 14:03:36,802 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 9QmtYDI2rK0
+2017-11-23 14:03:36,803 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZJj28uy7O_U
+2017-11-23 14:03:36,803 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Ki4512-F_DM
+2017-11-23 14:03:36,804 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EpytYLk0rkc
+2017-11-23 14:03:36,804 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8udcbB8ABQY
+2017-11-23 14:03:36,804 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: SwH7fEA4c1Q
+2017-11-23 14:03:36,804 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: TwT-R1rs3Ss
+2017-11-23 14:03:36,804 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: fE-MQdzNbfY
+2017-11-23 14:03:36,804 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: mS5VIjHti-Y
+2017-11-23 14:03:36,805 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: uE_hF1R20rg
+2017-11-23 14:03:36,805 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: c3h9wuAuavY
+2017-11-23 14:03:36,805 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5n6OEpqZ7Zw
+2017-11-23 14:03:36,805 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: PDWlCM_BmQs
+2017-11-23 14:03:36,805 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: bfdnIXphJ_A
+2017-11-23 14:03:36,805 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 6_Xq8ZGbYmU
+2017-11-23 14:03:36,805 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: N3zmcg0VOk0
+2017-11-23 14:03:36,805 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: g81Lnr8AkUQ
+2017-11-23 14:03:36,805 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: eXxdqY7RATg
+2017-11-23 14:03:36,806 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: zyOKgLtUxto
+2017-11-23 14:03:36,806 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: jfPWttGqBxM
+2017-11-23 14:03:36,806 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: y8Fk3bqjl4Q
+2017-11-23 14:03:36,806 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: nsEaaJBcDLk
+2017-11-23 14:03:36,806 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: KjOLb2u5xkA
+2017-11-23 14:03:36,806 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 9MsTiHcYlkQ
+2017-11-23 14:03:36,809 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wmwa-_lM9bE
+2017-11-23 14:03:36,811 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: rm60PyKdFUo
+2017-11-23 14:03:36,813 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gl9Ra4pwgJ0
+2017-11-23 14:03:36,813 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: nN8ZnDghWAY
+2017-11-23 14:03:36,813 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pRghzDX02i0
+2017-11-23 14:03:36,814 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: NmYX8anlW9I
+2017-11-23 14:03:36,815 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3JZKVpHMsdM
+2017-11-23 14:03:36,815 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: WZQDc2lkmN0
+2017-11-23 14:03:36,815 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FL7P64p-nEE
+2017-11-23 14:03:36,816 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: JQmLIeQubR0
+2017-11-23 14:03:36,816 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: g-ByhUDUllM
+2017-11-23 14:03:38,101 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZoTbXRBm2oI
+2017-11-23 14:03:38,102 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _G7oRIhWesE
+2017-11-23 14:03:38,102 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 7hSW_QQ1oWo
+2017-11-23 14:03:38,102 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Jl0DDbIP9yg
+2017-11-23 14:03:38,102 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: oAaQD_prP88
+2017-11-23 14:03:38,103 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: hU0oW2UtiOs
+2017-11-23 14:03:38,103 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8E3ahiERjpc
+2017-11-23 14:03:38,106 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: HTSf-4rDFFo
+2017-11-23 14:03:38,107 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EputqxBgvz8
+2017-11-23 14:03:38,108 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qUWIIKSvuz0
+2017-11-23 14:03:38,108 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 2ovTi57ikMU
+2017-11-23 14:03:38,109 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: b8eF1gSSlnI
+2017-11-23 14:03:38,109 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: M8B5iyRctVg
+2017-11-23 14:03:38,109 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: PtGuqpBUIOo
+2017-11-23 14:03:38,109 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: phUgzmvBZ3I
+2017-11-23 14:03:38,110 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: a5soKh1Iiw8
+2017-11-23 14:03:38,110 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: zEYYU2kfVM0
+2017-11-23 14:03:38,110 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -Pg1Dral0lc
+2017-11-23 14:03:38,110 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: DkSPk4xRUh4
+2017-11-23 14:03:38,110 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: I3ugRL0dfTA
+2017-11-23 14:03:38,110 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IGvse3TsfOs
+2017-11-23 14:03:38,110 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: OSmedNu1GX4
+2017-11-23 14:03:38,110 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dl7I5n1gImg
+2017-11-23 14:03:38,111 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: NXee0DoiLzw
+2017-11-23 14:03:38,111 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IEMDgLQALws
+2017-11-23 14:03:38,111 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Kk4YdO5g_zQ
+2017-11-23 14:03:38,111 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: JrwC1NdRZw8
+2017-11-23 14:03:38,111 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yCTGgRzzvxo
+2017-11-23 14:03:38,111 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: SsV2O4fCgjk
+2017-11-23 14:03:38,111 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dsOGuzZPT_8
+2017-11-23 14:03:38,111 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wfrNnwJrujw
+2017-11-23 14:03:38,111 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IjF5wdY8zE0
+2017-11-23 14:03:38,112 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5WWwvIgGbkg
+2017-11-23 14:03:38,112 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: QNuFqaWFfCk
+2017-11-23 14:03:38,112 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wqXE_es_I3M
+2017-11-23 14:03:38,112 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Twc6iONtRtU
+2017-11-23 14:03:38,112 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 60CXk503QsQ
+2017-11-23 14:03:38,112 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 62bI0zItF6g
+2017-11-23 14:03:38,113 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ard_noiiB7w
+2017-11-23 14:03:38,114 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Gofh5MmaUvU
+2017-11-23 14:03:38,114 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dW1BIid8Osg
+2017-11-23 14:03:38,115 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -98NlqkHJIw
+2017-11-23 14:03:38,115 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Hr8GsQQy34s
+2017-11-23 14:03:38,115 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _3sWDSUAMkA
+2017-11-23 14:03:38,115 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yvlFI9Nry3Q
+2017-11-23 14:03:38,115 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Hgm7sPbXeVk
+2017-11-23 14:03:38,115 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Fxt7xwT2fbw
+2017-11-23 14:03:38,116 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -_DdKxQ9O50
+2017-11-23 14:03:38,116 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -SYfdwtv3eI
+2017-11-23 14:03:38,116 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8jHpOsJQaHM
+2017-11-23 14:03:39,325 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: MDYcsjIyP54
+2017-11-23 14:03:39,325 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: jxL67tUPt7Q
+2017-11-23 14:03:39,326 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Qo4m2nzfhjg
+2017-11-23 14:03:39,326 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: V3yqcVy67w8
+2017-11-23 14:03:39,326 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: mqYeysT90OY
+2017-11-23 14:03:39,326 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IOUrOmX5ZE4
+2017-11-23 14:03:39,326 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -nc0irLB-iY
+2017-11-23 14:03:39,326 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 7eUFkeKHRwk
+2017-11-23 14:03:39,326 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: JNXp1_aPyBg
+2017-11-23 14:03:39,326 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: l2oPio60mK4
+2017-11-23 14:03:39,326 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5Z5r7GUXYA8
+2017-11-23 14:03:39,326 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ukJ5dMYx2no
+2017-11-23 14:03:39,327 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3yPYojHv_pU
+2017-11-23 14:03:39,327 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: jWrGXQxmpec
+2017-11-23 14:03:39,327 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: vFRWKRFRLJM
+2017-11-23 14:03:39,327 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ovPjr71pkjY
+2017-11-23 14:03:39,327 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Z-NltvIuZdo
+2017-11-23 14:03:39,327 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8oui3kAkUqE
+2017-11-23 14:03:39,327 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ADbDN5MsUV4
+2017-11-23 14:03:39,327 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZOw9Iu8QsII
+2017-11-23 14:03:39,328 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: YyRAbDgHSlU
+2017-11-23 14:03:39,329 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZwDrmSvNekI
+2017-11-23 14:03:39,330 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: HgImEFyiwyw
+2017-11-23 14:03:39,332 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: NbCkqqDNES4
+2017-11-23 14:04:43,876 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:04:47,573 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 14:04:49,951 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: w3jTa5JL8Ms
+2017-11-23 14:04:49,951 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xeTsqCobDWc
+2017-11-23 14:04:49,952 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 7OO83wpfSBs
+2017-11-23 14:04:49,952 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: BqvrSGStKFc
+2017-11-23 14:04:49,952 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: fZ1l4g0Rw2M
+2017-11-23 14:04:49,952 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Lnxmxg1R8dY
+2017-11-23 14:04:49,952 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wS399pxJ6fY
+2017-11-23 14:04:49,952 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: JEcjXxk8Hyo
+2017-11-23 14:04:49,952 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8Y1jIvgMIkY
+2017-11-23 14:04:49,952 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: bWLLppLkLo8
+2017-11-23 14:04:49,952 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: W4Kd0YnChZM
+2017-11-23 14:04:49,952 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: DMaSgwDgnPo
+2017-11-23 14:04:49,952 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 50k_lVAkJSg
+2017-11-23 14:04:49,953 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 0nCBULvQOT8
+2017-11-23 14:04:49,953 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IpT1787EjbE
+2017-11-23 14:04:49,953 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -s9_zluCjxU
+2017-11-23 14:04:49,953 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: y9OckRlFxHc
+2017-11-23 14:04:49,953 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FuCloea96Mg
+2017-11-23 14:04:49,953 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: P9u73GSsNnI
+2017-11-23 14:04:49,953 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: KNSgpOfoPO4
+2017-11-23 14:04:49,953 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: rQ55jX9WeuE
+2017-11-23 14:04:49,953 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: WhLvS5GTK3E
+2017-11-23 14:04:49,953 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: YoVni44YBtE
+2017-11-23 14:04:49,953 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 74ZpFVjzwSs
+2017-11-23 14:04:49,954 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: YqaQ3iyOhbw
+2017-11-23 14:04:49,954 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: md68cIq-I4g
+2017-11-23 14:04:49,954 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 2T6omnnLZtE
+2017-11-23 14:04:49,954 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -57qlDhFYsk
+2017-11-23 14:04:49,954 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: K-plNQznMVw
+2017-11-23 14:04:49,954 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: y4Y4fxdI8GQ
+2017-11-23 14:04:49,954 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wnLx34aU9BY
+2017-11-23 14:04:49,954 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Ud6WHWwt-lw
+2017-11-23 14:04:49,954 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: eIYf-QdqZJI
+2017-11-23 14:04:49,954 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ejsQDwk0oew
+2017-11-23 14:04:49,954 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: eAoCXiPrkjs
+2017-11-23 14:04:49,955 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: plXFu-eZQGc
+2017-11-23 14:04:49,955 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xiDyjAlAXbY
+2017-11-23 14:04:49,955 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 1lkup6N7Q2o
+2017-11-23 14:04:49,955 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: z8vnqWoqjiQ
+2017-11-23 14:04:49,955 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 55Pm1VJOUwY
+2017-11-23 14:04:49,955 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3JyA7sV7j0A
+2017-11-23 14:04:49,955 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: SYGJTBzes_E
+2017-11-23 14:04:49,955 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 9RmmPJctra0
+2017-11-23 14:04:49,956 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: kUfqeMpetrg
+2017-11-23 14:04:49,956 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IDBaj98jIFo
+2017-11-23 14:04:49,956 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 98Ie9PcLtJE
+2017-11-23 14:04:49,956 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: p9GczoqLKYM
+2017-11-23 14:04:49,956 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Fig0PWCwSpM
+2017-11-23 14:04:49,956 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: TwwmhcGbvt0
+2017-11-23 14:04:49,956 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 51NxeWInaxI
+2017-11-23 14:04:51,285 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8u712F4oqpg
+2017-11-23 14:04:51,285 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: xm5DsZtPulQ
+2017-11-23 14:04:51,285 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EsMNWudVAi0
+2017-11-23 14:04:51,286 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: jxUwQum4ngo
+2017-11-23 14:04:51,286 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: f4Ge7iVyOyw
+2017-11-23 14:04:51,286 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: bC-3rnv_b3o
+2017-11-23 14:04:51,286 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: lUOUMevbQME
+2017-11-23 14:04:51,286 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: fjDK9nHD5zo
+2017-11-23 14:04:51,286 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: aqJ0pNIvehU
+2017-11-23 14:04:51,286 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gMMJ535BiMo
+2017-11-23 14:04:51,286 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: sBuEXt-CNZk
+2017-11-23 14:04:51,287 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: bSIVDX6oO8U
+2017-11-23 14:04:51,287 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: p6dD0sDsgJ4
+2017-11-23 14:04:51,287 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ofW7lls-auk
+2017-11-23 14:04:51,287 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3JuDOegizZ0
+2017-11-23 14:04:51,287 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 9QmtYDI2rK0
+2017-11-23 14:04:51,288 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZJj28uy7O_U
+2017-11-23 14:04:51,288 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Ki4512-F_DM
+2017-11-23 14:04:51,288 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EpytYLk0rkc
+2017-11-23 14:04:51,288 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8udcbB8ABQY
+2017-11-23 14:04:51,288 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: SwH7fEA4c1Q
+2017-11-23 14:04:51,288 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: TwT-R1rs3Ss
+2017-11-23 14:04:51,288 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: fE-MQdzNbfY
+2017-11-23 14:04:51,289 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: mS5VIjHti-Y
+2017-11-23 14:04:51,289 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: uE_hF1R20rg
+2017-11-23 14:04:51,289 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: c3h9wuAuavY
+2017-11-23 14:04:51,289 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5n6OEpqZ7Zw
+2017-11-23 14:04:51,289 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: PDWlCM_BmQs
+2017-11-23 14:04:51,290 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: bfdnIXphJ_A
+2017-11-23 14:04:51,290 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 6_Xq8ZGbYmU
+2017-11-23 14:04:51,290 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: N3zmcg0VOk0
+2017-11-23 14:04:51,290 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: g81Lnr8AkUQ
+2017-11-23 14:04:51,290 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: eXxdqY7RATg
+2017-11-23 14:04:51,290 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: zyOKgLtUxto
+2017-11-23 14:04:51,290 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: jfPWttGqBxM
+2017-11-23 14:04:51,290 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: y8Fk3bqjl4Q
+2017-11-23 14:04:51,290 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: nsEaaJBcDLk
+2017-11-23 14:04:51,290 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: KjOLb2u5xkA
+2017-11-23 14:04:51,290 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 9MsTiHcYlkQ
+2017-11-23 14:04:51,290 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wmwa-_lM9bE
+2017-11-23 14:04:51,291 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: rm60PyKdFUo
+2017-11-23 14:04:51,291 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: gl9Ra4pwgJ0
+2017-11-23 14:04:51,291 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: nN8ZnDghWAY
+2017-11-23 14:04:51,291 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: pRghzDX02i0
+2017-11-23 14:04:51,291 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: NmYX8anlW9I
+2017-11-23 14:04:51,291 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3JZKVpHMsdM
+2017-11-23 14:04:51,291 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: WZQDc2lkmN0
+2017-11-23 14:04:51,291 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: FL7P64p-nEE
+2017-11-23 14:04:51,291 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: JQmLIeQubR0
+2017-11-23 14:04:51,291 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: g-ByhUDUllM
+2017-11-23 14:04:52,623 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZoTbXRBm2oI
+2017-11-23 14:04:52,623 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _G7oRIhWesE
+2017-11-23 14:04:52,623 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 7hSW_QQ1oWo
+2017-11-23 14:04:52,624 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Jl0DDbIP9yg
+2017-11-23 14:04:52,624 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: oAaQD_prP88
+2017-11-23 14:04:52,624 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: hU0oW2UtiOs
+2017-11-23 14:04:52,624 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8E3ahiERjpc
+2017-11-23 14:04:52,624 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: HTSf-4rDFFo
+2017-11-23 14:04:52,624 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: EputqxBgvz8
+2017-11-23 14:04:52,624 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: qUWIIKSvuz0
+2017-11-23 14:04:52,624 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 2ovTi57ikMU
+2017-11-23 14:04:52,625 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: b8eF1gSSlnI
+2017-11-23 14:04:52,625 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: M8B5iyRctVg
+2017-11-23 14:04:52,625 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: PtGuqpBUIOo
+2017-11-23 14:04:52,625 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: phUgzmvBZ3I
+2017-11-23 14:04:52,625 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: a5soKh1Iiw8
+2017-11-23 14:04:52,625 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: zEYYU2kfVM0
+2017-11-23 14:04:52,625 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -Pg1Dral0lc
+2017-11-23 14:04:52,626 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: DkSPk4xRUh4
+2017-11-23 14:04:52,626 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: I3ugRL0dfTA
+2017-11-23 14:04:52,626 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IGvse3TsfOs
+2017-11-23 14:04:52,626 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: OSmedNu1GX4
+2017-11-23 14:04:52,626 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dl7I5n1gImg
+2017-11-23 14:04:52,626 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: NXee0DoiLzw
+2017-11-23 14:04:52,626 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IEMDgLQALws
+2017-11-23 14:04:52,627 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Kk4YdO5g_zQ
+2017-11-23 14:04:52,627 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: JrwC1NdRZw8
+2017-11-23 14:04:52,627 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yCTGgRzzvxo
+2017-11-23 14:04:52,627 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: SsV2O4fCgjk
+2017-11-23 14:04:52,627 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dsOGuzZPT_8
+2017-11-23 14:04:52,628 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wfrNnwJrujw
+2017-11-23 14:04:52,628 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IjF5wdY8zE0
+2017-11-23 14:04:52,628 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5WWwvIgGbkg
+2017-11-23 14:04:52,628 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: QNuFqaWFfCk
+2017-11-23 14:04:52,628 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: wqXE_es_I3M
+2017-11-23 14:04:52,628 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Twc6iONtRtU
+2017-11-23 14:04:52,628 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 60CXk503QsQ
+2017-11-23 14:04:52,628 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 62bI0zItF6g
+2017-11-23 14:04:52,629 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ard_noiiB7w
+2017-11-23 14:04:52,629 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Gofh5MmaUvU
+2017-11-23 14:04:52,629 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: dW1BIid8Osg
+2017-11-23 14:04:52,629 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -98NlqkHJIw
+2017-11-23 14:04:52,629 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Hr8GsQQy34s
+2017-11-23 14:04:52,629 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: _3sWDSUAMkA
+2017-11-23 14:04:52,629 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: yvlFI9Nry3Q
+2017-11-23 14:04:52,630 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Hgm7sPbXeVk
+2017-11-23 14:04:52,630 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Fxt7xwT2fbw
+2017-11-23 14:04:52,630 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -_DdKxQ9O50
+2017-11-23 14:04:52,630 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -SYfdwtv3eI
+2017-11-23 14:04:52,630 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8jHpOsJQaHM
+2017-11-23 14:04:54,065 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: MDYcsjIyP54
+2017-11-23 14:04:54,065 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: jxL67tUPt7Q
+2017-11-23 14:04:54,065 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Qo4m2nzfhjg
+2017-11-23 14:04:54,066 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: V3yqcVy67w8
+2017-11-23 14:04:54,066 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: mqYeysT90OY
+2017-11-23 14:04:54,066 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: IOUrOmX5ZE4
+2017-11-23 14:04:54,066 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: -nc0irLB-iY
+2017-11-23 14:04:54,066 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 7eUFkeKHRwk
+2017-11-23 14:04:54,066 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: JNXp1_aPyBg
+2017-11-23 14:04:54,066 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: l2oPio60mK4
+2017-11-23 14:04:54,066 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 5Z5r7GUXYA8
+2017-11-23 14:04:54,066 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ukJ5dMYx2no
+2017-11-23 14:04:54,066 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 3yPYojHv_pU
+2017-11-23 14:04:54,066 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: jWrGXQxmpec
+2017-11-23 14:04:54,066 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: vFRWKRFRLJM
+2017-11-23 14:04:54,067 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ovPjr71pkjY
+2017-11-23 14:04:54,067 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: Z-NltvIuZdo
+2017-11-23 14:04:54,067 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: 8oui3kAkUqE
+2017-11-23 14:04:54,067 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ADbDN5MsUV4
+2017-11-23 14:04:54,067 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZOw9Iu8QsII
+2017-11-23 14:04:54,067 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: YyRAbDgHSlU
+2017-11-23 14:04:54,067 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: ZwDrmSvNekI
+2017-11-23 14:04:54,067 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: HgImEFyiwyw
+2017-11-23 14:04:54,067 [main] INFO  com.eden.agent.service.DefaultYoutubeService 84 - video id: NbCkqqDNES4
+2017-11-23 14:12:03,209 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:12:06,962 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 14:12:07,061 [main] INFO  com.eden.agent.service.PublishService 56 - 未找到抓取记录
+2017-11-23 14:12:36,937 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:12:40,415 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 14:12:40,489 [main] INFO  com.eden.agent.service.NewPublishService 53 - 未找到抓取记录
+2017-11-23 14:13:51,317 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:14:57,871 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:15:06,251 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 14:15:24,077 [main] INFO  com.eden.agent.service.NewPublishService 86 - fetch: https://www.youtube.com/watch?v=0zsJggB6Rms
+2017-11-23 14:15:44,476 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:15:49,262 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 14:15:49,466 [main] INFO  com.eden.agent.service.NewPublishService 86 - fetch: https://www.youtube.com/watch?v=0zsJggB6Rms
+2017-11-23 14:16:09,877 [main] INFO  com.eden.agent.service.NewPublishService 91 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 640, 
+    "video_description": "After his father's death,. Akhil learns his biological father was a millionaire, and that the family dog has inherited the fortune. Initial release: August 7, 2014. Directors: Farhad, Sajid", 
+    "video_url": "https://www.youtube.com/watch?v=0zsJggB6Rms", 
+    "video_play_type": 3, 
+    "video_id": "0zsJggB6Rms", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "author_id": "https://www.youtube.com/user/Spun504Games", 
+      "video_duration": 8313, 
+      "mp_uname": "Xenomex", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCHMDJHX9Qo3OWINUuI6H8Vg", 
+      "videoId": "0zsJggB6Rms", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 1280, \"thumb_url\": \"f0595657157500a2453c\", \"uri\": \"f0595657157500a2453c\", \"height\": 720}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=0zsJggB6Rms": {
+          "duration": 8313
+        }
+      }, 
+      "mp_id": 62, 
+      "region": 840, 
+      "video_category": "Gaming", 
+      "video_tags": "", 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 360, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-UbHCoKW7ypU/AAAAAAAAAAI/AAAAAAAAAAA/Z9h2196Ou90/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "Xenomex", 
+    "author_id": "yt_channel_UCHMDJHX9Qo3OWINUuI6H8Vg", 
+    "video_duration": 8313, 
+    "video_thumbnail": {
+      "width": 1280, 
+      "thumb_url": "f0595657157500a2453c", 
+      "uri": "f0595657157500a2453c", 
+      "height": 720
+    }, 
+    "video_leech": 0, 
+    "video_title": "Entertainment full movie", 
+    "video_site": "youtube"
+  }
+}
+2017-11-23 14:16:09,984 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch success
+2017-11-23 14:17:45,925 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:17:49,670 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 14:17:49,860 [main] INFO  com.eden.agent.service.NewPublishService 86 - fetch: https://www.youtube.com/watch?v=0zsJggB6Rms
+2017-11-23 14:17:56,198 [main] INFO  com.eden.agent.service.NewPublishService 91 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 640, 
+    "video_description": "After his father's death,. Akhil learns his biological father was a millionaire, and that the family dog has inherited the fortune. Initial release: August 7, 2014. Directors: Farhad, Sajid", 
+    "video_url": "https://www.youtube.com/watch?v=0zsJggB6Rms", 
+    "video_play_type": 3, 
+    "video_id": "0zsJggB6Rms", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "author_id": "https://www.youtube.com/user/Spun504Games", 
+      "video_duration": 8313, 
+      "mp_uname": "Xenomex", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCHMDJHX9Qo3OWINUuI6H8Vg", 
+      "videoId": "0zsJggB6Rms", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 1280, \"thumb_url\": \"f0595657157500a2453c\", \"uri\": \"f0595657157500a2453c\", \"height\": 720}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=0zsJggB6Rms": {
+          "duration": 8313
+        }
+      }, 
+      "mp_id": 62, 
+      "region": 840, 
+      "video_category": "Gaming", 
+      "video_tags": "", 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 360, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-UbHCoKW7ypU/AAAAAAAAAAI/AAAAAAAAAAA/Z9h2196Ou90/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "Xenomex", 
+    "author_id": "yt_channel_UCHMDJHX9Qo3OWINUuI6H8Vg", 
+    "video_duration": 8313, 
+    "video_thumbnail": {
+      "width": 1280, 
+      "thumb_url": "f0595657157500a2453c", 
+      "uri": "f0595657157500a2453c", 
+      "height": 720
+    }, 
+    "video_leech": 0, 
+    "video_title": "Entertainment full movie", 
+    "video_site": "youtube"
+  }
+}
+2017-11-23 14:17:56,279 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch success
+2017-11-23 14:18:24,955 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:18:29,285 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 14:18:29,862 [main] INFO  com.eden.agent.service.NewPublishService 86 - fetch: https://www.youtube.com/watch?v=0zsJggB6Rms
+2017-11-23 14:18:42,678 [main] INFO  com.eden.agent.service.NewPublishService 91 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 640, 
+    "video_description": "After his father's death,. Akhil learns his biological father was a millionaire, and that the family dog has inherited the fortune. Initial release: August 7, 2014. Directors: Farhad, Sajid", 
+    "video_url": "https://www.youtube.com/watch?v=0zsJggB6Rms", 
+    "video_play_type": 3, 
+    "video_id": "0zsJggB6Rms", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "author_id": "https://www.youtube.com/user/Spun504Games", 
+      "video_duration": 8313, 
+      "mp_uname": "Xenomex", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCHMDJHX9Qo3OWINUuI6H8Vg", 
+      "videoId": "0zsJggB6Rms", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 1280, \"thumb_url\": \"f0595657157500a2453c\", \"uri\": \"f0595657157500a2453c\", \"height\": 720}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=0zsJggB6Rms": {
+          "duration": 8313
+        }
+      }, 
+      "mp_id": 62, 
+      "region": 840, 
+      "video_category": "Gaming", 
+      "video_tags": "", 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 360, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-UbHCoKW7ypU/AAAAAAAAAAI/AAAAAAAAAAA/Z9h2196Ou90/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "Xenomex", 
+    "author_id": "yt_channel_UCHMDJHX9Qo3OWINUuI6H8Vg", 
+    "video_duration": 8313, 
+    "video_thumbnail": {
+      "width": 1280, 
+      "thumb_url": "f0595657157500a2453c", 
+      "uri": "f0595657157500a2453c", 
+      "height": 720
+    }, 
+    "video_leech": 0, 
+    "video_title": "Entertainment full movie", 
+    "video_site": "youtube"
+  }
+}
+2017-11-23 14:18:42,825 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch success
+2017-11-23 14:18:43,003 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 3
+2017-11-23 14:18:46,017 [main] INFO  com.eden.agent.service.NewPublishService 111 - post begin : video title:Entertainment full movie
+2017-11-23 14:18:55,004 [main] INFO  com.eden.agent.service.NewPublishService 143 - post finish : video item Id:6491490600523661834
+2017-11-23 14:18:55,004 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 4
+2017-11-23 14:18:59,009 [main] INFO  com.eden.agent.service.NewPublishService 155 - publish begin : video title:Entertainment full movie
+2017-11-23 14:19:29,519 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 4
+2017-11-23 14:19:33,524 [main] INFO  com.eden.agent.service.NewPublishService 86 - fetch: https://www.youtube.com/watch?v=_pWQ-rgtfzA
+2017-11-23 14:23:08,420 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:23:12,553 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 14:23:12,787 [main] INFO  com.eden.agent.service.NewPublishService 86 - fetch: https://www.youtube.com/watch?v=_pWQ-rgtfzA
+2017-11-23 14:23:18,641 [main] INFO  com.eden.agent.service.NewPublishService 91 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 1280, 
+    "video_description": "Tras un desafortunado accidente en la oficina, los chicos deciden hacer algo de vida sana mientras preparan el proyecto del reality. Sin embargo no a todos se les da igual de bien. Durante esos d\u00edas, el actor Dani Mantero viene a suplicar un papel.", 
+    "video_url": "https://www.youtube.com/watch?v=_pWQ-rgtfzA", 
+    "video_play_type": 3, 
+    "video_id": "_pWQ-rgtfzA", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "video_duration": 1144, 
+      "mp_uname": "malviviendo", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCGreaLdqffGg738fUWAcDYg", 
+      "video_labels": {
+        "manual": {
+          "david sainz": 1.0, 
+          "gimnasio": 1.0, 
+          "Entertainment": 1.0, 
+          "ciempi\u00e9s humano": 1.0, 
+          "javi ler\u00eda": 1.0, 
+          "tom\u00e1s moreno": 1.0, 
+          "actor": 1.0, 
+          "teresa segura": 1.0, 
+          "deporte": 1.0, 
+          "infarto": 1.0, 
+          "antonio velazquez": 1.0, 
+          "rubia": 1.0, 
+          "malviviendo": 1.0
+        }
+      }, 
+      "videoId": "_pWQ-rgtfzA", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 1280, \"thumb_url\": \"f05a1669556a80a44abb\", \"uri\": \"f05a1669556a80a44abb\", \"height\": 720}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=_pWQ-rgtfzA": {
+          "duration": 1144
+        }
+      }, 
+      "mp_id": 62, 
+      "video_tags": "Entertainment,malviviendo,david sainz,javi ler\u00eda,antonio velazquez,tom\u00e1s moreno,teresa segura,deporte,ciempi\u00e9s humano,actor,rubia,infarto,gimnasio", 
+      "author_id": "https://www.youtube.com/user/malviviendo", 
+      "video_category": "Comedy", 
+      "region": 840, 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 720, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-ephP9e3tAXE/AAAAAAAAAAI/AAAAAAAAAAA/fri716cwHjk/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "malviviendo", 
+    "author_id": "yt_channel_UCGreaLdqffGg738fUWAcDYg", 
+    "video_duration": 1144, 
+    "video_thumbnail": {
+      "width": 1280, 
+      "thumb_url": "f05a1669556a80a44abb", 
+      "uri": "f05a1669556a80a44abb", 
+      "height": 720
+    }, 
+    "video_leech": 0, 
+    "video_title": "ENTERTAINMENT 1x08 Chandal Day.", 
+    "video_site": "youtube"
+  }
+}
+2017-11-23 14:23:18,736 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch success
+2017-11-23 14:23:18,793 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 8
+2017-11-23 14:23:26,803 [main] INFO  com.eden.agent.service.NewPublishService 111 - post begin : video title:ENTERTAINMENT 1x08 Chandal Day.
+2017-11-23 14:23:38,187 [main] INFO  com.eden.agent.service.NewPublishService 143 - post finish : video item Id:6491491816997650954
+2017-11-23 14:23:38,187 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 9
+2017-11-23 14:23:47,192 [main] INFO  com.eden.agent.service.NewPublishService 155 - publish begin : video title:ENTERTAINMENT 1x08 Chandal Day.
+2017-11-23 14:23:52,099 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 6
+2017-11-23 14:23:58,104 [main] INFO  com.eden.agent.service.NewPublishService 86 - fetch: https://www.youtube.com/watch?v=yqQ4zhxhpys
+2017-11-23 14:24:21,667 [main] INFO  com.eden.agent.service.NewPublishService 91 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 1280, 
+    "video_description": "Enrique Paz trae a la oficina a Max, un exc\u00e9ntrico productor americano que quiere hacer una pel\u00edcula de terror con los chicos. Por otro lado \u00d3scar vivir\u00e1 su peor pesadilla, la llegada de un nuevo becario.", 
+    "video_url": "https://www.youtube.com/watch?v=yqQ4zhxhpys", 
+    "video_play_type": 3, 
+    "video_id": "yqQ4zhxhpys", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "video_duration": 1410, 
+      "mp_uname": "malviviendo", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCGreaLdqffGg738fUWAcDYg", 
+      "video_labels": {
+        "manual": {
+          "becario": 1.0, 
+          "entertainment": 1.0, 
+          "max": 1.0, 
+          "diffferent": 1.0, 
+          "pel\u00edcula de terror": 1.0, 
+          "pel\u00edcula": 1.0, 
+          "ken appledorn": 1.0, 
+          "fisher": 1.0, 
+          "webserie": 1.0, 
+          "malviviendo": 1.0
+        }
+      }, 
+      "videoId": "yqQ4zhxhpys", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 1280, \"thumb_url\": \"f05a166994e18092c0e1\", \"uri\": \"f05a166994e18092c0e1\", \"height\": 720}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=yqQ4zhxhpys": {
+          "duration": 1410
+        }
+      }, 
+      "mp_id": 62, 
+      "video_tags": "entertainment,diffferent,malviviendo,fisher,max,ken appledorn,pel\u00edcula,pel\u00edcula de terror,becario,webserie", 
+      "author_id": "https://www.youtube.com/user/malviviendo", 
+      "video_category": "Comedy", 
+      "region": 840, 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 720, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-ephP9e3tAXE/AAAAAAAAAAI/AAAAAAAAAAA/fri716cwHjk/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "malviviendo", 
+    "author_id": "yt_channel_UCGreaLdqffGg738fUWAcDYg", 
+    "video_duration": 1410, 
+    "video_thumbnail": {
+      "width": 1280, 
+      "thumb_url": "f05a166994e18092c0e1", 
+      "uri": "f05a166994e18092c0e1", 
+      "height": 720
+    }, 
+    "video_leech": 0, 
+    "video_title": "ENTERTAINMENT- 2x02 \"The fisher\"", 
+    "video_site": "youtube"
+  }
+}
+2017-11-23 14:24:21,669 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch success
+2017-11-23 14:24:21,680 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 9
+2017-11-23 14:24:30,685 [main] INFO  com.eden.agent.service.NewPublishService 111 - post begin : video title:ENTERTAINMENT- 2x02 "The fisher"
+2017-11-23 14:24:40,330 [main] INFO  com.eden.agent.service.NewPublishService 143 - post finish : video item Id:6491492083914768906
+2017-11-23 14:24:40,331 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 9
+2017-11-23 14:24:49,337 [main] INFO  com.eden.agent.service.NewPublishService 155 - publish begin : video title:ENTERTAINMENT- 2x02 "The fisher"
+2017-11-23 14:24:53,793 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 7
+2017-11-23 14:25:00,798 [main] INFO  com.eden.agent.service.NewPublishService 86 - fetch: https://www.youtube.com/watch?v=wpVtujGHPdo
+2017-11-23 14:25:06,428 [main] INFO  com.eden.agent.service.NewPublishService 91 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 1280, 
+    "video_description": "Un d\u00eda cualquiera en la oficina en la que David intenta averiguar el secreto de los youtubers, coinciden la hija de la nueva novia de Javi con el t\u00edo del siempre imprevisible Santi.", 
+    "video_url": "https://www.youtube.com/watch?v=wpVtujGHPdo", 
+    "video_play_type": 3, 
+    "video_id": "wpVtujGHPdo", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "video_duration": 1192, 
+      "mp_uname": "malviviendo", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCGreaLdqffGg738fUWAcDYg", 
+      "video_labels": {
+        "manual": {
+          "david sainz": 1.0, 
+          "ni\u00f1a repelente": 1.0, 
+          "mascotas": 1.0, 
+          "Entertainment": 1.0, 
+          "pasotas": 1.0, 
+          "diffferent": 1.0, 
+          "serie": 1.0, 
+          "webserie": 1.0, 
+          "youtuber": 1.0, 
+          "tom\u00e1s moreno": 1.0, 
+          "malviviendo": 1.0
+        }
+      }, 
+      "videoId": "wpVtujGHPdo", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 1280, \"thumb_url\": \"f05a1669c160009b42bd\", \"uri\": \"f05a1669c160009b42bd\", \"height\": 720}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=wpVtujGHPdo": {
+          "duration": 1192
+        }
+      }, 
+      "mp_id": 62, 
+      "video_tags": "Entertainment,malviviendo,webserie,serie,mascotas,pasotas,youtuber,david sainz,tom\u00e1s moreno,diffferent,ni\u00f1a repelente", 
+      "author_id": "https://www.youtube.com/user/malviviendo", 
+      "video_category": "Comedy", 
+      "region": 840, 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 720, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-ephP9e3tAXE/AAAAAAAAAAI/AAAAAAAAAAA/fri716cwHjk/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "malviviendo", 
+    "author_id": "yt_channel_UCGreaLdqffGg738fUWAcDYg", 
+    "video_duration": 1192, 
+    "video_thumbnail": {
+      "width": 1280, 
+      "thumb_url": "f05a1669c160009b42bd", 
+      "uri": "f05a1669c160009b42bd", 
+      "height": 720
+    }, 
+    "video_leech": 0, 
+    "video_title": "Entertainment 1x03 - Mascotas pasotas", 
+    "video_site": "youtube"
+  }
+}
+2017-11-23 14:25:06,429 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch success
+2017-11-23 14:25:06,433 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 6
+2017-11-23 14:25:12,439 [main] INFO  com.eden.agent.service.NewPublishService 111 - post begin : video title:Entertainment 1x03 - Mascotas pasotas
+2017-11-23 14:25:47,966 [main] INFO  com.eden.agent.service.NewPublishService 143 - post finish : video item Id:6491492374336766473
+2017-11-23 14:25:47,966 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 5
+2017-11-23 14:25:52,970 [main] INFO  com.eden.agent.service.NewPublishService 155 - publish begin : video title:Entertainment 1x03 - Mascotas pasotas
+2017-11-23 14:26:05,042 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 8
+2017-11-23 14:26:13,048 [main] INFO  com.eden.agent.service.NewPublishService 86 - fetch: https://www.youtube.com/watch?v=tPNkBWWVq3M
+2017-11-23 14:26:18,508 [main] INFO  com.eden.agent.service.NewPublishService 91 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 1280, 
+    "video_description": "Max paga a los chicos de Diffferent para que graben un documental como making of de la pel\u00edcula centrado cien por cien en \u00e9l. Aqu\u00ed conoceremos realmente c\u00f3mo es el productor, director, actor, sonidista, guionista y genio Max Flannagan. digo Max Da Vinci.", 
+    "video_url": "https://www.youtube.com/watch?v=tPNkBWWVq3M", 
+    "video_play_type": 3, 
+    "video_id": "tPNkBWWVq3M", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "video_duration": 1607, 
+      "mp_uname": "malviviendo", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCGreaLdqffGg738fUWAcDYg", 
+      "video_labels": {
+        "manual": {
+          "david sainz": 1.0, 
+          "max da vinci": 1.0, 
+          "entertainment": 1.0, 
+          "max": 1.0, 
+          "making of": 1.0, 
+          "diffferent": 1.0, 
+          "actor": 1.0, 
+          "genio": 1.0, 
+          "pel\u00edcula": 1.0, 
+          "ken appledorn": 1.0, 
+          "webserie": 1.0, 
+          "malviviendo": 1.0
+        }
+      }, 
+      "videoId": "tPNkBWWVq3M", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 1280, \"thumb_url\": \"f05a166a097840a5008c\", \"uri\": \"f05a166a097840a5008c\", \"height\": 720}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=tPNkBWWVq3M": {
+          "duration": 1607
+        }
+      }, 
+      "mp_id": 62, 
+      "video_tags": "entertainment,max,diffferent,malviviendo,ken appledorn,david sainz,webserie,pel\u00edcula,making of,actor,genio,max da vinci", 
+      "author_id": "https://www.youtube.com/user/malviviendo", 
+      "video_category": "Comedy", 
+      "region": 840, 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 720, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-ephP9e3tAXE/AAAAAAAAAAI/AAAAAAAAAAA/fri716cwHjk/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "malviviendo", 
+    "author_id": "yt_channel_UCGreaLdqffGg738fUWAcDYg", 
+    "video_duration": 1607, 
+    "video_thumbnail": {
+      "width": 1280, 
+      "thumb_url": "f05a166a097840a5008c", 
+      "uri": "f05a166a097840a5008c", 
+      "height": 720
+    }, 
+    "video_leech": 0, 
+    "video_title": "ENTERTAINMENT 2x08 - \"MAX\"", 
+    "video_site": "youtube"
+  }
+}
+2017-11-23 14:26:18,511 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch success
+2017-11-23 14:26:18,517 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 7
+2017-11-23 14:26:25,519 [main] INFO  com.eden.agent.service.NewPublishService 111 - post begin : video title:ENTERTAINMENT 2x08 - "MAX"
+2017-11-23 14:26:31,566 [main] INFO  com.eden.agent.service.NewPublishService 143 - post finish : video item Id:6491492561625022985
+2017-11-23 14:26:31,566 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 8
+2017-11-23 14:28:23,156 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:28:28,271 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 14:28:28,539 [main] INFO  com.eden.agent.service.NewPublishService 155 - publish begin : video title:Entertainment full movie
+2017-11-23 14:29:24,128 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 8
+2017-11-23 14:29:32,134 [main] INFO  com.eden.agent.service.NewPublishService 155 - publish begin : video title:ENTERTAINMENT 1x08 Chandal Day.
+2017-11-23 14:29:46,989 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 9
+2017-11-23 14:29:55,994 [main] INFO  com.eden.agent.service.NewPublishService 155 - publish begin : video title:ENTERTAINMENT- 2x02 "The fisher"
+2017-11-23 14:29:59,941 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 7
+2017-11-23 14:30:06,947 [main] INFO  com.eden.agent.service.NewPublishService 155 - publish begin : video title:Entertainment 1x03 - Mascotas pasotas
+2017-11-23 14:30:19,662 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 7
+2017-11-23 14:30:26,666 [main] INFO  com.eden.agent.service.NewPublishService 155 - publish begin : video title:ENTERTAINMENT 2x08 - "MAX"
+2017-11-23 14:30:43,790 [main] INFO  com.eden.agent.service.NewPublishService 194 - sleep for : 9
+2017-11-23 14:30:52,794 [main] INFO  com.eden.agent.service.NewPublishService 86 - fetch: https://www.youtube.com/watch?v=_afGcg6EhKs
+2017-11-23 14:33:02,115 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:33:07,390 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 14:33:07,691 [main] INFO  com.eden.agent.service.NewPublishService 157 - publish begin : video title:Entertainment full movie
+2017-11-23 14:33:36,271 [main] INFO  com.eden.agent.service.NewPublishService 196 - sleep for : 8
+2017-11-23 14:33:44,276 [main] INFO  com.eden.agent.service.NewPublishService 157 - publish begin : video title:ENTERTAINMENT 1x08 Chandal Day.
+2017-11-23 14:34:04,857 [main] INFO  com.eden.agent.service.NewPublishService 196 - sleep for : 5
+2017-11-23 14:34:09,863 [main] INFO  com.eden.agent.service.NewPublishService 157 - publish begin : video title:ENTERTAINMENT- 2x02 "The fisher"
+2017-11-23 14:38:28,346 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-23 14:38:31,181 [main] INFO  com.eden.agent.service.NewPublishService 50 - cookie:
+ 
+2017-11-23 14:38:31,181 [main] INFO  com.eden.agent.service.NewPublishService 51 - pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; tt_webid=6490499975331202569; _gat_gtag_UA_87818081_1=1; _ga=GA1.2.1198254748.1509677917; _gid=GA1.2.835012441.1511417995; pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; amplitude_idtopbuzz.com=eyJkZXZpY2VJZCI6ImFjZDNhNjRhLWU1ZDgtNGJmMS04MTU1LWU5ZjM4ZDU5NzYxZVIiLCJ1c2VySWQiOiI2NDg0MDQxNTc2NjgyMDk1NjI1Iiwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNTExNDE3OTkzOTQ4LCJsYXN0RXZlbnRUaW1lIjoxNTExNDE5MDIxMDc2LCJldmVudElkIjoxOTgsImlkZW50aWZ5SWQiOjExOCwic2VxdWVuY2VOdW1iZXIiOjMxNn0=
+2017-11-23 14:38:31,768 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-23 14:38:32,027 [main] INFO  com.eden.agent.service.NewPublishService 158 - publish begin : video title:Entertainment 1x03 - Mascotas pasotas
+2017-11-23 14:38:42,135 [main] INFO  com.eden.agent.service.NewPublishService 197 - sleep for : 9
+2017-11-23 14:38:51,140 [main] INFO  com.eden.agent.service.NewPublishService 158 - publish begin : video title:ENTERTAINMENT 2x08 - "MAX"
+2017-11-23 14:39:08,282 [main] INFO  com.eden.agent.service.NewPublishService 197 - sleep for : 7
+2017-11-23 14:39:15,286 [main] INFO  com.eden.agent.service.NewPublishService 89 - fetch: https://www.youtube.com/watch?v=_afGcg6EhKs
+2017-11-23 14:39:18,314 [main] INFO  com.eden.agent.service.NewPublishService 94 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 640, 
+    "video_description": "akshay kumar comedy scenes.", 
+    "video_url": "https://www.youtube.com/watch?v=_afGcg6EhKs", 
+    "video_play_type": 3, 
+    "video_id": "_afGcg6EhKs", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "video_duration": 739, 
+      "mp_uname": "Musafir Bewafa", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCiV63SWfaMfDpTAVOO_FzmA", 
+      "video_labels": {
+        "manual": {
+          "akshay kumar comedy scenes": 1.0
+        }
+      }, 
+      "videoId": "_afGcg6EhKs", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 480, \"thumb_url\": \"f059b3b06ba6c0919752\", \"uri\": \"f059b3b06ba6c0919752\", \"height\": 360}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=_afGcg6EhKs": {
+          "duration": 739
+        }
+      }, 
+      "mp_id": 62, 
+      "video_tags": "akshay kumar comedy scenes", 
+      "author_id": "https://www.youtube.com/channel/UCiV63SWfaMfDpTAVOO_FzmA", 
+      "video_category": "Autos & Vehicles", 
+      "region": 840, 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 360, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-hhttJO8WQco/AAAAAAAAAAI/AAAAAAAAAAA/HHcDW8HJH9w/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "Musafir Bewafa", 
+    "author_id": "yt_channel_UCiV63SWfaMfDpTAVOO_FzmA", 
+    "video_duration": 739, 
+    "video_thumbnail": {
+      "width": 480, 
+      "thumb_url": "f059b3b06ba6c0919752", 
+      "uri": "f059b3b06ba6c0919752", 
+      "height": 360
+    }, 
+    "video_leech": 0, 
+    "video_title": "ENTERTAINMENT comedy scenes", 
+    "video_site": "youtube"
+  }
+}
+2017-11-23 14:39:18,418 [main] INFO  com.eden.agent.service.NewPublishService 102 - fetch success
+2017-11-23 14:39:18,422 [main] INFO  com.eden.agent.service.NewPublishService 197 - sleep for : 5
+2017-11-23 14:39:23,427 [main] INFO  com.eden.agent.service.NewPublishService 114 - post begin : video title:ENTERTAINMENT comedy scenes
+2017-11-23 14:39:27,320 [main] INFO  com.eden.agent.service.NewPublishService 146 - post finish : video item Id:6491495893571731978
+2017-11-23 14:39:27,321 [main] INFO  com.eden.agent.service.NewPublishService 197 - sleep for : 5
+2017-11-23 14:39:32,325 [main] INFO  com.eden.agent.service.NewPublishService 158 - publish begin : video title:ENTERTAINMENT comedy scenes

@@ -111,19 +111,24 @@ public class NewPublishService implements Runnable {
         String fetchDataJson = httpService.get(url, paramsMap, headerMap);
 
         JSONObject data = JSON.parseObject(fetchDataJson).getJSONObject("data").fluentPut("video_file_type", "video");
-        String videoTitle = data.getString("video_title");
 
-        int retryTimes = 3;
 
-        while (videoTitle == null && retryTimes < 3) {
+        int retryTimes = 0;
+        String msg = JSON.parseObject(fetchDataJson).getString("message");
+
+        while (!msg.equals("success") && retryTimes < 3) {
             sleepForRandomSecond();
+            fetchDataJson = httpService.get(url, paramsMap, headerMap);
+            msg = JSON.parseObject(fetchDataJson).getString("message");
             data = JSON.parseObject(fetchDataJson).getJSONObject("data").fluentPut("video_file_type", "video");
-            videoTitle = data.getString("video_title");
+            retryTimes ++;
         }
 
-        if (videoTitle == null) {
+        if (!msg.equals("success")) {
             return baseInfo;
         }
+
+        String videoTitle = data.getString("video_title");
 
         System.out.println("video title: " + videoTitle);
         baseInfo.setVideoInfo(data.toString());

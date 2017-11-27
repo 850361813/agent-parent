@@ -647,3 +647,696 @@
 }
 2017-11-27 23:11:54,820 [main] INFO  com.eden.agent.service.NewPublishService 133 - fetch success
 2017-11-27 23:11:54,865 [main] INFO  com.eden.agent.service.NewPublishService 228 - sleep for : 8
+2017-11-27 23:12:02,875 [main] INFO  com.eden.agent.service.NewPublishService 145 - post begin : video title:Suicide Squad - Official Trailer 1 [HD]
+2017-11-27 23:12:04,924 [main] INFO  com.eden.agent.service.NewPublishService 177 - post finish : video item Id:6493112333252952585
+2017-11-27 23:12:04,925 [main] INFO  com.eden.agent.service.NewPublishService 228 - sleep for : 10
+2017-11-27 23:12:14,930 [main] INFO  com.eden.agent.service.NewPublishService 189 - publish begin : video title:Suicide Squad - Official Trailer 1 [HD]
+2017-11-27 23:12:16,944 [main] INFO  com.eden.agent.service.NewPublishService 228 - sleep for : 14
+2017-11-27 23:12:30,948 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=mObK5XD8udk
+2017-11-27 23:12:32,568 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "It's fetching video info", 
+  "code": 10000041, 
+  "data": {
+    "fetch_id": 319813
+  }
+}
+2017-11-27 23:12:34,203 [main] INFO  com.eden.agent.service.NewPublishService 228 - sleep for : 8
+2017-11-27 23:12:42,208 [main] INFO  com.eden.agent.service.NewPublishService 145 - post begin : video title:0
+2017-11-27 23:21:03,714 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-27 23:21:07,129 [main] INFO  com.eden.agent.service.NewPublishService 53 - cookie:
+ 
+2017-11-27 23:21:07,129 [main] INFO  com.eden.agent.service.NewPublishService 54 - pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; tt_webid=6490499975331202569; amplitude_idtopbuzz.com=eyJkZXZpY2VJZCI6ImFjZDNhNjRhLWU1ZDgtNGJmMS04MTU1LWU5ZjM4ZDU5NzYxZVIiLCJ1c2VySWQiOiI2NDg0MDQxNTc2NjgyMDk1NjI1Iiwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNTExNjE0MjY5NzQwLCJsYXN0RXZlbnRUaW1lIjoxNTExNjE0MzgxMTA4LCJldmVudElkIjoxOTksImlkZW50aWZ5SWQiOjEyMSwic2VxdWVuY2VOdW1iZXIiOjMyMH0=; _ga=GA1.2.1198254748.1509677917; _gid=GA1.2.286818804.1511614404; _gat_gtag_UA_87818081_1=1; pgcsid=450d241c0df3ef412c0eb2c1c5b8b979
+2017-11-27 23:21:11,211 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-27 23:21:14,867 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=mObK5XD8udk
+2017-11-27 23:21:26,645 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 1280, 
+    "video_description": "\"Harry Potter and the Deathly Hallows - Part 2,\" is the final adventure in the Harry Potter film series. The much-anticipated motion picture event is the second of two full-length parts. In the epic finale, the battle between the good and evil forces of the wizarding world escalates into an all-out war. The stakes have never been higher and no one is safe. But it is Harry Potter who may be called upon to make the ultimate sacrifice as he draws closer to the climactic showdown with Lord Voldemort. It all ...", 
+    "video_play_type": 3, 
+    "video_url": "https://www.youtube.com/watch?v=mObK5XD8udk", 
+    "fetch_id": 319813, 
+    "video_id": "mObK5XD8udk", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "video_duration": 118, 
+      "mp_uname": "Warner Bros. Pictures", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCjmJDM5pRKbUlVIzDYYWb6g", 
+      "video_labels": {
+        "manual": {
+          "Warwick Davis": 1.0, 
+          "Bonnie Wright": 1.0, 
+          "John Hurt": 1.0, 
+          "Ralph Fiennes": 1.0, 
+          "Emma Thompson": 1.0, 
+          "Julie Walters": 1.0, 
+          "Helena Bonham Carter": 1.0, 
+          "Matthew Lewis": 1.0, 
+          "Tom Felton": 1.0, 
+          "Maggie Smith": 1.0, 
+          "Jim Broadbent": 1.0, 
+          "Michael Gambon": 1.0, 
+          "Rupert Grint": 1.0, 
+          "Gary Oldman": 1.0, 
+          "Robbie Coltrane": 1.0, 
+          "Jason Isaacs": 1.0, 
+          "David Thewlis": 1.0, 
+          "Daniel Radcliffe": 1.0, 
+          "Alan Rickman": 1.0, 
+          "Ciar\u00e1n Hinds": 1.0, 
+          "Emma Watson": 1.0
+        }
+      }, 
+      "videoId": "mObK5XD8udk", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 1920, \"thumb_url\": \"f056b0dfdced803284a7\", \"uri\": \"f056b0dfdced803284a7\", \"height\": 816}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=mObK5XD8udk": {
+          "duration": 118
+        }
+      }, 
+      "mp_id": 62, 
+      "video_tags": "Daniel Radcliffe,Rupert Grint,Emma Watson,Helena Bonham Carter,Jim Broadbent,Robbie Coltrane,Warwick Davis,Tom Felton,Ralph Fiennes,Michael Gambon,Ciar\u00e1n Hinds,John Hurt,Jason Isaacs,Matthew Lewis,Gary Oldman,Alan Rickman,Maggie Smith,David Thewlis,Emma Thompson,Julie Walters,Bonnie Wright", 
+      "author_id": "https://www.youtube.com/user/WarnerBrosPictures", 
+      "video_category": "Film & Animation", 
+      "region": 840, 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 720, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-FWmT_QaBmts/AAAAAAAAAAI/AAAAAAAAAAA/3qj7yNGlH_0/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "Warner Bros. Pictures", 
+    "author_id": "yt_channel_UCjmJDM5pRKbUlVIzDYYWb6g", 
+    "video_duration": 118, 
+    "video_thumbnail": {
+      "width": 1920, 
+      "thumb_url": "f056b0dfdced803284a7", 
+      "uri": "f056b0dfdced803284a7", 
+      "height": 816
+    }, 
+    "video_leech": 0, 
+    "video_title": "\"Harry Potter and the Deathly Hallows - Part 2\" Trailer 1", 
+    "video_site": "youtube"
+  }
+}
+2017-11-27 23:21:31,277 [main] INFO  com.eden.agent.service.NewPublishService 133 - fetch success
+2017-11-27 23:21:31,346 [main] INFO  com.eden.agent.service.NewPublishService 228 - sleep for : 8
+2017-11-27 23:21:39,354 [main] INFO  com.eden.agent.service.NewPublishService 145 - post begin : video title:"Harry Potter and the Deathly Hallows - Part 2" Trailer 1
+2017-11-27 23:21:54,302 [main] INFO  com.eden.agent.service.NewPublishService 177 - post finish : video item Id:6493114825781019145
+2017-11-27 23:21:54,302 [main] INFO  com.eden.agent.service.NewPublishService 228 - sleep for : 13
+2017-11-27 23:22:07,304 [main] INFO  com.eden.agent.service.NewPublishService 189 - publish begin : video title:"Harry Potter and the Deathly Hallows - Part 2" Trailer 1
+2017-11-27 23:22:12,087 [main] INFO  com.eden.agent.service.NewPublishService 228 - sleep for : 9
+2017-11-27 23:22:26,134 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=NlOF03DUoWc
+2017-11-27 23:22:27,738 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "It's fetching video info", 
+  "code": 10000041, 
+  "data": {
+    "fetch_id": 320102
+  }
+}
+2017-11-27 23:22:30,602 [main] INFO  com.eden.agent.service.NewPublishService 228 - sleep for : 13
+2017-11-27 23:22:43,607 [main] INFO  com.eden.agent.service.NewPublishService 145 - post begin : video title:0
+2017-11-27 23:25:46,800 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-27 23:25:50,319 [main] INFO  com.eden.agent.service.NewPublishService 53 - cookie:
+ 
+2017-11-27 23:25:50,319 [main] INFO  com.eden.agent.service.NewPublishService 54 - pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; tt_webid=6490499975331202569; amplitude_idtopbuzz.com=eyJkZXZpY2VJZCI6ImFjZDNhNjRhLWU1ZDgtNGJmMS04MTU1LWU5ZjM4ZDU5NzYxZVIiLCJ1c2VySWQiOiI2NDg0MDQxNTc2NjgyMDk1NjI1Iiwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNTExNjE0MjY5NzQwLCJsYXN0RXZlbnRUaW1lIjoxNTExNjE0MzgxMTA4LCJldmVudElkIjoxOTksImlkZW50aWZ5SWQiOjEyMSwic2VxdWVuY2VOdW1iZXIiOjMyMH0=; _ga=GA1.2.1198254748.1509677917; _gid=GA1.2.286818804.1511614404; _gat_gtag_UA_87818081_1=1; pgcsid=450d241c0df3ef412c0eb2c1c5b8b979
+2017-11-27 23:25:50,929 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-27 23:26:14,767 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=NlOF03DUoWc
+2017-11-27 23:26:20,087 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 1280, 
+    "video_description": "In theaters June 14th. From Warner Bros. and Legendary Pictures comes \"Man of Steel\", starring Henry Cavill, directed by Zach Snyder. The film also stars Amy Adams, Diane Lane, Kevin Costner, Michael Shannon, Russell Crowe, Antje Traue, Ayelet Zurer, Henry Lennix, Christopher Meloni and Laurence Fishburne. i?IQparams=IQi.", 
+    "video_play_type": 3, 
+    "video_url": "https://www.youtube.com/watch?v=NlOF03DUoWc", 
+    "fetch_id": 320102, 
+    "video_id": "NlOF03DUoWc", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "video_duration": 107, 
+      "mp_uname": "Warner Bros. Pictures", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCjmJDM5pRKbUlVIzDYYWb6g", 
+      "video_labels": {
+        "manual": {
+          "zach snyder": 1.0, 
+          "laurence fishburne": 1.0, 
+          "diane lane": 1.0, 
+          "russell crowe": 1.0, 
+          "christopher nolan": 1.0, 
+          "superman": 1.0, 
+          "ayelet zurer": 1.0, 
+          "warner bros": 1.0, 
+          "man of steel movie": 1.0, 
+          "superman trailer": 1.0, 
+          "antje traue": 1.0, 
+          "man of steel trailer official": 1.0, 
+          "henry lennix": 1.0, 
+          "iron man": 1.0, 
+          "wb": 1.0, 
+          "man of steel": 1.0, 
+          "man of steel trailer 3": 1.0, 
+          "kevin costner": 1.0, 
+          "henry cavill": 1.0, 
+          "legendary": 1.0, 
+          "amy adams": 1.0, 
+          "mos trailer": 1.0, 
+          "dc comics": 1.0, 
+          "chrisopher meloni": 1.0, 
+          "man of steel trailer": 1.0, 
+          "man of steel hd trailer": 1.0, 
+          "michael shannon": 1.0, 
+          "man of steel official": 1.0, 
+          "man of steel main trailer": 1.0
+        }
+      }, 
+      "videoId": "NlOF03DUoWc", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 1883, \"thumb_url\": \"f0590f879f214095c472\", \"uri\": \"f0590f879f214095c472\", \"height\": 1061}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=NlOF03DUoWc": {
+          "duration": 107
+        }
+      }, 
+      "mp_id": 62, 
+      "video_tags": "man of steel,man of steel movie,man of steel trailer,man of steel trailer 3,man of steel official,man of steel trailer official,mos trailer,man of steel hd trailer,man of steel main trailer,superman trailer,henry cavill,zach snyder,christopher nolan,amy adams,diane lane,kevin costner,michael shannon,russell crowe,antje traue,ayelet zurer,henry lennix,chrisopher meloni,laurence fishburne,warner bros,wb,dc comics,iron man,legendary,superman", 
+      "author_id": "https://www.youtube.com/user/WarnerBrosPictures", 
+      "video_category": "Entertainment", 
+      "region": 840, 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 720, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-FWmT_QaBmts/AAAAAAAAAAI/AAAAAAAAAAA/3qj7yNGlH_0/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "Warner Bros. Pictures", 
+    "author_id": "yt_channel_UCjmJDM5pRKbUlVIzDYYWb6g", 
+    "video_duration": 107, 
+    "video_thumbnail": {
+      "width": 1883, 
+      "thumb_url": "f0590f879f214095c472", 
+      "uri": "f0590f879f214095c472", 
+      "height": 1061
+    }, 
+    "video_leech": 0, 
+    "video_title": "Man of Steel - \"Fate of Your Planet\" Official Trailer [HD]", 
+    "video_site": "youtube"
+  }
+}
+2017-11-27 23:26:29,732 [main] INFO  com.eden.agent.service.NewPublishService 133 - fetch success
+2017-11-27 23:26:29,824 [main] INFO  com.eden.agent.service.NewPublishService 228 - sleep for : 9
+2017-11-27 23:26:38,842 [main] INFO  com.eden.agent.service.NewPublishService 145 - post begin : video title:Man of Steel - "Fate of Your Planet" Official Trailer [HD]
+2017-11-27 23:26:49,000 [main] INFO  com.eden.agent.service.NewPublishService 177 - post finish : video item Id:6493116119337927177
+2017-11-27 23:26:49,000 [main] INFO  com.eden.agent.service.NewPublishService 228 - sleep for : 12
+2017-11-27 23:27:01,006 [main] INFO  com.eden.agent.service.NewPublishService 189 - publish begin : video title:Man of Steel - "Fate of Your Planet" Official Trailer [HD]
+2017-11-27 23:27:05,907 [main] INFO  com.eden.agent.service.NewPublishService 228 - sleep for : 14
+2017-11-27 23:27:26,430 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=g8evyE9TuYk
+2017-11-27 23:27:46,914 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "It's fetching video info", 
+  "code": 10000041, 
+  "data": {
+    "fetch_id": 320264
+  }
+}
+2017-11-27 23:31:15,595 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-27 23:31:19,105 [main] INFO  com.eden.agent.service.NewPublishService 53 - cookie:
+ 
+2017-11-27 23:31:19,106 [main] INFO  com.eden.agent.service.NewPublishService 54 - pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; tt_webid=6490499975331202569; amplitude_idtopbuzz.com=eyJkZXZpY2VJZCI6ImFjZDNhNjRhLWU1ZDgtNGJmMS04MTU1LWU5ZjM4ZDU5NzYxZVIiLCJ1c2VySWQiOiI2NDg0MDQxNTc2NjgyMDk1NjI1Iiwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNTExNjE0MjY5NzQwLCJsYXN0RXZlbnRUaW1lIjoxNTExNjE0MzgxMTA4LCJldmVudElkIjoxOTksImlkZW50aWZ5SWQiOjEyMSwic2VxdWVuY2VOdW1iZXIiOjMyMH0=; _ga=GA1.2.1198254748.1509677917; _gid=GA1.2.286818804.1511614404; _gat_gtag_UA_87818081_1=1; pgcsid=450d241c0df3ef412c0eb2c1c5b8b979
+2017-11-27 23:31:19,800 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-27 23:31:25,222 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=g8evyE9TuYk
+2017-11-27 23:31:35,826 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 1280, 
+    "video_description": "\"The Dark Knight Rises\" in theaters July 20. Warner Bros. Pictures' and Legendary Pictures' \"The Dark Knight Rises\" is the epic conclusion to filmmaker Christopher Nolan's Batman trilogy. Leading an all-star international cast, Oscar(R) winner Christian Bale (\"The Fighter\") again plays the dual role of Bruce Wayne/Batman. The film also stars Anne Hathaway, as Selina Kyle; Tom Hardy, as Bane; Oscar(R) winner Marion Cotillard (\"La Vie en Rose\"), as Miranda Tate; and Joseph Gordon-Levitt, as John Blake. ...", 
+    "video_play_type": 3, 
+    "video_url": "https://www.youtube.com/watch?v=g8evyE9TuYk", 
+    "fetch_id": 320264, 
+    "video_id": "g8evyE9TuYk", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "video_duration": 140, 
+      "mp_uname": "Warner Bros. Pictures", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCjmJDM5pRKbUlVIzDYYWb6g", 
+      "video_labels": {
+        "manual": {
+          "catwoman": 1.0, 
+          "the dark knight rises": 1.0, 
+          "tom hardy": 1.0, 
+          "batman trailer": 1.0, 
+          "city": 1.0, 
+          "dark knight 2012": 1.0, 
+          "dark knight rises trailer 3": 1.0, 
+          "Christopher Nolan": 1.0, 
+          "tdkr trailer": 1.0, 
+          "dark knight": 1.0, 
+          "gotham": 1.0, 
+          "Joseph Gordon-Levitt": 1.0, 
+          "Michael Caine": 1.0, 
+          "selina kyle": 1.0, 
+          "Gary Oldman": 1.0, 
+          "christian bale": 1.0, 
+          "warner brothers": 1.0, 
+          "bruce wayne": 1.0, 
+          "Morgan Freeman": 1.0, 
+          "warner bros": 1.0, 
+          "batman 3": 1.0, 
+          "Marion Cotillard": 1.0, 
+          "batman returns": 1.0, 
+          "dark knight rises": 1.0, 
+          "batman 2012 trailer": 1.0, 
+          "action": 1.0, 
+          "dark knight rises trailer": 1.0, 
+          "dark knight rises official": 1.0, 
+          "anne hathaway": 1.0, 
+          "bane": 1.0, 
+          "tdkr": 1.0
+        }
+      }, 
+      "videoId": "g8evyE9TuYk", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 1919, \"thumb_url\": \"f056bcee5b060031407f\", \"uri\": \"f056bcee5b060031407f\", \"height\": 799}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=g8evyE9TuYk": {
+          "duration": 140
+        }
+      }, 
+      "mp_id": 62, 
+      "video_tags": "the dark knight rises,dark knight rises,tdkr,dark knight rises official,dark knight rises trailer,dark knight rises trailer 3,dark knight,christian bale,anne hathaway,tom hardy,Marion Cotillard,Joseph Gordon-Levitt,Michael Caine,Gary Oldman,Morgan Freeman,Christopher Nolan,batman 3,dark knight 2012,batman returns,batman 2012 trailer,batman trailer,tdkr trailer,catwoman,action,gotham,city,bane,selina kyle,bruce wayne,warner bros,warner brothers", 
+      "author_id": "https://www.youtube.com/user/WarnerBrosPictures", 
+      "video_category": "Entertainment", 
+      "region": 840, 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 720, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-FWmT_QaBmts/AAAAAAAAAAI/AAAAAAAAAAA/3qj7yNGlH_0/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "Warner Bros. Pictures", 
+    "author_id": "yt_channel_UCjmJDM5pRKbUlVIzDYYWb6g", 
+    "video_duration": 140, 
+    "video_thumbnail": {
+      "width": 1919, 
+      "thumb_url": "f056bcee5b060031407f", 
+      "uri": "f056bcee5b060031407f", 
+      "height": 799
+    }, 
+    "video_leech": 0, 
+    "video_title": "The Dark Knight Rises - Official Trailer #3 [HD]", 
+    "video_site": "youtube"
+  }
+}
+2017-11-27 23:32:05,692 [main] INFO  com.eden.agent.service.NewPublishService 135 - fetch success
+2017-11-27 23:36:29,786 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-27 23:36:32,986 [main] INFO  com.eden.agent.service.NewPublishService 53 - cookie:
+ 
+2017-11-27 23:36:32,987 [main] INFO  com.eden.agent.service.NewPublishService 54 - pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; tt_webid=6490499975331202569; amplitude_idtopbuzz.com=eyJkZXZpY2VJZCI6ImFjZDNhNjRhLWU1ZDgtNGJmMS04MTU1LWU5ZjM4ZDU5NzYxZVIiLCJ1c2VySWQiOiI2NDg0MDQxNTc2NjgyMDk1NjI1Iiwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNTExNjE0MjY5NzQwLCJsYXN0RXZlbnRUaW1lIjoxNTExNjE0MzgxMTA4LCJldmVudElkIjoxOTksImlkZW50aWZ5SWQiOjEyMSwic2VxdWVuY2VOdW1iZXIiOjMyMH0=; _ga=GA1.2.1198254748.1509677917; _gid=GA1.2.286818804.1511614404; _gat_gtag_UA_87818081_1=1; pgcsid=450d241c0df3ef412c0eb2c1c5b8b979
+2017-11-27 23:36:33,641 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-27 23:36:36,973 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=g8evyE9TuYk
+2017-11-27 23:38:55,476 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-27 23:38:58,647 [main] INFO  com.eden.agent.service.NewPublishService 53 - cookie:
+ 
+2017-11-27 23:38:58,648 [main] INFO  com.eden.agent.service.NewPublishService 54 - pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; tt_webid=6490499975331202569; amplitude_idtopbuzz.com=eyJkZXZpY2VJZCI6ImFjZDNhNjRhLWU1ZDgtNGJmMS04MTU1LWU5ZjM4ZDU5NzYxZVIiLCJ1c2VySWQiOiI2NDg0MDQxNTc2NjgyMDk1NjI1Iiwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNTExNjE0MjY5NzQwLCJsYXN0RXZlbnRUaW1lIjoxNTExNjE0MzgxMTA4LCJldmVudElkIjoxOTksImlkZW50aWZ5SWQiOjEyMSwic2VxdWVuY2VOdW1iZXIiOjMyMH0=; _ga=GA1.2.1198254748.1509677917; _gid=GA1.2.286818804.1511614404; _gat_gtag_UA_87818081_1=1; pgcsid=450d241c0df3ef412c0eb2c1c5b8b979
+2017-11-27 23:38:59,592 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-27 23:39:06,889 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=g8evyE9TuYk
+2017-11-27 23:39:19,178 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 1280, 
+    "video_description": "\"The Dark Knight Rises\" in theaters July 20. Warner Bros. Pictures' and Legendary Pictures' \"The Dark Knight Rises\" is the epic conclusion to filmmaker Christopher Nolan's Batman trilogy. Leading an all-star international cast, Oscar(R) winner Christian Bale (\"The Fighter\") again plays the dual role of Bruce Wayne/Batman. The film also stars Anne Hathaway, as Selina Kyle; Tom Hardy, as Bane; Oscar(R) winner Marion Cotillard (\"La Vie en Rose\"), as Miranda Tate; and Joseph Gordon-Levitt, as John Blake. ...", 
+    "video_play_type": 3, 
+    "video_url": "https://www.youtube.com/watch?v=g8evyE9TuYk", 
+    "fetch_id": 320264, 
+    "video_id": "g8evyE9TuYk", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "video_duration": 140, 
+      "mp_uname": "Warner Bros. Pictures", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCjmJDM5pRKbUlVIzDYYWb6g", 
+      "video_labels": {
+        "manual": {
+          "catwoman": 1.0, 
+          "the dark knight rises": 1.0, 
+          "tom hardy": 1.0, 
+          "batman trailer": 1.0, 
+          "city": 1.0, 
+          "dark knight 2012": 1.0, 
+          "dark knight rises trailer 3": 1.0, 
+          "Christopher Nolan": 1.0, 
+          "tdkr trailer": 1.0, 
+          "dark knight": 1.0, 
+          "gotham": 1.0, 
+          "Joseph Gordon-Levitt": 1.0, 
+          "Michael Caine": 1.0, 
+          "selina kyle": 1.0, 
+          "Gary Oldman": 1.0, 
+          "christian bale": 1.0, 
+          "warner brothers": 1.0, 
+          "bruce wayne": 1.0, 
+          "Morgan Freeman": 1.0, 
+          "warner bros": 1.0, 
+          "batman 3": 1.0, 
+          "Marion Cotillard": 1.0, 
+          "batman returns": 1.0, 
+          "dark knight rises": 1.0, 
+          "batman 2012 trailer": 1.0, 
+          "action": 1.0, 
+          "dark knight rises trailer": 1.0, 
+          "dark knight rises official": 1.0, 
+          "anne hathaway": 1.0, 
+          "bane": 1.0, 
+          "tdkr": 1.0
+        }
+      }, 
+      "videoId": "g8evyE9TuYk", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 1919, \"thumb_url\": \"f056bcee5b060031407f\", \"uri\": \"f056bcee5b060031407f\", \"height\": 799}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=g8evyE9TuYk": {
+          "duration": 140
+        }
+      }, 
+      "mp_id": 62, 
+      "video_tags": "the dark knight rises,dark knight rises,tdkr,dark knight rises official,dark knight rises trailer,dark knight rises trailer 3,dark knight,christian bale,anne hathaway,tom hardy,Marion Cotillard,Joseph Gordon-Levitt,Michael Caine,Gary Oldman,Morgan Freeman,Christopher Nolan,batman 3,dark knight 2012,batman returns,batman 2012 trailer,batman trailer,tdkr trailer,catwoman,action,gotham,city,bane,selina kyle,bruce wayne,warner bros,warner brothers", 
+      "author_id": "https://www.youtube.com/user/WarnerBrosPictures", 
+      "video_category": "Entertainment", 
+      "region": 840, 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 720, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-FWmT_QaBmts/AAAAAAAAAAI/AAAAAAAAAAA/3qj7yNGlH_0/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "Warner Bros. Pictures", 
+    "author_id": "yt_channel_UCjmJDM5pRKbUlVIzDYYWb6g", 
+    "video_duration": 140, 
+    "video_thumbnail": {
+      "width": 1919, 
+      "thumb_url": "f056bcee5b060031407f", 
+      "uri": "f056bcee5b060031407f", 
+      "height": 799
+    }, 
+    "video_leech": 0, 
+    "video_title": "The Dark Knight Rises - Official Trailer #3 [HD]", 
+    "video_site": "youtube"
+  }
+}
+2017-11-27 23:40:54,692 [main] INFO  com.eden.agent.service.NewPublishService 232 - sleep for : 13
+2017-11-27 23:41:07,700 [main] INFO  com.eden.agent.service.NewPublishService 149 - post begin : video title:0
+2017-11-27 23:41:18,025 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-27 23:41:21,321 [main] INFO  com.eden.agent.service.NewPublishService 53 - cookie:
+ 
+2017-11-27 23:41:21,321 [main] INFO  com.eden.agent.service.NewPublishService 54 - pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; tt_webid=6490499975331202569; amplitude_idtopbuzz.com=eyJkZXZpY2VJZCI6ImFjZDNhNjRhLWU1ZDgtNGJmMS04MTU1LWU5ZjM4ZDU5NzYxZVIiLCJ1c2VySWQiOiI2NDg0MDQxNTc2NjgyMDk1NjI1Iiwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNTExNjE0MjY5NzQwLCJsYXN0RXZlbnRUaW1lIjoxNTExNjE0MzgxMTA4LCJldmVudElkIjoxOTksImlkZW50aWZ5SWQiOjEyMSwic2VxdWVuY2VOdW1iZXIiOjMyMH0=; _ga=GA1.2.1198254748.1509677917; _gid=GA1.2.286818804.1511614404; _gat_gtag_UA_87818081_1=1; pgcsid=450d241c0df3ef412c0eb2c1c5b8b979
+2017-11-27 23:41:22,036 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-27 23:41:27,900 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=g8evyE9TuYk
+2017-11-27 23:41:46,029 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 1280, 
+    "video_description": "\"The Dark Knight Rises\" in theaters July 20. Warner Bros. Pictures' and Legendary Pictures' \"The Dark Knight Rises\" is the epic conclusion to filmmaker Christopher Nolan's Batman trilogy. Leading an all-star international cast, Oscar(R) winner Christian Bale (\"The Fighter\") again plays the dual role of Bruce Wayne/Batman. The film also stars Anne Hathaway, as Selina Kyle; Tom Hardy, as Bane; Oscar(R) winner Marion Cotillard (\"La Vie en Rose\"), as Miranda Tate; and Joseph Gordon-Levitt, as John Blake. ...", 
+    "video_play_type": 3, 
+    "video_url": "https://www.youtube.com/watch?v=g8evyE9TuYk", 
+    "fetch_id": 320264, 
+    "video_id": "g8evyE9TuYk", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "video_duration": 140, 
+      "mp_uname": "Warner Bros. Pictures", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCjmJDM5pRKbUlVIzDYYWb6g", 
+      "video_labels": {
+        "manual": {
+          "catwoman": 1.0, 
+          "the dark knight rises": 1.0, 
+          "tom hardy": 1.0, 
+          "batman trailer": 1.0, 
+          "city": 1.0, 
+          "dark knight 2012": 1.0, 
+          "dark knight rises trailer 3": 1.0, 
+          "Christopher Nolan": 1.0, 
+          "tdkr trailer": 1.0, 
+          "dark knight": 1.0, 
+          "gotham": 1.0, 
+          "Joseph Gordon-Levitt": 1.0, 
+          "Michael Caine": 1.0, 
+          "selina kyle": 1.0, 
+          "Gary Oldman": 1.0, 
+          "christian bale": 1.0, 
+          "warner brothers": 1.0, 
+          "bruce wayne": 1.0, 
+          "Morgan Freeman": 1.0, 
+          "warner bros": 1.0, 
+          "batman 3": 1.0, 
+          "Marion Cotillard": 1.0, 
+          "batman returns": 1.0, 
+          "dark knight rises": 1.0, 
+          "batman 2012 trailer": 1.0, 
+          "action": 1.0, 
+          "dark knight rises trailer": 1.0, 
+          "dark knight rises official": 1.0, 
+          "anne hathaway": 1.0, 
+          "bane": 1.0, 
+          "tdkr": 1.0
+        }
+      }, 
+      "videoId": "g8evyE9TuYk", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 1919, \"thumb_url\": \"f056bcee5b060031407f\", \"uri\": \"f056bcee5b060031407f\", \"height\": 799}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=g8evyE9TuYk": {
+          "duration": 140
+        }
+      }, 
+      "mp_id": 62, 
+      "video_tags": "the dark knight rises,dark knight rises,tdkr,dark knight rises official,dark knight rises trailer,dark knight rises trailer 3,dark knight,christian bale,anne hathaway,tom hardy,Marion Cotillard,Joseph Gordon-Levitt,Michael Caine,Gary Oldman,Morgan Freeman,Christopher Nolan,batman 3,dark knight 2012,batman returns,batman 2012 trailer,batman trailer,tdkr trailer,catwoman,action,gotham,city,bane,selina kyle,bruce wayne,warner bros,warner brothers", 
+      "author_id": "https://www.youtube.com/user/WarnerBrosPictures", 
+      "video_category": "Entertainment", 
+      "region": 840, 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 720, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-FWmT_QaBmts/AAAAAAAAAAI/AAAAAAAAAAA/3qj7yNGlH_0/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "Warner Bros. Pictures", 
+    "author_id": "yt_channel_UCjmJDM5pRKbUlVIzDYYWb6g", 
+    "video_duration": 140, 
+    "video_thumbnail": {
+      "width": 1919, 
+      "thumb_url": "f056bcee5b060031407f", 
+      "uri": "f056bcee5b060031407f", 
+      "height": 799
+    }, 
+    "video_leech": 0, 
+    "video_title": "The Dark Knight Rises - Official Trailer #3 [HD]", 
+    "video_site": "youtube"
+  }
+}
+2017-11-27 23:42:04,286 [main] INFO  com.eden.agent.service.NewPublishService 137 - fetch success
+2017-11-27 23:42:04,376 [main] INFO  com.eden.agent.service.NewPublishService 232 - sleep for : 9
+2017-11-27 23:42:13,385 [main] INFO  com.eden.agent.service.NewPublishService 149 - post begin : video title:The Dark Knight Rises - Official Trailer #3 [HD]
+2017-11-27 23:42:20,207 [main] INFO  com.eden.agent.service.NewPublishService 181 - post finish : video item Id:6493120113225499146
+2017-11-27 23:42:20,207 [main] INFO  com.eden.agent.service.NewPublishService 232 - sleep for : 12
+2017-11-27 23:42:32,209 [main] INFO  com.eden.agent.service.NewPublishService 193 - publish begin : video title:The Dark Knight Rises - Official Trailer #3 [HD]
+2017-11-27 23:42:43,315 [main] INFO  com.eden.agent.service.NewPublishService 232 - sleep for : 12
+2017-11-27 23:43:01,654 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=F-eMt3SrfFU
+2017-11-27 23:43:14,532 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "It's fetching video info", 
+  "code": 10000041, 
+  "data": {
+    "fetch_id": 320730
+  }
+}
+2017-11-27 23:43:59,201 [main] INFO  com.eden.agent.service.NewPublishService 137 - fetch success
+2017-11-27 23:43:59,214 [main] INFO  com.eden.agent.service.NewPublishService 232 - sleep for : 10
+2017-11-27 23:44:09,216 [main] INFO  com.eden.agent.service.NewPublishService 149 - post begin : video title:Dunkirk - Trailer 1 [HD]
+2017-11-27 23:44:22,332 [main] INFO  com.eden.agent.service.NewPublishService 181 - post finish : video item Id:6493120623542272521
+2017-11-27 23:44:22,332 [main] INFO  com.eden.agent.service.NewPublishService 232 - sleep for : 13
+2017-11-27 23:44:35,338 [main] INFO  com.eden.agent.service.NewPublishService 193 - publish begin : video title:Dunkirk - Trailer 1 [HD]
+2017-11-27 23:44:40,288 [main] INFO  com.eden.agent.service.NewPublishService 232 - sleep for : 12
+2017-11-27 23:44:56,348 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=ViuDsy7yb8M
+2017-11-27 23:45:01,769 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "It's fetching video info", 
+  "code": 10000041, 
+  "data": {
+    "fetch_id": 320801
+  }
+}
+2017-11-27 23:45:44,658 [main] INFO  com.eden.agent.service.NewPublishService 232 - sleep for : 9
+2017-11-27 23:46:22,420 [main] INFO  com.eden.agent.common.launcher.Launcher 20 - Launcher app start
+2017-11-27 23:46:25,592 [main] INFO  com.eden.agent.service.NewPublishService 53 - cookie:
+ 
+2017-11-27 23:46:25,593 [main] INFO  com.eden.agent.service.NewPublishService 54 - pgcsid=450d241c0df3ef412c0eb2c1c5b8b979; tt_webid=6490499975331202569; amplitude_idtopbuzz.com=eyJkZXZpY2VJZCI6ImFjZDNhNjRhLWU1ZDgtNGJmMS04MTU1LWU5ZjM4ZDU5NzYxZVIiLCJ1c2VySWQiOiI2NDg0MDQxNTc2NjgyMDk1NjI1Iiwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNTExNjE0MjY5NzQwLCJsYXN0RXZlbnRUaW1lIjoxNTExNjE0MzgxMTA4LCJldmVudElkIjoxOTksImlkZW50aWZ5SWQiOjEyMSwic2VxdWVuY2VOdW1iZXIiOjMyMH0=; _ga=GA1.2.1198254748.1509677917; _gid=GA1.2.286818804.1511614404; _gat_gtag_UA_87818081_1=1; pgcsid=450d241c0df3ef412c0eb2c1c5b8b979
+2017-11-27 23:46:26,089 [main] INFO  com.alibaba.druid.pool.DruidDataSource 722 - {dataSource-1} inited
+2017-11-27 23:46:26,223 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=ViuDsy7yb8M
+2017-11-27 23:46:53,636 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "success", 
+  "code": 0, 
+  "data": {
+    "video_width": 1280, 
+    "video_description": "In theaters November 2016! .", 
+    "video_play_type": 3, 
+    "video_url": "https://www.youtube.com/watch?v=ViuDsy7yb8M", 
+    "fetch_id": 320801, 
+    "video_id": "ViuDsy7yb8M", 
+    "video_type": "video", 
+    "video_extra": {
+      "k_w_h_ratio_vague": 1.02, 
+      "k_w_h_ratio_aim": 1.777777778, 
+      "video_duration": 140, 
+      "mp_uname": "Warner Bros. Pictures", 
+      "k_max_height": 4000, 
+      "ee": "", 
+      "mp_uid": "UCjmJDM5pRKbUlVIzDYYWb6g", 
+      "video_labels": {
+        "manual": {
+          "wand": 1.0, 
+          "cinema": 1.0, 
+          "Leavesden": 1.0, 
+          "David Yates": 1.0, 
+          "film": 1.0, 
+          "Jon Voight": 1.0, 
+          "warner bros": 1.0, 
+          "movie": 1.0, 
+          "fantastic beasts and where to find them": 1.0, 
+          "muggle": 1.0, 
+          "Eddie Redmayne": 1.0, 
+          "Ron Perlman": 1.0, 
+          "jk rowling": 1.0, 
+          "fantastic beasts": 1.0, 
+          "warner bros pictures": 1.0, 
+          "j.k. rowling": 1.0, 
+          "harry potter": 1.0, 
+          "wb": 1.0, 
+          "Dan Fogler": 1.0, 
+          "warner brothers": 1.0, 
+          "Newt Scamander": 1.0, 
+          "adventure": 1.0, 
+          "Ezra Miller": 1.0, 
+          "Colin Farrell": 1.0, 
+          "Samantha Morton": 1.0, 
+          "magic": 1.0, 
+          "Leavesden Studios": 1.0, 
+          "wizards": 1.0, 
+          "witches": 1.0, 
+          "action": 1.0
+        }
+      }, 
+      "videoId": "ViuDsy7yb8M", 
+      "ds": 4, 
+      "extract_rule_stats": "{\"content\": [193, true], \"source\": [193, true], \"publish_time\": [193, true], \"title\": [193, true], \"author\": [193, true]}", 
+      "video_info": "{\"video_cover_info\": {\"width\": 1280, \"thumb_url\": \"f0570b05c500274770f1\", \"uri\": \"f0570b05c500274770f1\", \"height\": 720}}", 
+      "new_video_info": {
+        "https://www.youtube.com/watch?v=ViuDsy7yb8M": {
+          "duration": 140
+        }
+      }, 
+      "mp_id": 62, 
+      "video_tags": "fantastic beasts and where to find them,fantastic beasts,harry potter,jk rowling,j.k. rowling,Newt Scamander,David Yates,Ezra Miller,Ron Perlman,Eddie Redmayne,Colin Farrell,Samantha Morton,Jon Voight,Dan Fogler,film,movie,action,adventure,magic,witches,muggle,wizards,wand,cinema,warner bros,warner bros pictures,wb,warner brothers,Leavesden Studios,Leavesden", 
+      "author_id": "https://www.youtube.com/user/WarnerBrosPictures", 
+      "video_category": "Entertainment", 
+      "region": 840, 
+      "k_max_width": 5000, 
+      "retry_download": true
+    }, 
+    "video_height": 720, 
+    "author_avatar": {
+      "url": "https://yt3.ggpht.com/-FWmT_QaBmts/AAAAAAAAAAI/AAAAAAAAAAA/3qj7yNGlH_0/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+      "width": 48, 
+      "height": 48
+    }, 
+    "author_name": "Warner Bros. Pictures", 
+    "author_id": "yt_channel_UCjmJDM5pRKbUlVIzDYYWb6g", 
+    "video_duration": 140, 
+    "video_thumbnail": {
+      "width": 1280, 
+      "thumb_url": "f0570b05c500274770f1", 
+      "uri": "f0570b05c500274770f1", 
+      "height": 720
+    }, 
+    "video_leech": 0, 
+    "video_title": "Fantastic Beasts and Where to Find Them - Teaser Trailer [HD]", 
+    "video_site": "youtube"
+  }
+}
+2017-11-27 23:46:56,918 [main] INFO  com.eden.agent.service.NewPublishService 138 - fetch success
+2017-11-27 23:46:56,965 [main] INFO  com.eden.agent.service.NewPublishService 233 - sleep for : 8
+2017-11-27 23:47:04,975 [main] INFO  com.eden.agent.service.NewPublishService 150 - post begin : video title:Fantastic Beasts and Where to Find Them - Teaser Trailer [HD]
+2017-11-27 23:47:17,985 [main] INFO  com.eden.agent.service.NewPublishService 182 - post finish : video item Id:6493121407218614794
+2017-11-27 23:47:17,986 [main] INFO  com.eden.agent.service.NewPublishService 233 - sleep for : 11
+2017-11-27 23:47:28,991 [main] INFO  com.eden.agent.service.NewPublishService 194 - publish begin : video title:Fantastic Beasts and Where to Find Them - Teaser Trailer [HD]
+2017-11-27 23:47:31,505 [main] INFO  com.eden.agent.service.NewPublishService 233 - sleep for : 11
+2017-11-27 23:47:42,507 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=5NYt1qirBWg
+2017-11-27 23:47:45,196 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "It's fetching video info", 
+  "code": 10000041, 
+  "data": {
+    "fetch_id": 320914
+  }
+}
+2017-11-27 23:47:51,469 [main] INFO  com.eden.agent.service.NewPublishService 138 - fetch success
+2017-11-27 23:47:51,474 [main] INFO  com.eden.agent.service.NewPublishService 233 - sleep for : 10
+2017-11-27 23:48:01,478 [main] INFO  com.eden.agent.service.NewPublishService 150 - post begin : video title:"Harry Potter and the Deathly Hallows - Part 2" Trailer 2
+2017-11-27 23:48:07,921 [main] INFO  com.eden.agent.service.NewPublishService 182 - post finish : video item Id:6493121609723806217
+2017-11-27 23:48:07,921 [main] INFO  com.eden.agent.service.NewPublishService 233 - sleep for : 13
+2017-11-27 23:48:20,922 [main] INFO  com.eden.agent.service.NewPublishService 194 - publish begin : video title:"Harry Potter and the Deathly Hallows - Part 2" Trailer 2
+2017-11-27 23:48:29,301 [main] INFO  com.eden.agent.service.NewPublishService 233 - sleep for : 11
+2017-11-27 23:48:40,304 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=T7O7BtBnsG4
+2017-11-27 23:48:55,303 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "It's fetching video info", 
+  "code": 10000041, 
+  "data": {
+    "fetch_id": 320956
+  }
+}
+2017-11-27 23:49:00,069 [main] INFO  com.eden.agent.service.NewPublishService 138 - fetch success
+2017-11-27 23:49:00,074 [main] INFO  com.eden.agent.service.NewPublishService 233 - sleep for : 9
+2017-11-27 23:49:09,077 [main] INFO  com.eden.agent.service.NewPublishService 150 - post begin : video title:Dunkirk - Official Main Trailer [HD]
+2017-11-27 23:49:12,138 [main] INFO  com.eden.agent.service.NewPublishService 182 - post finish : video item Id:6493121900720423433
+2017-11-27 23:49:12,138 [main] INFO  com.eden.agent.service.NewPublishService 233 - sleep for : 12
+2017-11-27 23:49:24,142 [main] INFO  com.eden.agent.service.NewPublishService 194 - publish begin : video title:Dunkirk - Official Main Trailer [HD]
+2017-11-27 23:49:27,795 [main] INFO  com.eden.agent.service.NewPublishService 233 - sleep for : 8

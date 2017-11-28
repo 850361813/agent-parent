@@ -17,6 +17,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.eden.agent.common.http.DefaultHttpService;
 import com.eden.agent.dao.YoutubeEntityDao;
 import com.eden.agent.domain.YoutubeEntity;
+import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 
 /**
@@ -40,6 +41,9 @@ public class NewPublishService implements Runnable {
 
     private static final String KEY_FETCH_ID = "fetch_id";
 
+    private static final String COMMA = ",";
+
+
     @Autowired
     private YoutubeEntityDao youtubeEntityDao;
 
@@ -52,8 +56,16 @@ public class NewPublishService implements Runnable {
 
         logger.info("cookie:\n ");
         logger.info(cookie);
+        List<YoutubeEntity> list = Lists.newArrayList();
 
-        List<YoutubeEntity> list = youtubeEntityDao.selectNotPublish(configKeyWord);
+        if (configKeyWord.contains(COMMA)) {
+            String[] keyWordArray = configKeyWord.split(COMMA);
+            for (String k : keyWordArray) {
+                list.addAll(youtubeEntityDao.selectNotPublish(k));
+            }
+        } else {
+            list = youtubeEntityDao.selectNotPublish(configKeyWord);
+        }
 
         if (CollectionUtils.isEmpty(list)) {
             logger.info("未找到抓取记录");
@@ -66,11 +78,15 @@ public class NewPublishService implements Runnable {
 
         for (YoutubeEntity baseInfo : list) {
             if (baseInfo.getFetchStatus() == 0) {
-                fetch(baseInfo);
+                if (!fetch(baseInfo)) {
+                    continue;
+                }
                 sleepForRandomSecond();
             }
             if (baseInfo.getPostStatus() == 0) {
-                post(baseInfo);
+                if (!post(baseInfo)) {
+                    continue;
+                }
                 sleepForRandomSecond();
             }
             if (baseInfo.getPublishStatus() == 0) {
@@ -81,7 +97,7 @@ public class NewPublishService implements Runnable {
 
     }
 
-    public YoutubeEntity fetch(YoutubeEntity baseInfo) {
+    public boolean fetch(YoutubeEntity baseInfo) {
 
         String url = "https://topbuzz.com/pgc/video/fetch";
 
@@ -105,7 +121,7 @@ public class NewPublishService implements Runnable {
             fetchId = fetchResponseMsg.getString(KEY_FETCH_ID);
             paramsMap.put(KEY_FETCH_ID, fetchId);
         } else {
-            return baseInfo;
+            return false;
         }
 
         String fetchDataJson = httpService.get(url, paramsMap, headerMap);
@@ -116,8 +132,8 @@ public class NewPublishService implements Runnable {
         int retryTimes = 0;
         String msg = JSON.parseObject(fetchDataJson).getString("message");
 
-        while (!msg.equals("success") && retryTimes < 3) {
-            sleepForRandomSecond();
+        while (!msg.equals("success") && retryTimes < 10) {
+            sleepForFixedSecond(1);
             fetchDataJson = httpService.get(url, paramsMap, headerMap);
             msg = JSON.parseObject(fetchDataJson).getString("message");
             data = JSON.parseObject(fetchDataJson).getJSONObject("data").fluentPut("video_file_type", "video");
@@ -125,26 +141,26 @@ public class NewPublishService implements Runnable {
         }
 
         if (!msg.equals("success")) {
-            return baseInfo;
+            return false;
         }
 
         String videoTitle = data.getString("video_title");
 
         System.out.println("video title: " + videoTitle);
-        baseInfo.setVideoInfo(data.toString());
-        baseInfo.setVideoTitle(videoTitle);
+        baseInfo.setVideoInfo(convertInfo(data.toString()));
+        baseInfo.setVideoTitle(convertInfo(videoTitle));
         baseInfo.setFetchStatus(1);
         logger.debug("fetch video info: " + data.toString());
         logger.info("fetch success");
         youtubeEntityDao.update(baseInfo);
 
-        return baseInfo;
+        return true;
     }
 
-    public YoutubeEntity post(YoutubeEntity baseInfo) {
+    public boolean post(YoutubeEntity baseInfo) {
         if (baseInfo == null || StringUtils.isBlank(baseInfo.getVideoInfo())) {
             logger.warn("post参数不完整");
-            return baseInfo;
+            return false;
         }
 
         logger.info("post begin : video title:" + baseInfo.getVideoTitle());
@@ -181,7 +197,7 @@ public class NewPublishService implements Runnable {
         youtubeEntityDao.update(baseInfo);
         logger.info("post finish : video item Id:" + itemId);
 
-        return baseInfo;
+        return true;
     }
 
     public String doPublish(YoutubeEntity baseInfo) {
@@ -235,5 +251,27 @@ public class NewPublishService implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public void sleepForFixedSecond(int second) {
+        try {
+            Thread.sleep(second * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private String convertInfo(String info) {
+        byte[] b = info.getBytes();
+        for (int i = 0; i < b.length; i++)
+        {
+            if((b[i] & 0xF8)== 0xF0){
+                for (int j = 0; j < 4; j++) {
+                    b[i+j]=0x30;
+                }
+                i+=3;
+            }
+        }
+        return new String(b);
     }
 }

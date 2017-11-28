@@ -15,6 +15,6 @@ export JAVA_OPTS="$JAVA_OPTS -server -Xms1024m -Xmx1024m -Xmn512m -Xss256K -XX:M
 -XX:ReservedCodeCacheSize=64m -verbose:gc -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Xloggc:../logs/gc_schedule.log"
 export JAVA_OPTS="$JAVA_OPTS -XX:+UseG1GC"
 
-application_launcher='com.eden.agent.batch.launcher.Launcher'
+application_launcher='com.eden.agent.common.launcher.Launcher'
 
 exec java $JAVA_OPTS -cp $CLASSPATH $application_launcher publish

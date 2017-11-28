@@ -20,10 +20,11 @@ public interface YoutubeEntityDao {
     List<YoutubeEntity> selectByKeyWord(@Param("keyWord") String keyWord);
     YoutubeEntity selectById(@Param("id") long id);
     List<YoutubeEntity> selectNotPublish(@Param("channelName") String channelName);
+    List<YoutubeEntity> selectPublish(@Param("channelName") String channelName);
     void update(@Param("youtubeEntity") YoutubeEntity youtubeEntity);
     long selectCrawNumber(@Param("keyWord") String keyWord);
     long selectPublishNumber(@Param("keyWord") String keyWord);
-    List<String> selectAllKeyWord();
+    List<String> selectAllChannel();
 
     String selectNextPageTokenByChannelName(@Param("channelName") String channelName);
 

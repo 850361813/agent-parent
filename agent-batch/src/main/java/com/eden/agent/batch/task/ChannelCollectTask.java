@@ -75,6 +75,8 @@ public class ChannelCollectTask implements Executor {
 
         for (ChannelEntity entity : entities) {
 
+            logger.info("collect for channel: " + entity.getChannelName());
+
             String nextPageToken = youtubeEntityDao.selectNextPageTokenByChannelName(entity.getChannelName());
 
             List<YoutubeEntity> entityList = Lists.newArrayList();
@@ -89,6 +91,10 @@ public class ChannelCollectTask implements Executor {
 
             while (StringUtils.isNoneBlank(nextPageToken) && totalCount < maxNum) {
                 List<YoutubeEntity> subList = youtubeService.search(entity, nextPageToken);
+                if (CollectionUtils.isEmpty(subList)) {
+                    nextPageToken = null;
+                    continue;
+                }
                 entityList.addAll(subList);
                 totalCount = entityList.size();
                 nextPageToken = subList.get(0).getNextPageToken();

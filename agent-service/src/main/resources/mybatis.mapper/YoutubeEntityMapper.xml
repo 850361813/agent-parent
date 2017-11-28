@@ -55,6 +55,12 @@
         FROM youtube_entity WHERE CHANNEL_NAME=#{channelName,jdbcType=VARCHAR} AND PUBLISH_STATUS!=1
     </select>
 
+    <select id="selectPublish" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        FROM youtube_entity WHERE CHANNEL_NAME=#{channelName,jdbcType=VARCHAR} AND PUBLISH_STATUS=1
+    </select>
+
     <select id="selectById" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List"/>
@@ -104,6 +110,12 @@
     <select id="selectAllKeyWord" resultType="String">
         select
         DISTINCT KEY_WORD
+        FROM youtube_entity
+    </select>
+
+    <select id="selectAllChannel" resultType="String">
+        select
+        DISTINCT CHANNEL_NAME
         FROM youtube_entity
     </select>
 

@@ -8,10 +8,13 @@ import com.eden.agent.common.constants.TaskStatus;
 import com.eden.agent.common.web.BaseResponse;
 import com.eden.agent.dao.BaseInfoDao;
 import com.eden.agent.dao.TaskInfoDao;
+import com.eden.agent.dao.YoutubeEntityDao;
 import com.eden.agent.domain.RequestEntity;
 import com.eden.agent.domain.ResponseEntity;
 import com.eden.agent.domain.TaskInfo;
+import com.eden.agent.domain.YoutubeEntity;
 import com.eden.agent.service.CollectService;
+import com.eden.agent.service.NewPublishService;
 import com.eden.agent.service.PublishService;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -31,13 +34,13 @@ public class PublishController {
     private static final Logger logger = LoggerFactory.getLogger(PublishController.class);
 
     @Autowired
-    private PublishService publishService;
+    private NewPublishService newPublishService;
 
     @Autowired
     private TaskInfoDao taskInfoDao;
 
     @Autowired
-    private BaseInfoDao baseInfoDao;
+    private YoutubeEntityDao youtubeEntityDao;
 
     private static ExecutorService executorService = Executors.newCachedThreadPool();
 
@@ -46,9 +49,9 @@ public class PublishController {
     public BaseResponse publish(@RequestBody RequestEntity requestEntity) {
         logger.info("begin publish: key word---" + requestEntity.getKeyWord());
         if (StringUtils.isNoneBlank(requestEntity.getKeyWord())) {
-            publishService.setConfigKeyWord(requestEntity.getKeyWord());
+            newPublishService.setConfigKeyWord(requestEntity.getKeyWord());
         }
-        executorService.submit(publishService);
+        executorService.submit(newPublishService);
 
         return BaseResponse.success();
     }
@@ -79,10 +82,19 @@ public class PublishController {
     }
 
     @ResponseBody
-    @RequestMapping(value = "/number/craw", method = RequestMethod.POST)
+    @RequestMapping(value = "/status/publish/stop", method = RequestMethod.GET)
+    public BaseResponse<String> stopPublish() {
+        logger.info("stopPublish---");
+        taskInfoDao.updateTaskInfo(0, "publish");
+        BaseResponse<String> baseResponse = new BaseResponse<String>("success");
+        return baseResponse;
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/number/notpublish", method = RequestMethod.POST)
     public BaseResponse crawNumber(@RequestBody RequestEntity requestEntity) {
         System.out.println("keyword for craw : " + requestEntity.getKeyWord());
-        long number = baseInfoDao.selectCrawNumber(requestEntity.getKeyWord());
+        long number = youtubeEntityDao.selectNotPublish(requestEntity.getKeyWord()).size();
         BaseResponse<Long> baseResponse = new BaseResponse<Long>(number);
         System.out.println("number for craw : " + number);
         return baseResponse;
@@ -91,7 +103,7 @@ public class PublishController {
     @ResponseBody
     @RequestMapping(value = "/tags", method = RequestMethod.GET)
     public BaseResponse findAllTags() {
-        List<String> tags = baseInfoDao.selectAllTags();
+        List<String> tags = youtubeEntityDao.selectAllChannel();
         BaseResponse<List<String>> baseResponse = new BaseResponse<>(tags);
         return baseResponse;
     }
@@ -100,7 +112,7 @@ public class PublishController {
     @RequestMapping(value = "/number/publish", method = RequestMethod.POST)
     public BaseResponse publishNumber(@RequestBody RequestEntity requestEntity) {
         System.out.println("keyword for craw : " + requestEntity.getKeyWord());
-        long number = baseInfoDao.selectPublishNumber(requestEntity.getKeyWord());
+        long number = youtubeEntityDao.selectPublish(requestEntity.getKeyWord()).size();
         BaseResponse<Long> baseResponse = new BaseResponse<Long>(number);
         System.out.println("number for publish : " + number);
         return baseResponse;

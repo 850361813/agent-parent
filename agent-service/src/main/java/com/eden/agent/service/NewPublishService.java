@@ -133,6 +133,7 @@ public class NewPublishService implements Runnable {
         String msg = JSON.parseObject(fetchDataJson).getString("message");
 
         while (!msg.equals("success") && retryTimes < 10) {
+            logger.info("retry fetch: " + fetchId);
             sleepForFixedSecond(1);
             fetchDataJson = httpService.get(url, paramsMap, headerMap);
             msg = JSON.parseObject(fetchDataJson).getString("message");
@@ -141,6 +142,7 @@ public class NewPublishService implements Runnable {
         }
 
         if (!msg.equals("success")) {
+            logger.info("fetch fail: " + fetchId + " message: " + msg);
             return false;
         }
 

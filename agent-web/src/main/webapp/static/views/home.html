@@ -114,10 +114,23 @@
             });
         }
 
+        var stopPublish = function() {
+            $.ajax({
+                type: "get",
+                url: '/video/status/publish/stop',
+                async: false,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function(data) {
+                    updateData();
+                }
+            });
+        }
+
         var crawNumber = function(keyWord, pageNum) {
             $.ajax({
                 type: "post",
-                url: '/video/number/craw',
+                url: '/video/number/notpublish',
                 async: false,
                 data: JSON.stringify({
                     keyWord: keyWord,
@@ -192,7 +205,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="crawNum" class="col-sm-3 control-label">已抓取数量：</label>
+                    <label for="crawNum" class="col-sm-3 control-label">未发布数量：</label>
                     <div class="col-sm-6">
                         <p class="form-control-static" id="crawNum"></p>
                     </div>
@@ -216,11 +229,14 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-3">
+                    <div class="col-sm-offset-1 col-sm-3">
                         <button type="button" onclick="collect()" class="btn btn-default" id="beginCollect" disabled>开始采集</button>
                     </div>
-                    <div class="col-sm-offset-2 col-sm-3">
+                    <div class="col-sm-offset-1 col-sm-3">
                         <button type="button" onclick="publish()" class="btn btn-default" id="beginPublish">开始发布</button>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-3">
+                        <button type="button" onclick="stopPublish()" class="btn btn-default" id="stopPublish">停止发布</button>
                     </div>
                 </div>
             </form>

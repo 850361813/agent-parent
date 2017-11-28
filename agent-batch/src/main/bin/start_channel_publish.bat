@@ -8,7 +8,7 @@ set CONFIG_ROOT=%BATCH_HOME%\config
 
 SETLOCAL enabledelayedexpansion
 
-set CLASSPATH=
+set CLASSPATH=!CLASSPATH!;%BATCH_HOME%
 for %%c in (%LIB_ROOT%\*.jar) do set CLASSPATH=!CLASSPATH!;%%c
 
 echo CLASSPATH

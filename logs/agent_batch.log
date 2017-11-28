@@ -1340,3 +1340,14 @@
 2017-11-27 23:49:12,138 [main] INFO  com.eden.agent.service.NewPublishService 233 - sleep for : 12
 2017-11-27 23:49:24,142 [main] INFO  com.eden.agent.service.NewPublishService 194 - publish begin : video title:Dunkirk - Official Main Trailer [HD]
 2017-11-27 23:49:27,795 [main] INFO  com.eden.agent.service.NewPublishService 233 - sleep for : 8
+2017-11-27 23:49:35,799 [main] INFO  com.eden.agent.service.NewPublishService 92 - fetch: https://www.youtube.com/watch?v=iVAgTiBrrDA
+2017-11-27 23:49:37,456 [main] INFO  com.eden.agent.service.NewPublishService 99 - fetch response:{
+  "message": "It's fetching video info", 
+  "code": 10000041, 
+  "data": {
+    "fetch_id": 320983
+  }
+}
+2017-11-27 23:49:47,584 [main] INFO  com.eden.agent.service.NewPublishService 233 - sleep for : 14
+2017-11-27 23:50:17,778 [main] INFO  com.eden.agent.service.NewPublishService 138 - fetch success
+2017-11-27 23:50:17,784 [main] INFO  com.eden.agent.service.NewPublishService 233 - sleep for : 13

@@ -38,3 +38,40 @@ create table trans_video.task_info
 
 INSERT INTO trans_video.task_info (TASK_NAME, TASK_STATUS) VALUES ('craw', 0);
 INSERT INTO trans_video.task_info (TASK_NAME, TASK_STATUS) VALUES ('publish', 0);
+
+
+create table trans_video.youtube_entity
+(
+	ID bigint not null auto_increment comment '自增ID'
+		primary key,
+	NEXT_PAGETOKEN varchar(64) default '0' not null comment '下一页token',
+	PREV_PAGETOKEN varchar(64) default '0' not null comment '上一页token',
+	PAGE_TOKEN varchar(64) default '0' not null comment '本页token',
+	SEARCH_TYPE int(2) default '0' not null comment '1：关键字，2：channel',
+	KEY_WORD varchar(64) default '0' not null comment '关键字',
+	CHANNEL_NAME varchar(64) default '0' not null comment '渠道名称',
+	CHANNEL_ID varchar(64) default '0' not null comment '渠道ID',
+	VIDEO_ID varchar(64) default '0' not null comment 'youtube video id',
+	VIDEO_LINK varchar(256) default '0' not null comment 'YouTube地址',
+	VIDEO_TITLE varchar(1024) default '0' not null comment '视频名称',
+	COLLECT_TIME timestamp default '1990-01-01 00:00:00' not null comment '采集时间',
+	PUBLISH_TIME timestamp default '1990-01-01 00:00:00' not null comment '发布时间',
+	CREATE_TIME timestamp default CURRENT_TIMESTAMP not null comment '创建时间',
+	UPDATE_TIME timestamp default '1990-01-01 00:00:00' not null comment '更新时间',
+	CRAW_STATUS int default '0' not null comment '抓取状态',
+	FETCH_STATUS int default '0' not null comment '抓取状态：0初始状态，1成功，2失败',
+	POST_STATUS int default '0' not null comment 'post状态：0初始状态，1成功，2失败',
+	PUBLISH_STATUS int default '0' not null comment '发布状态，0未发布，1已发布，2失败',
+	VIDEO_INFO varchar(4096) default '0' not null comment '视频信息',
+	VIDEO_ITEM_ID varchar(64) default '0' not null comment 'topbuzz网视频ID'
+)
+;
+
+create index key_word
+	on youtube_entity (KEY_WORD)
+;
+
+create index video_id
+	on youtube_entity (VIDEO_ID)
+;
+
